@@ -22,6 +22,7 @@
   <a href="#download">Download</a> ·
   <a href="#features">Features</a> ·
   <a href="#screenshots">Screenshots</a> ·
+  <a href="#community">Community</a> ·
   <a href="#build-from-source">Build from source</a> ·
   <a href="#sources">Sources</a> ·
   <a href="#faq">FAQ</a>
@@ -207,6 +208,10 @@ packaging/         Linux desktop entry, Windows installer, macOS and Android ico
 - Every network request runs on a worker pool with per-site and overall limits. Leaving a page cancels its requests.
 - Chapter pages are decoded off the interface thread and drawn as GPU tiles, so long webtoon strips stay sharp.
 - The library, progress, history, downloads, preferences and a metadata cache share one SQLite database (`~/.local/share/Medium Dev/ScanCore` on Linux).
+
+## Community
+
+Join the [SCANCORE Discord](https://scancore.onl/discord) for questions, feedback and community updates. Report bugs and request features in [GitHub Issues](https://github.com/medium-gh/scancore/issues); code contributions are welcome through pull requests.
 
 ## Contributing
 
