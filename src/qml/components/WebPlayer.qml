@@ -11,6 +11,7 @@ Item {
     id: root
     property string url
     signal time(real seconds, real total, string status)
+    signal interacted() // phone only; the desktop page watches the mouse itself
 
     function seek(seconds) {
         web.runJavaScript("window.scSeek && window.scSeek(" + Number(seconds) + ")")

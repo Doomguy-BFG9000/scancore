@@ -8,6 +8,11 @@ Item {
     id: root
     property string url
     signal time(real seconds, real total, string status)
+    // The video was tapped. Taps inside the cross-origin player never reach
+    // the wrapper, but the first tap moves focus into the frame and blurs the
+    // wrapper's window; handing focus back re-arms that for the next tap.
+    signal interacted()
+    property int taps: 0
 
     function seek(seconds) {
         web.runJavaScript("window.scSeek && window.scSeek(" + Number(seconds) + ")")
@@ -26,10 +31,14 @@ Item {
             + "if(x.playerStatus)__sc.s=String(x.playerStatus)});"
             + "setInterval(function(){try{f.contentWindow.postMessage({command:'getTime'},'*')}catch(_){}},1000);"
             + "window.scSeek=function(v){f.contentWindow.postMessage({command:'seek',value:v},'*')};"
+            + "__sc.taps=0;addEventListener('blur',function(){__sc.taps++;setTimeout(function(){try{document.activeElement.blur();window.focus()}catch(_){}},200)});"
             + "</script></body></html>"
     }
 
-    onUrlChanged: if (url) web.loadHtml(wrapper(url), "https://reanime.to/")
+    onUrlChanged: {
+        taps = 0
+        if (url) web.loadHtml(wrapper(url), "https://reanime.to/")
+    }
 
     WebView {
         id: web
@@ -37,12 +46,16 @@ Item {
     }
 
     Timer {
-        interval: 1000
+        interval: 400
         running: root.visible
         repeat: true
         onTriggered: web.runJavaScript("JSON.stringify(window.__sc||{})", (result) => {
             try {
                 const s = JSON.parse(result)
+                if (s.taps > root.taps) {
+                    root.taps = s.taps
+                    root.interacted()
+                }
                 if (s.d > 0) root.time(s.t, s.d, s.s || "")
             } catch (e) {}
         })

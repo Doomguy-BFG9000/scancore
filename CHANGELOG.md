@@ -2,6 +2,11 @@
 
 Downloads for every version are on the [releases page](https://github.com/medium-gh/scancore/releases).
 
+## 1.1.3 — 2026-10-14
+
+- Player (desktop): the top bar and episode list now really hide while the video plays. A playing video kept them awake in 1.1.1 and 1.1.2; now only moving the mouse brings them back.
+- Player (phone): in landscape the side rail hides after a few seconds, leaving only the video. Tap the video to bring it back.
+
 ## 1.1.2 — 2026-10-14
 
 - Fixed: the Linux AppImage could crash on newer distributions (for example Arch) with an NSS version error from the anime player. It now uses the system's NSS libraries as intended.

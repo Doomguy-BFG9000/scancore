@@ -157,9 +157,17 @@ Rectangle {
     Shortcut { sequence: "Esc"; enabled: watch.fullScreen && !watch.phone; onActivated: Window.window.showNormal() }
 
     // Any mouse movement, including over the video, brings the chrome back.
+    // Qt Quick also sends a hover at the same position on every repainted
+    // frame, so only a pointer that actually moved counts.
+    property point lastPointer: Qt.point(-1, -1)
     HoverHandler {
         enabled: !watch.phone
-        onPointChanged: watch.wake()
+        onPointChanged: {
+            const p = point.scenePosition
+            if (Math.abs(p.x - watch.lastPointer.x) + Math.abs(p.y - watch.lastPointer.y) < 3) return
+            watch.lastPointer = p
+            watch.wake()
+        }
         onHoveredChanged: watch.wake()
     }
     Timer {
@@ -189,6 +197,7 @@ Rectangle {
             Connections {
                 target: player.item
                 function onTime(seconds, total, status) { watch.onPlayerTime(seconds, total, status) }
+                function onInteracted() { watch.wake() }
             }
         }
 
@@ -549,10 +558,11 @@ Rectangle {
     }
 
     // Phone landscape: the player is full screen; a thin rail keeps the
-    // essentials reachable without covering the video.
+    // essentials reachable without covering the video. It hides with the
+    // rest of the chrome and comes back when the video is tapped.
     Rectangle {
         id: rail
-        visible: watch.phone && watch.landscape
+        visible: watch.phone && watch.landscape && watch.chromeShown
         width: visible ? 56 : 0
         height: parent.height
         anchors.right: parent.right
