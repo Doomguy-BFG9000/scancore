@@ -46,6 +46,7 @@ Item {
                 width: parent.width
                 height: Theme.compact ? 110 : 150
                 Column {
+                    id: heading
                     x: Theme.gutter
                     anchors.bottom: parent.bottom
                     spacing: 6
@@ -67,8 +68,10 @@ Item {
                         font.letterSpacing: -1
                     }
                 }
+                // Only when it fits beside the greeting (not on landscape phones).
                 Row {
-                    visible: !Theme.compact
+                    id: quickLinks
+                    visible: !Theme.compact && heading.width + width + 3 * Theme.gutter <= parent.width
                     anchors.right: parent.right
                     anchors.rightMargin: Theme.gutter
                     anchors.bottom: parent.bottom

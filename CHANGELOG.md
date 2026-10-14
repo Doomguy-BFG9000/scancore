@@ -2,6 +2,11 @@
 
 Downloads for every version are on the [releases page](https://github.com/medium-gh/scancore/releases).
 
+## 1.1.4 — 2026-10-14
+
+- Fixed (Android): the app crashed while watching anime, often right after tapping the video. Qt WebView runs JavaScript result callbacks on the Android UI thread, while the interface runs on Qt's own thread, so the two clashed inside the JavaScript engine. The player now reports its position through the page title, which Qt hands over safely.
+- Phone: long shelf titles no longer run under the "More" button, and the shelf arrows are hidden (swipe instead). The home screen's quick links hide when they would overlap the greeting in landscape.
+
 ## 1.1.3 — 2026-10-14
 
 - Player (desktop): the top bar and episode list now really hide while the video plays. A playing video kept them awake in 1.1.1 and 1.1.2; now only moving the mouse brings them back.

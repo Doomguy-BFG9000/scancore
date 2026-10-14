@@ -33,6 +33,9 @@ Column {
             anchors.verticalCenter: parent.verticalCenter
             spacing: 10
             Text {
+                // Elide rather than run under the buttons on narrow screens.
+                width: Math.min(implicitWidth, shelf.width - Theme.gutter - actions.width - Theme.gutter)
+                elide: Text.ElideRight
                 text: shelf.title
                 color: Theme.text
                 font.family: Theme.fontDisplay
@@ -51,6 +54,7 @@ Column {
             }
         }
         Row {
+            id: actions
             anchors.right: parent.right
             anchors.rightMargin: Theme.gutter - 6
             anchors.verticalCenter: parent.verticalCenter
@@ -63,11 +67,13 @@ Column {
                 onClicked: shelf.action()
             }
             IconButton {
+                visible: !Theme.compact
                 iconName: "chevron-left"
                 enabled: list.contentX > 1
                 onClicked: list.scrollBy(-list.width * 0.8)
             }
             IconButton {
+                visible: !Theme.compact
                 iconName: "chevron-right"
                 enabled: list.contentX < list.contentWidth - list.width - 1
                 onClicked: list.scrollBy(list.width * 0.8)
