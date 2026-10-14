@@ -1,0 +1,55 @@
+cmake_minimum_required(VERSION 3.28)
+
+project(ScanCore
+    VERSION 1.0.0
+    DESCRIPTION "Read comics and novels and watch anime, entirely on your own machine"
+    HOMEPAGE_URL "https://github.com/medium-gh/scancore"
+    LANGUAGES C CXX)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+option(SCANCORE_WITH_WEBENGINE "Embedded web players (ReAnime) and site verification windows" ON)
+option(SCANCORE_WITH_MPV "Native video playback through libmpv (not used yet)" OFF)
+option(SCANCORE_BUILD_TESTS "Build unit tests" ON)
+
+find_package(Qt6 6.8 REQUIRED COMPONENTS
+    Core Gui Network Sql Qml Quick QuickControls2 Svg Concurrent)
+qt_standard_project_setup(REQUIRES 6.8)
+
+if(ANDROID)
+    # Phones: the anime player uses the system WebView instead of Qt
+    # WebEngine, and there is no tray icon or Widgets.
+    set(SCANCORE_WITH_WEBENGINE OFF)
+    set(SCANCORE_WITH_MPV OFF)
+    set(SCANCORE_BUILD_TESTS OFF)
+    find_package(Qt6 REQUIRED COMPONENTS WebView)
+else()
+    find_package(Qt6 REQUIRED COMPONENTS Widgets)
+endif()
+
+if(SCANCORE_WITH_WEBENGINE)
+    find_package(Qt6 6.8 QUIET COMPONENTS WebEngineQuick WebEngineCore)
+    if(NOT Qt6WebEngineQuick_FOUND)
+        message(WARNING "Qt WebEngine not found; building without embedded web players")
+        set(SCANCORE_WITH_WEBENGINE OFF)
+    endif()
+endif()
+
+# Android version code: major * 10000 + minor * 100 + patch.
+math(EXPR SCANCORE_ANDROID_VERSION_CODE
+    "${PROJECT_VERSION_MAJOR} * 10000 + ${PROJECT_VERSION_MINOR} * 100 + ${PROJECT_VERSION_PATCH}")
+
+include(GNUInstallDirs)
+include(cmake/Dependencies.cmake)
+
+add_subdirectory(src)
+
+if(SCANCORE_BUILD_TESTS)
+    enable_testing()
+    add_subdirectory(tests)
+endif()
+
+include(cmake/Packaging.cmake)

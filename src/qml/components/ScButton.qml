@@ -1,0 +1,81 @@
+import QtQuick
+import QtQuick.Controls.Basic
+import ScanCore
+
+// Text button. variant: "primary" | "secondary" | "ghost" | "danger".
+AbstractButton {
+    id: control
+    property string variant: "secondary"
+    property string iconName
+    property bool loading: false
+    property bool compact: false
+
+    readonly property color fill: variant === "primary" ? Theme.accent
+        : variant === "secondary" ? Theme.surface2
+        : variant === "danger" ? Theme.alpha(Theme.danger, 0.14) : "transparent"
+    readonly property color ink: variant === "primary" ? Theme.onAccent
+        : variant === "danger" ? Theme.danger : Theme.text
+
+    implicitHeight: compact ? 30 : 38
+    implicitWidth: Math.max(implicitHeight, row.implicitWidth + (compact ? 22 : 30))
+    hoverEnabled: true
+    opacity: enabled ? 1 : 0.4
+    font.family: Theme.fontSans
+    font.pixelSize: compact ? Theme.textSm : Theme.textMd
+    font.weight: Font.DemiBold
+
+    background: Rectangle {
+        radius: height / 2
+        color: control.fill
+        border.width: control.variant === "ghost" ? 1 : 0
+        border.color: Theme.border
+        scale: control.pressed ? 0.97 : 1
+        Behavior on scale { NumberAnimation { duration: Motion.fast; easing.type: Easing.OutQuad } }
+        Rectangle {
+            anchors.fill: parent
+            radius: parent.radius
+            color: control.variant === "primary" ? Theme.onAccent : Theme.text
+            opacity: control.pressed ? 0.12 : control.hovered ? 0.06 : 0
+            Behavior on opacity { NumberAnimation { duration: Motion.fast } }
+        }
+        Rectangle {
+            anchors.fill: parent
+            anchors.margins: -3
+            radius: height / 2
+            color: "transparent"
+            border.width: 2
+            border.color: Theme.alpha(Theme.accent, 0.6)
+            visible: control.visualFocus
+        }
+    }
+
+    contentItem: Item {
+        implicitWidth: row.implicitWidth
+        implicitHeight: row.implicitHeight
+        Row {
+            id: row
+            anchors.centerIn: parent
+            spacing: 8
+            Spinner {
+                visible: control.loading
+                size: 14
+                color: control.ink
+                anchors.verticalCenter: parent.verticalCenter
+            }
+            Icon {
+                visible: control.iconName.length > 0 && !control.loading
+                name: control.iconName
+                size: control.compact ? 14 : 16
+                color: control.ink
+                anchors.verticalCenter: parent.verticalCenter
+            }
+            Text {
+                visible: control.text.length > 0
+                text: control.text
+                font: control.font
+                color: control.ink
+                anchors.verticalCenter: parent.verticalCenter
+            }
+        }
+    }
+}

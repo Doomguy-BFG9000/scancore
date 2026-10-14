@@ -1,0 +1,140 @@
+import QtQuick
+import QtQuick.Controls.Basic
+import ScanCore
+
+// Bottom navigation for phones. The selection pill slides between tabs;
+// "More" opens the remaining sections and search.
+Rectangle {
+    id: bar
+    property string current: "home"
+    signal navigate(string section)
+    signal openPalette()
+
+    readonly property var tabs: [
+        { key: "home", label: "Home", icon: "house" },
+        { key: "comics", label: "Comics", icon: "book-open" },
+        { key: "novels", label: "Novels", icon: "book-text" },
+        { key: "anime", label: "Anime", icon: "tv" },
+        { key: "library", label: "Library", icon: "library" },
+        { key: "more", label: "More", icon: "ellipsis" }
+    ]
+    readonly property int currentIndex: {
+        const i = tabs.findIndex(t => t.key === current)
+        return i >= 0 ? i : tabs.length - 1
+    }
+
+    color: Theme.sidebar
+    Rectangle { width: parent.width; height: 1; color: Theme.border }
+
+    Rectangle {
+        id: pill
+        readonly property real slot: bar.width / bar.tabs.length
+        width: 56
+        height: 30
+        radius: 15
+        y: 8
+        x: slot * bar.currentIndex + (slot - width) / 2
+        color: Theme.alpha(Theme.text, 0.1)
+        Behavior on x { NumberAnimation { duration: Motion.slow; easing.type: Easing.BezierSpline; easing.bezierCurve: Motion.emphasized } }
+    }
+
+    Row {
+        anchors.fill: parent
+        Repeater {
+            model: bar.tabs
+            delegate: AbstractButton {
+                id: tab
+                required property var modelData
+                required property int index
+                width: bar.width / bar.tabs.length
+                height: bar.height
+                onClicked: modelData.key === "more" ? more.open() : bar.navigate(modelData.key)
+                background: null
+                contentItem: Column {
+                    topPadding: 11
+                    spacing: 6
+                    Item {
+                        width: tab.width
+                        height: 20
+                        Icon {
+                            anchors.centerIn: parent
+                            name: tab.modelData.icon
+                            size: 20
+                            color: bar.currentIndex === tab.index ? Theme.text : Theme.textMuted
+                            scale: tab.pressed ? 0.85 : 1
+                            Behavior on scale { NumberAnimation { duration: Motion.fast } }
+                        }
+                        Rectangle {
+                            readonly property int count: tab.modelData.key === "library" ? Library.unreadUpdates : 0
+                            visible: count > 0
+                            x: parent.width / 2 + 8
+                            y: -2
+                            width: 8; height: 8; radius: 4
+                            color: Theme.accent
+                        }
+                    }
+                    Text {
+                        width: tab.width
+                        horizontalAlignment: Text.AlignHCenter
+                        text: tab.modelData.label
+                        color: bar.currentIndex === tab.index ? Theme.text : Theme.textMuted
+                        font.family: Theme.fontSans
+                        font.pixelSize: 11
+                        font.weight: bar.currentIndex === tab.index ? Font.DemiBold : Font.Medium
+                    }
+                }
+            }
+        }
+    }
+
+    Popup {
+        id: more
+        parent: Overlay.overlay
+        x: parent.width - width - 12
+        y: parent.height - height - bar.height - 12
+        width: 220
+        padding: 6
+        modal: true
+        background: Rectangle { radius: Theme.radiusLg; color: Theme.surface; border.width: 1; border.color: Theme.borderStrong }
+        enter: Transition {
+            ParallelAnimation {
+                NumberAnimation { property: "opacity"; from: 0; to: 1; duration: Motion.fast }
+                NumberAnimation { property: "scale"; from: 0.94; to: 1; duration: Motion.normal; easing.type: Easing.OutCubic }
+            }
+        }
+        transformOrigin: Item.BottomRight
+        contentItem: Column {
+            Repeater {
+                model: [
+                    { key: "search", label: "Search", icon: "search" },
+                    { key: "history", label: "History", icon: "history" },
+                    { key: "downloads", label: "Downloads", icon: "download" },
+                    { key: "settings", label: "Settings", icon: "settings" }
+                ]
+                delegate: ItemDelegate {
+                    required property var modelData
+                    width: 208
+                    height: 46
+                    onClicked: {
+                        more.close()
+                        if (modelData.key === "search") bar.openPalette()
+                        else bar.navigate(modelData.key)
+                    }
+                    background: Rectangle { radius: Theme.radiusMd; color: parent.pressed ? Theme.surface3 : "transparent" }
+                    contentItem: Row {
+                        spacing: 14
+                        leftPadding: 8
+                        Icon { anchors.verticalCenter: parent.verticalCenter; name: modelData.icon; size: 18; color: Theme.textMuted }
+                        Text {
+                            anchors.verticalCenter: parent.verticalCenter
+                            text: modelData.label
+                            color: Theme.text
+                            font.family: Theme.fontSans
+                            font.pixelSize: Theme.textMd
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,60 @@
+#include "Registry.h"
+
+#include "sources/Manifest.h"
+
+#include <QJsonArray>
+#include <QReadWriteLock>
+
+namespace sc::comics {
+
+namespace {
+QReadWriteLock g_lock;
+QList<std::shared_ptr<Source>> g_sources;
+} // namespace
+
+void Registry::rebuild() {
+    QList<std::shared_ptr<Source>> sources;
+    for (const auto &value : Manifest::current().value(QStringLiteral("comics")).toArray()) {
+        const auto o = value.toObject();
+        SourceConfig config;
+        config.key = o.value(QStringLiteral("key")).toString();
+        config.label = o.value(QStringLiteral("label")).toString(config.key);
+        config.engine = o.value(QStringLiteral("engine")).toString();
+        config.base = o.value(QStringLiteral("base")).toString();
+        config.api = o.value(QStringLiteral("api")).toString(config.base);
+        for (const auto &host : o.value(QStringLiteral("hosts")).toArray())
+            config.hosts.append(host.toString().toLower());
+        config.enabled = o.value(QStringLiteral("enabled")).toBool(true);
+        config.nsfw = o.value(QStringLiteral("nsfw")).toBool(false);
+        config.disabledReason = o.value(QStringLiteral("disabledReason")).toString();
+        config.options = o.value(QStringLiteral("options")).toObject();
+        if (config.key.isEmpty() || config.base.isEmpty())
+            continue;
+        if (auto source = createSource(config))
+            sources.append(std::shared_ptr<Source>(std::move(source)));
+    }
+    QWriteLocker lock(&g_lock);
+    g_sources = sources;
+}
+
+QList<std::shared_ptr<Source>> Registry::all() {
+    QReadLocker lock(&g_lock);
+    return g_sources;
+}
+
+std::shared_ptr<Source> Registry::byKey(const QString &key) {
+    for (const auto &source : all())
+        if (source->key() == key)
+            return source;
+    return nullptr;
+}
+
+std::shared_ptr<Source> Registry::forUrl(const QString &url) {
+    const QUrl parsed(url);
+    for (const auto &source : all())
+        if (source->owns(parsed))
+            return source;
+    return nullptr;
+}
+
+} // namespace sc::comics

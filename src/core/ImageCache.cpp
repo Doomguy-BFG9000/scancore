@@ -1,0 +1,161 @@
+#include "ImageCache.h"
+
+#include "Http.h"
+
+#include <QCryptographicHash>
+#include <QDateTime>
+#include <QDir>
+#include <QDirIterator>
+#include <QFile>
+#include <QFileInfo>
+#include <QHash>
+#include <QMutex>
+#include <QSaveFile>
+#include <QScopeGuard>
+#include <QWaitCondition>
+
+#include <algorithm>
+#include <atomic>
+
+namespace sc {
+
+namespace {
+
+QString g_dir;
+std::atomic<qint64> g_budget = 1024LL * 1024 * 1024;
+
+// Concurrent requests for the same image share one download.
+QMutex g_inflightMutex;
+QWaitCondition g_inflightDone;
+QHash<QString, int> g_inflight;
+
+QString pathFor(const QString &url) {
+    const auto hash = QCryptographicHash::hash(url.toUtf8(), QCryptographicHash::Sha1).toHex();
+    return QStringLiteral("%1/%2/%3").arg(g_dir, QString::fromLatin1(hash.left(2)), QString::fromLatin1(hash));
+}
+
+QByteArray readFile(const QString &path) {
+    QFile file(path);
+    if (!file.open(QIODevice::ReadOnly))
+        return {};
+    auto data = file.readAll();
+    file.close();
+    // Touch so trimming keeps recently viewed images.
+    file.setFileTime(QDateTime::currentDateTime(), QFileDevice::FileModificationTime);
+    return data;
+}
+
+} // namespace
+
+void ImageCache::init(const QString &dir, qint64 budgetBytes) {
+    g_dir = dir;
+    g_budget = budgetBytes;
+    QDir().mkpath(dir);
+}
+
+void ImageCache::setBudget(qint64 bytes) { g_budget = bytes; }
+
+QByteArray ImageCache::fetch(const QString &url, const QString &referer) {
+    if (url.startsWith(QLatin1String("file:")) || url.startsWith(QLatin1Char('/'))) {
+        QFile file(url.startsWith(QLatin1String("file:")) ? QUrl(url).toLocalFile() : url);
+        return file.open(QIODevice::ReadOnly) ? file.readAll() : QByteArray();
+    }
+    const auto path = pathFor(url);
+    {
+        QMutexLocker lock(&g_inflightMutex);
+        while (g_inflight.contains(path)) {
+            if (CancelScope::cancelled())
+                throw Error(QStringLiteral("Cancelled"), 499);
+            g_inflightDone.wait(&g_inflightMutex, 100);
+        }
+        if (QFileInfo::exists(path)) {
+            lock.unlock();
+            if (auto data = readFile(path); !data.isEmpty())
+                return data;
+            lock.relock();
+        }
+        g_inflight.insert(path, 1);
+    }
+    auto release = qScopeGuard([&] {
+        QMutexLocker lock(&g_inflightMutex);
+        g_inflight.remove(path);
+        g_inflightDone.wakeAll();
+    });
+
+    Request request;
+    request.url = QUrl(url);
+    request.lane = Lane::Images;
+    request.timeoutMs = 30000;
+    request.maxBytes = 48 * 1024 * 1024;
+    request.headers = {{"Accept", "image/avif,image/webp,image/apng,image/*,*/*;q=0.8"}};
+    if (!referer.isEmpty())
+        request.headers.append(QPair<QByteArray, QByteArray>("Referer", referer.toUtf8()));
+    Response response;
+    for (int attempt = 0;; ++attempt) {
+        try {
+            response = Http::send(request);
+        } catch (const Error &e) {
+            if (attempt >= 1 || e.status() == 499)
+                throw;
+            continue;
+        }
+        if (response.ok() || attempt >= 1 || response.status < 500)
+            break;
+    }
+    if (!response.ok())
+        throw Error(QStringLiteral("Image unavailable (HTTP %1).").arg(response.status), response.status);
+    if (response.contentType.startsWith("text/"))
+        throw Error(QStringLiteral("The site returned a page instead of an image."), 502);
+
+    QDir().mkpath(QFileInfo(path).absolutePath());
+    QSaveFile file(path);
+    if (file.open(QIODevice::WriteOnly)) {
+        file.write(response.body);
+        file.commit();
+    }
+    return response.body;
+}
+
+qint64 ImageCache::sizeOnDisk() {
+    qint64 total = 0;
+    QDirIterator it(g_dir, QDir::Files, QDirIterator::Subdirectories);
+    while (it.hasNext()) {
+        it.next();
+        total += it.fileInfo().size();
+    }
+    return total;
+}
+
+void ImageCache::clear() {
+    QDir(g_dir).removeRecursively();
+    QDir().mkpath(g_dir);
+}
+
+void ImageCache::trim() {
+    struct Entry {
+        QString path;
+        qint64 size;
+        QDateTime used;
+    };
+    QList<Entry> entries;
+    qint64 total = 0;
+    QDirIterator it(g_dir, QDir::Files, QDirIterator::Subdirectories);
+    while (it.hasNext()) {
+        it.next();
+        const auto info = it.fileInfo();
+        entries.append({info.absoluteFilePath(), info.size(), info.lastModified()});
+        total += info.size();
+    }
+    if (total <= g_budget)
+        return;
+    std::sort(entries.begin(), entries.end(), [](const Entry &a, const Entry &b) { return a.used < b.used; });
+    const qint64 target = g_budget * 8 / 10;
+    for (const auto &entry : entries) {
+        if (total <= target)
+            break;
+        if (QFile::remove(entry.path))
+            total -= entry.size;
+    }
+}
+
+} // namespace sc

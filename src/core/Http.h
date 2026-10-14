@@ -1,0 +1,103 @@
+#pragma once
+
+#include <QByteArray>
+#include <QJsonDocument>
+#include <QList>
+#include <QPair>
+#include <QString>
+#include <QUrl>
+#include <QUrlQuery>
+
+#include <atomic>
+#include <memory>
+#include <stdexcept>
+
+namespace sc {
+
+// Thrown by sources and services. The message is shown to the user, so it
+// should say what failed in plain words, never dump a response body.
+class Error : public std::runtime_error {
+public:
+    explicit Error(const QString &message, int status = 0, const QString &verifyUrl = QString())
+        : std::runtime_error(message.toStdString()), m_status(status), m_verifyUrl(verifyUrl) {}
+    int status() const { return m_status; }
+    QString message() const { return QString::fromStdString(what()); }
+    // Set when a site answered with a browser check: the page to open so the
+    // user can pass it.
+    QString verifyUrl() const { return m_verifyUrl; }
+
+private:
+    int m_status;
+    QString m_verifyUrl;
+};
+
+using CancelFlag = std::shared_ptr<std::atomic_bool>;
+
+// Requests made on a worker thread observe that thread's cancel flag, so a
+// Task that is cancelled (or garbage collected by QML) stops its downloads.
+class CancelScope {
+public:
+    explicit CancelScope(CancelFlag flag);
+    ~CancelScope();
+    static bool cancelled();
+    static CancelFlag current();
+    // Cancels every request in flight and refuses new ones (app shutdown).
+    static void cancelAll();
+
+private:
+    CancelFlag m_previous;
+};
+
+using Headers = QList<QPair<QByteArray, QByteArray>>;
+
+enum class Lane { Pages, Images };
+
+struct Request {
+    QUrl url;
+    QByteArray method = "GET";
+    Headers headers;
+    QByteArray body;
+    int timeoutMs = 15000;
+    qint64 maxBytes = 16 * 1024 * 1024;
+    Lane lane = Lane::Pages;
+};
+
+struct Response {
+    int status = 0;
+    QByteArray body;
+    QByteArray contentType;
+    QUrl finalUrl;
+
+    bool ok() const { return status >= 200 && status < 300; }
+    QString text() const { return QString::fromUtf8(body); }
+    QJsonDocument json() const;
+    bool isHtml() const { return contentType.startsWith("text/html"); }
+    // Cloudflare and similar interstitial pages.
+    bool isChallenge() const;
+};
+
+class Http {
+public:
+    static constexpr const char *BrowserUA =
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36";
+
+    // Blocking; must run on a worker thread (Task or image loader).
+    static Response send(const Request &request);
+
+    static Response get(const QUrl &url, const Headers &headers = {}, int timeoutMs = 15000);
+    static Response postForm(const QUrl &url, const QList<QPair<QString, QString>> &form, const Headers &headers = {});
+    static Response postJson(const QUrl &url, const QByteArray &json, const Headers &headers = {});
+
+    // Fails with a readable Error when the status is not 2xx.
+    static Response getOk(const QUrl &url, const Headers &headers = {}, int timeoutMs = 15000);
+    static QJsonDocument getJson(const QUrl &url, const Headers &headers = {}, int timeoutMs = 15000);
+
+    static void setUserAgent(const QByteArray &ua);
+    static QByteArray userAgent();
+};
+
+QUrl withQuery(QUrl url, std::initializer_list<QPair<QString, QString>> params);
+bool hostMatches(const QString &host, const QString &allowed);
+
+} // namespace sc

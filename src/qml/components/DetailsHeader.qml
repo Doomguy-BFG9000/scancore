@@ -1,0 +1,219 @@
+import QtQuick
+import QtQuick.Effects
+import QtQuick.Controls.Basic
+import ScanCore
+
+// Top of a details page: blurred cover backdrop, cover (hero target), title,
+// metadata, description and primary actions.
+Item {
+    id: header
+    property var series: ({})
+    property string kicker: ""
+    property var meta: []              // strings
+    property string primaryText: "Start reading"
+    property string primaryDetail: ""
+    property bool saved: false
+    property bool busy: false
+    property string coverReferer: ""
+    readonly property alias coverItem: cover
+    default property alias extraActions: actionsRow.data
+    signal primary()
+    signal toggleSaved()
+
+    width: parent ? parent.width : 900
+    implicitHeight: Math.max(info.y + info.height, coverBox.y + coverBox.height) + 34
+
+    // Backdrop
+    Item {
+        anchors.left: parent.left
+        anchors.right: parent.right
+        height: 420
+        clip: true
+        Image {
+            id: backdropSource
+            anchors.fill: parent
+            source: header.series.banner ? App.image(header.series.banner) : (header.series.cover ? App.image(header.series.cover, header.coverReferer) : "")
+            sourceSize.width: 320
+            fillMode: Image.PreserveAspectCrop
+            asynchronous: true
+            visible: false
+        }
+        MultiEffect {
+            anchors.fill: parent
+            source: backdropSource
+            blurEnabled: true
+            blur: 1
+            blurMax: 64
+            saturation: 0.1
+            opacity: backdropSource.status === Image.Ready ? (Theme.dark ? 0.42 : 0.3) : 0
+            Behavior on opacity { NumberAnimation { duration: 700 } }
+        }
+        Rectangle {
+            anchors.fill: parent
+            gradient: Gradient {
+                GradientStop { position: 0.0; color: Theme.alpha(Theme.bg, 0.15) }
+                GradientStop { position: 0.6; color: Theme.alpha(Theme.bg, 0.8) }
+                GradientStop { position: 1.0; color: Theme.bg }
+            }
+        }
+    }
+
+    IconButton {
+        x: Theme.gutter - 8
+        y: 20
+        iconName: "arrow-left"
+        filled: true
+        tip: "Back"
+        onClicked: Router.back()
+    }
+
+    Item {
+        id: coverBox
+        x: Theme.compact ? (header.width - width) / 2 : Theme.gutter
+        y: Theme.compact ? 64 : 76
+        width: Theme.compact ? 150 : header.width > 1100 ? 230 : 190
+        height: width * 1.5
+        Shadow { target: cover; lift: 1; strength: Theme.dark ? 0.9 : 0.3 }
+        Cover {
+            id: cover
+            anchors.fill: parent
+            radius: Theme.radiusLg
+            source: header.series.cover || ""
+            referer: header.coverReferer
+            title: header.series.title || ""
+        }
+    }
+
+    Column {
+        id: info
+        x: Theme.compact ? Theme.gutter : coverBox.x + coverBox.width + 36
+        width: header.width - x - Theme.gutter
+        y: Theme.compact ? coverBox.y + coverBox.height + 22 : coverBox.y + 14
+        spacing: 14
+
+        opacity: 0
+        transform: Translate { id: infoRise; y: 16 }
+        Component.onCompleted: reveal.start()
+        ParallelAnimation {
+            id: reveal
+            NumberAnimation { target: info; property: "opacity"; to: 1; duration: Motion.slow; easing.type: Easing.OutCubic }
+            NumberAnimation { target: infoRise; property: "y"; to: 0; duration: Motion.page; easing.type: Easing.BezierSpline; easing.bezierCurve: Motion.decelerate }
+        }
+
+        Text {
+            visible: text.length > 0
+            text: header.kicker
+            color: Theme.textMuted
+            font.family: Theme.fontSans
+            font.pixelSize: Theme.textXs
+            font.weight: Font.DemiBold
+            font.capitalization: Font.AllUppercase
+            font.letterSpacing: 1.4
+        }
+        Text {
+            width: parent.width
+            text: header.series.title || ""
+            color: Theme.text
+            font.family: Theme.fontDisplay
+            font.pixelSize: Theme.compact ? 26 : header.width > 1100 ? 40 : 32
+            font.weight: Font.Bold
+            font.letterSpacing: -0.8
+            wrapMode: Text.Wrap
+            maximumLineCount: 3
+            elide: Text.ElideRight
+            lineHeight: 1.05
+        }
+        Flow {
+            width: parent.width
+            spacing: 8
+            Repeater {
+                model: header.meta.filter(m => !!m)
+                Rectangle {
+                    required property var modelData
+                    height: 26
+                    width: metaText.implicitWidth + 18
+                    radius: 13
+                    color: Theme.alpha(Theme.text, 0.07)
+                    border.width: 1
+                    border.color: Theme.alpha(Theme.text, 0.06)
+                    Text {
+                        id: metaText
+                        anchors.centerIn: parent
+                        text: modelData
+                        color: Theme.textMuted
+                        font.family: Theme.fontSans
+                        font.pixelSize: Theme.textXs + 1
+                        font.weight: Font.Medium
+                    }
+                }
+            }
+        }
+        Text {
+            visible: !!header.series.author
+            text: header.series.author || ""
+            color: Theme.textMuted
+            font.family: Theme.fontSans
+            font.pixelSize: Theme.textMd
+        }
+
+        Flow {
+            id: actionsRow
+            width: parent.width
+            spacing: 10
+            ScButton {
+                variant: "primary"
+                text: header.primaryText
+                iconName: "play"
+                loading: header.busy
+                onClicked: header.primary()
+            }
+            ScButton {
+                text: header.saved ? "In library" : "Add to library"
+                iconName: header.saved ? "bookmark-check" : "bookmark"
+                onClicked: header.toggleSaved()
+            }
+        }
+        Text {
+            visible: header.primaryDetail.length > 0
+            text: header.primaryDetail
+            color: Theme.textFaint
+            font.family: Theme.fontSans
+            font.pixelSize: Theme.textSm
+        }
+
+        Text {
+            id: description
+            property bool expanded: false
+            width: Math.min(parent.width, 820)
+            visible: text.length > 0
+            text: header.series.description || ""
+            color: Theme.textMuted
+            font.family: Theme.fontSans
+            font.pixelSize: Theme.textMd
+            lineHeight: 1.45
+            wrapMode: Text.Wrap
+            maximumLineCount: expanded ? 400 : 4
+            elide: Text.ElideRight
+            MouseArea {
+                anchors.fill: parent
+                cursorShape: description.truncated || description.expanded ? Qt.PointingHandCursor : Qt.ArrowCursor
+                onClicked: description.expanded = !description.expanded
+            }
+        }
+        Flow {
+            width: Math.min(parent.width, 820)
+            spacing: 6
+            Repeater {
+                model: (header.series.genres || []).slice(0, 14)
+                Text {
+                    required property var modelData
+                    text: "#" + String(modelData).toLowerCase().replace(/\s+/g, "-")
+                    color: Theme.textFaint
+                    font.family: Theme.fontSans
+                    font.pixelSize: Theme.textSm
+                    rightPadding: 6
+                }
+            }
+        }
+    }
+}

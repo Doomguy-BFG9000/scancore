@@ -1,0 +1,282 @@
+{
+  "version": 1,
+  "updated": "2026-10-13",
+  "comics": [
+    {
+      "key": "asura",
+      "label": "Asura Scans",
+      "engine": "asura",
+      "base": "https://asurascans.com",
+      "api": "https://api.asurascans.com",
+      "hosts": [
+        "asurascans.com",
+        "asuracomic.net"
+      ]
+    },
+    {
+      "key": "webtoon",
+      "label": "Webtoon",
+      "engine": "webtoon",
+      "base": "https://www.webtoons.com",
+      "hosts": [
+        "webtoons.com"
+      ]
+    },
+    {
+      "key": "mangadex",
+      "label": "MangaDex",
+      "engine": "mangadex",
+      "base": "https://mangadex.org",
+      "api": "https://api.mangadex.org",
+      "hosts": [
+        "mangadex.org"
+      ]
+    },
+    {
+      "key": "flame",
+      "label": "Flame Comics",
+      "engine": "flame",
+      "base": "https://flamecomics.xyz",
+      "hosts": [
+        "flamecomics.xyz"
+      ],
+      "options": {
+        "cdn": "https://cdn.flamecomics.xyz"
+      }
+    },
+    {
+      "key": "hive",
+      "label": "HiveToons",
+      "engine": "hive",
+      "base": "https://hivetoons.org",
+      "api": "https://api.hivetoons.org",
+      "hosts": [
+        "hivetoons.org"
+      ],
+      "options": {
+        "imageHost": "https://storage.hivetoon.com/"
+      }
+    },
+    {
+      "key": "vortex",
+      "label": "Vortex Scans",
+      "engine": "iken",
+      "base": "https://vortexscans.org",
+      "api": "https://api.vortexscans.org",
+      "hosts": [
+        "vortexscans.org"
+      ]
+    },
+    {
+      "key": "qiscans",
+      "label": "Qi Manga",
+      "engine": "qimanga",
+      "base": "https://qimanga.com",
+      "api": "https://api.qimanga.com/api/v1",
+      "hosts": [
+        "qimanga.com",
+        "qimanhwa.com"
+      ]
+    },
+    {
+      "key": "thunder",
+      "label": "ThunderScans",
+      "engine": "wp",
+      "base": "https://en-thunderscans.com",
+      "hosts": [
+        "en-thunderscans.com"
+      ],
+      "options": {
+        "htmlSearchOnly": true
+      }
+    },
+    {
+      "key": "mangaread",
+      "label": "MangaRead",
+      "engine": "madara",
+      "base": "https://www.mangaread.org",
+      "hosts": [
+        "mangaread.org"
+      ]
+    },
+    {
+      "key": "rizzcomic",
+      "label": "RizzComic",
+      "engine": "wp",
+      "base": "https://rizzcomic.com",
+      "hosts": [
+        "rizzcomic.com"
+      ],
+      "nsfw": true,
+      "enabled": false,
+      "disabledReason": "The site returns a database error for every page"
+    },
+    {
+      "key": "aein",
+      "label": "Aein Scans",
+      "engine": "wp",
+      "base": "https://aeinscans.com",
+      "hosts": [
+        "aeinscans.com"
+      ],
+      "enabled": false,
+      "disabledReason": "The site requires a browser check"
+    },
+    {
+      "key": "anisa",
+      "label": "Anisa Scans",
+      "engine": "madara",
+      "base": "https://anisascans.in",
+      "hosts": [
+        "anisascans.in"
+      ],
+      "enabled": false,
+      "disabledReason": "Chapter images are blocked by the site"
+    },
+    {
+      "key": "arya",
+      "label": "Arya Scans",
+      "engine": "madara",
+      "base": "https://brainrotcomics.com",
+      "hosts": [
+        "brainrotcomics.com"
+      ],
+      "enabled": false,
+      "disabledReason": "The site requires a browser check"
+    }
+  ],
+  "novels": [
+    {
+      "key": "royalroad",
+      "label": "Royal Road",
+      "engine": "royalroad",
+      "base": "https://www.royalroad.com",
+      "hosts": [
+        "royalroad.com"
+      ]
+    },
+    {
+      "key": "novelfull",
+      "label": "NovelFull",
+      "engine": "novelfull",
+      "base": "https://novelfull.net",
+      "hosts": [
+        "novelfull.net"
+      ]
+    },
+    {
+      "key": "allnovelfull",
+      "label": "AllNovelFull",
+      "engine": "novelfull",
+      "base": "https://allnovelfull.net",
+      "hosts": [
+        "allnovelfull.net",
+        "allnovelfull.com",
+        "novgo.net"
+      ]
+    },
+    {
+      "key": "novelfull-com",
+      "label": "NovelFull.com",
+      "engine": "novelfull",
+      "base": "https://novelfull.com",
+      "hosts": [
+        "novelfull.com",
+        "allnovel.org",
+        "allnovelxo.com"
+      ]
+    },
+    {
+      "key": "novelbin",
+      "label": "NovelBin",
+      "engine": "novelfull",
+      "base": "https://novelbin.net",
+      "hosts": [
+        "novelbin.net"
+      ],
+      "enabled": false,
+      "disabledReason": "The site requires a browser check"
+    },
+    {
+      "key": "novel-bin",
+      "label": "Novel Bin",
+      "engine": "novelfull",
+      "base": "https://novel-bin.net",
+      "hosts": [
+        "novel-bin.net"
+      ],
+      "options": {
+        "chapterListOnPage": true
+      },
+      "enabled": false,
+      "disabledReason": "The site requires a browser check"
+    },
+    {
+      "key": "readnovelfull",
+      "label": "ReadNovelFull",
+      "engine": "novelfull",
+      "base": "https://readnovelfull.com",
+      "hosts": [
+        "readnovelfull.com"
+      ],
+      "options": {
+        "searchPath": "novel-list/search"
+      }
+    },
+    {
+      "key": "pandanovel",
+      "label": "PandaNovel",
+      "engine": "novelfull",
+      "base": "https://pandanovel.co",
+      "hosts": [
+        "pandanovel.co"
+      ],
+      "enabled": false,
+      "disabledReason": "The site changed its layout"
+    },
+    {
+      "key": "novelnextz",
+      "label": "NovelNextz",
+      "engine": "novelfull",
+      "base": "https://novelnextz.com",
+      "hosts": [
+        "novelnextz.com"
+      ],
+      "enabled": false,
+      "disabledReason": "The site requires a browser check"
+    },
+    {
+      "key": "freewebnovel",
+      "label": "FreeWebNovel",
+      "engine": "novelfull",
+      "base": "https://freewebnovel.com",
+      "hosts": [
+        "freewebnovel.com"
+      ],
+      "options": {
+        "searchPost": true
+      }
+    },
+    {
+      "key": "libread",
+      "label": "LibRead",
+      "engine": "novelfull",
+      "base": "https://libread.com",
+      "hosts": [
+        "libread.com",
+        "libread.org"
+      ],
+      "options": {
+        "searchPost": true
+      }
+    }
+  ],
+  "anime": {
+    "reanime": {
+      "base": "https://reanime.to",
+      "embedHosts": [
+        "flixcloud.cc"
+      ]
+    }
+  }
+}

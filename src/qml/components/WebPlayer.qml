@@ -1,0 +1,71 @@
+import QtQuick
+import QtQuick.Window
+import QtWebEngine
+import ScanCore
+
+// Hosts a provider's player page inside a small wrapper document. The
+// wrapper polls the player's postMessage API (getTime / seek) so the app
+// can resume, auto-advance and skip intros. Pop-ups and navigation away
+// from the player are blocked.
+Item {
+    id: root
+    property string url
+    signal time(real seconds, real total, string status)
+
+    function seek(seconds) {
+        web.runJavaScript("window.scSeek && window.scSeek(" + Number(seconds) + ")")
+    }
+
+    function wrapper(src) {
+        const safe = String(src).replace(/"/g, "&quot;").replace(/</g, "&lt;")
+        return "<!doctype html><html><head><meta charset='utf-8'>"
+            + "<style>html,body{margin:0;height:100%;background:#000;overflow:hidden}iframe{border:0;width:100%;height:100%}</style>"
+            + "</head><body><iframe id='f' src=\"" + safe + "\" allow='autoplay; fullscreen; encrypted-media; picture-in-picture' allowfullscreen referrerpolicy='origin'></iframe>"
+            + "<script>"
+            + "window.__sc={t:0,d:0,s:''};var f=document.getElementById('f');"
+            + "addEventListener('message',function(e){if(e.source!==f.contentWindow)return;var x=e.data;"
+            + "if(typeof x==='string'){try{x=JSON.parse(x)}catch(_){return}}if(!x)return;"
+            + "if(x.currentTime!==undefined){__sc.t=+x.currentTime||0;__sc.d=+x.duration||0}"
+            + "if(x.playerStatus)__sc.s=String(x.playerStatus)});"
+            + "setInterval(function(){try{f.contentWindow.postMessage({command:'getTime'},'*')}catch(_){}},1000);"
+            + "window.scSeek=function(v){f.contentWindow.postMessage({command:'seek',value:v},'*')};"
+            + "</script></body></html>"
+    }
+
+    onUrlChanged: if (url) web.loadHtml(wrapper(url), "https://reanime.to/")
+
+    WebEngineView {
+        id: web
+        anchors.fill: parent
+        backgroundColor: "black"
+        settings.playbackRequiresUserGesture: false
+        settings.fullScreenSupportEnabled: true
+        settings.javascriptCanOpenWindows: false
+        settings.focusOnNavigationEnabled: true
+
+        onNewWindowRequested: (request) => { /* block pop-up ads */ }
+        onNavigationRequested: (request) => {
+            // Keep the top frame on the wrapper; frames may navigate freely.
+            if (request.isMainFrame && request.url.toString() !== "about:blank"
+                && !request.url.toString().startsWith("data:") && !request.url.toString().startsWith("https://reanime.to/"))
+                request.reject()
+        }
+        onFullScreenRequested: (request) => {
+            request.accept()
+            if (request.toggleOn) Window.window.showFullScreen()
+            else Window.window.showNormal()
+        }
+    }
+
+    Timer {
+        interval: 1000
+        running: root.visible
+        repeat: true
+        onTriggered: web.runJavaScript("JSON.stringify(window.__sc||{})", (result) => {
+            try {
+                const s = JSON.parse(result)
+                if (s.d > 0) root.time(s.t, s.d, s.s || "")
+            } catch (e) {}
+        })
+    }
+}

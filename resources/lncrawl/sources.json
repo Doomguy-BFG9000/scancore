@@ -1,0 +1,6359 @@
+[
+ {
+  "key": "lc-96f6e4c0d415af13fe37473231d90cb6",
+  "label": "1stkissnovel.love",
+  "language": "en",
+  "origins": [
+   "https://1stkissnovel.love/",
+   "https://1stkissnovel.org/"
+  ],
+  "module": "sources.en.1.1stkissnovel",
+  "filePath": "sources/en/1/1stkissnovel.py",
+  "className": "OneKissNovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-48beabc5d743d1c72a26702cc6ed1393",
+  "label": "4scanlation.com",
+  "language": "en",
+  "origins": [
+   "https://4scanlation.com/"
+  ],
+  "module": "sources.en.4.4scanlation",
+  "filePath": "sources/en/4/4scanlation.py",
+  "className": "FourScanlationCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Domain expired"
+ },
+ {
+  "key": "lc-1adb38c14643c000153d525c2346e158",
+  "label": "888novel.com",
+  "language": "en",
+  "origins": [
+   "https://888novel.com/"
+  ],
+  "module": "sources.en.8.888novel",
+  "filePath": "sources/en/8/888novel.py",
+  "className": "Eight88NovelCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Domain is for sale"
+ },
+ {
+  "key": "lc-6b1fd85a311a8a020847df7579461e82",
+  "label": "88tangeatdrinkread.wordpress.com",
+  "language": "en",
+  "origins": [
+   "https://88tangeatdrinkread.wordpress.com/"
+  ],
+  "module": "sources.en.8.88tang",
+  "filePath": "sources/en/8/88tang.py",
+  "className": "TangEatDrinkRead",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-c01e2d3a692e03ac63be97afe04f7a85",
+  "label": "allnovel.org",
+  "language": "en",
+  "origins": [
+   "https://allnovel.org/",
+   "https://allnovelxo.com/",
+   "https://www.allnovel.org/"
+  ],
+  "module": "sources.en.a.allnovel",
+  "filePath": "sources/en/a/allnovel.py",
+  "className": "AllNovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-98febb53ce66264b8a06f4f372c71d40",
+  "label": "allnovelfull.com",
+  "language": "en",
+  "origins": [
+   "https://allnovelfull.com/",
+   "https://allnovelfull.net/",
+   "https://novgo.net/"
+  ],
+  "module": "sources.en.a.allnovelfull",
+  "filePath": "sources/en/a/allnovelfull.py",
+  "className": "AllNovelFullCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-d2ccd997c1c1006ba136dbcf9f600178",
+  "label": "americanfaux.com",
+  "language": "en",
+  "origins": [
+   "https://americanfaux.com/"
+  ],
+  "module": "sources.en.a.americanfaux",
+  "filePath": "sources/en/a/americanfaux.py",
+  "className": "AmericanFaux",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-a95ab3011120d47864a566dce33e7f7b",
+  "label": "amnesiactl.com",
+  "language": "en",
+  "origins": [
+   "https://amnesiactl.com/"
+  ],
+  "module": "sources.en.a.amnesiactl",
+  "filePath": "sources/en/a/amnesiactl.py",
+  "className": "Amnesiactl",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-bb4e1f8840fccb0e267e8071d7746ffc",
+  "label": "ancientheartloss.com",
+  "language": "en",
+  "origins": [
+   "https://ancientheartloss.com/",
+   "https://ancientheartloss.wordpress.com/"
+  ],
+  "module": "sources.en.a.ancientheartloss",
+  "filePath": "sources/en/a/ancientheartloss.py",
+  "className": "AncientHeartloss",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-96887b2659c3ec7135a2777129557f75",
+  "label": "anythingnovel.com",
+  "language": "en",
+  "origins": [
+   "https://anythingnovel.com/"
+  ],
+  "module": "sources.en.a.anythingnovel",
+  "filePath": "sources/en/a/anythingnovel.py",
+  "className": "AnythingNovelCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "The domain is for sale"
+ },
+ {
+  "key": "lc-ea4f29af2080f21c83b0a2b07945ad67",
+  "label": "api.babelnovel.com",
+  "language": "en",
+  "origins": [
+   "https://api.babelnovel.com/",
+   "https://babelnovel.com/"
+  ],
+  "module": "sources.en.b.babelnovel",
+  "filePath": "sources/en/b/babelnovel.py",
+  "className": "BabelNovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-960d88753fe3337dd74a1c4299a7956f",
+  "label": "aquamanga.com",
+  "language": "en",
+  "origins": [
+   "https://aquamanga.com/",
+   "https://aquamanga.org/",
+   "https://aquareader.net/",
+   "https://aquareader.org/"
+  ],
+  "module": "sources.en.a.aquamanga",
+  "filePath": "sources/en/a/aquamanga.py",
+  "className": "AquaMangaCrawler",
+  "search": true,
+  "manga": true,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-0cf15ee6594540a77bbdc007f3774cb5",
+  "label": "arangscans.com",
+  "language": "en",
+  "origins": [
+   "https://arangscans.com/"
+  ],
+  "module": "sources.en.a.arangscans",
+  "filePath": "sources/en/a/arangscans.py",
+  "className": "ArangScans",
+  "search": true,
+  "manga": false,
+  "disabledReason": "This site can not be reached"
+ },
+ {
+  "key": "lc-53ab2106d15e68c105108b724a5cee9b",
+  "label": "arcanetranslations.com",
+  "language": "en",
+  "origins": [
+   "https://arcanetranslations.com/"
+  ],
+  "module": "sources.en.a.arcanetranslations",
+  "filePath": "sources/en/a/arcanetranslations.py",
+  "className": "Arcanetranslations",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-5fe7e2adb052d8fbe994ddecd9382e9a",
+  "label": "asadatranslations.com",
+  "language": "en",
+  "origins": [
+   "https://asadatranslations.com/"
+  ],
+  "module": "sources.en.a.asadatrans",
+  "filePath": "sources/en/a/asadatrans.py",
+  "className": "AsadaTranslations",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-26d3210d02583e60fb852501114d1950",
+  "label": "asurascans.com",
+  "language": "en",
+  "origins": [
+   "https://asurascans.com/"
+  ],
+  "module": "sources.en.a.asurascans",
+  "filePath": "sources/en/a/asurascans.py",
+  "className": "AsuraScansCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-7d9931c79ad75a601f1b2ca723ea621a",
+  "label": "automtl.wordpress.com",
+  "language": "en",
+  "origins": [
+   "https://automtl.wordpress.com/"
+  ],
+  "module": "sources.en.a.automtl",
+  "filePath": "sources/en/a/automtl.py",
+  "className": "AutoMTL",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-18cd7cf33acc65c931104ea3703e6fb4",
+  "label": "bakapervert.wordpress.com",
+  "language": "en",
+  "origins": [
+   "https://bakapervert.wordpress.com/"
+  ],
+  "module": "sources.en.b.bakapervert",
+  "filePath": "sources/en/b/bakapervert.py",
+  "className": "BakaPervert",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-5955ede148817d13e8ef04255da4237d",
+  "label": "bato.to",
+  "language": "en",
+  "origins": [
+   "https://bato.to/",
+   "https://batocc.com/",
+   "https://batotoo.com/",
+   "https://batotwo.com/",
+   "https://battwo.com/",
+   "https://comiko.net/",
+   "https://dto.to/",
+   "https://hto.to/",
+   "https://mangatoto.com/",
+   "https://mangatoto.net/",
+   "https://mangatoto.org/",
+   "https://mto.to/",
+   "https://wto.to/"
+  ],
+  "module": "sources.en.b.bato",
+  "filePath": "sources/en/b/bato.py",
+  "className": "BatoCrawler",
+  "search": true,
+  "manga": true,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-cae098f1ccac37a75d27a51478fce26d",
+  "label": "beautymanga.com",
+  "language": "en",
+  "origins": [
+   "https://beautymanga.com/",
+   "https://myreadingmanga.fit/"
+  ],
+  "module": "sources.en.b.beautymanga",
+  "filePath": "sources/en/b/beautymanga.py",
+  "className": "BeautymangaCrawler",
+  "search": true,
+  "manga": true,
+  "disabledReason": "Domain now hosts an anime blog with no readable manga"
+ },
+ {
+  "key": "lc-8fa5bb4014a0aaab31786ac2dbbc333c",
+  "label": "bednovel.com",
+  "language": "en",
+  "origins": [
+   "https://bednovel.com/"
+  ],
+  "module": "sources.en.b.bednovel",
+  "filePath": "sources/en/b/bednovel.py",
+  "className": "BednovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-4e290bdcdba811dd64ab0f7008ebdacf",
+  "label": "bestlightnovel.com",
+  "language": "en",
+  "origins": [
+   "https://bestlightnovel.com/"
+  ],
+  "module": "sources.en.b.bestlightnovel",
+  "filePath": "sources/en/b/bestlightnovel.py",
+  "className": "BestLightNovel",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Redirects to an affiliate link"
+ },
+ {
+  "key": "lc-03c5adf369bf077bc498608b92ffe914",
+  "label": "bestoflightnovels.com",
+  "language": "en",
+  "origins": [
+   "https://bestoflightnovels.com/",
+   "https://fsapk.com/"
+  ],
+  "module": "sources.en.f.fsapk",
+  "filePath": "sources/en/f/fsapk.py",
+  "className": "BestofLightNovels",
+  "search": false,
+  "manga": false,
+  "disabledReason": "No longer provides lightnovels"
+ },
+ {
+  "key": "lc-66c94db226eef99340683c468ea58315",
+  "label": "bonnovel.com",
+  "language": "en",
+  "origins": [
+   "https://bonnovel.com/"
+  ],
+  "module": "sources.en.b.bonnovel",
+  "filePath": "sources/en/b/bonnovel.py",
+  "className": "BonNovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Cloudflare Error 1000, the zone's DNS points at a prohibited address"
+ },
+ {
+  "key": "lc-c6b2d34f33d246ecbbf40115ffe8725c",
+  "label": "booknet.com",
+  "language": "en",
+  "origins": [
+   "https://booknet.com/"
+  ],
+  "module": "sources.en.b.booknet",
+  "filePath": "sources/en/b/booknet.py",
+  "className": "LitnetCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-9b3526c05f36ecbb9195738f5eff9a38",
+  "label": "boxnovel.com",
+  "language": "en",
+  "origins": [
+   "https://boxnovel.com/"
+  ],
+  "module": "sources.en.b.boxnovel",
+  "filePath": "sources/en/b/boxnovel.py",
+  "className": "BoxNovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-fa43c52f3ddc620165496efe868e74ae",
+  "label": "boxnovel.online",
+  "language": "en",
+  "origins": [
+   "https://boxnovel.online/"
+  ],
+  "module": "sources.en.b.boxnovelonline",
+  "filePath": "sources/en/b/boxnovelonline.py",
+  "className": "BoxNovelOnline",
+  "search": true,
+  "manga": false,
+  "disabledReason": "This site can not be reached"
+ },
+ {
+  "key": "lc-1445a8bbcadd9b5f2d411db78a72fcc3",
+  "label": "boxnovel.org",
+  "language": "en",
+  "origins": [
+   "https://boxnovel.org/"
+  ],
+  "module": "sources.en.b.boxnovelorg",
+  "filePath": "sources/en/b/boxnovelorg.py",
+  "className": "BoxNovelOrgCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "No longer operational"
+ },
+ {
+  "key": "lc-2b330acbed2152d5f62239880f536749",
+  "label": "bronovel.com",
+  "language": "en",
+  "origins": [
+   "https://bronovel.com/"
+  ],
+  "module": "sources.en.b.bronovel",
+  "filePath": "sources/en/b/bronovel.py",
+  "className": "BroNovel",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-46b2be63c3cc33cfb57ae4af767b6734",
+  "label": "cangji.net",
+  "language": "en",
+  "origins": [
+   "https://cangji.net/"
+  ],
+  "module": "sources.en.c.cangji",
+  "filePath": "sources/en/c/cangji.py",
+  "className": "CangJiCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-7ab1621ed587050135b8fa1ab8f59e9d",
+  "label": "chapmanganato.com",
+  "language": "en",
+  "origins": [
+   "https://chapmanganato.com/",
+   "https://readmanganato.com/"
+  ],
+  "module": "sources.en.r.readmanganato",
+  "filePath": "sources/en/r/readmanganato.py",
+  "className": "ReadMangaNato",
+  "search": false,
+  "manga": true,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-01ce3605495d9a2420e6477ece6c427e",
+  "label": "chrysanthemumgarden.com",
+  "language": "en",
+  "origins": [
+   "https://chrysanthemumgarden.com/"
+  ],
+  "module": "sources.en.c.chrysanthemumgarden",
+  "filePath": "sources/en/c/chrysanthemumgarden.py",
+  "className": "ChrysanthemumGarden",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-062af6d3ce28b480656e083165054ab6",
+  "label": "ckandawrites.online",
+  "language": "en",
+  "origins": [
+   "https://ckandawrites.online/"
+  ],
+  "module": "sources.en.c.ckandawrites.online",
+  "filePath": "sources/en/c/ckandawrites.online.py",
+  "className": "CkandawritesOnline",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-10789180a460036fbeb2fbb346b5fd3e",
+  "label": "clicknovel.net",
+  "language": "en",
+  "origins": [
+   "https://clicknovel.net/"
+  ],
+  "module": "sources.en.c.clicknovel",
+  "filePath": "sources/en/c/clicknovel.py",
+  "className": "ClickNovel",
+  "search": true,
+  "manga": false,
+  "disabledReason": "The domain has expired"
+ },
+ {
+  "key": "lc-674a705cda2db0c450326d23d583ce84",
+  "label": "coffeemanga.io",
+  "language": "en",
+  "origins": [
+   "https://coffeemanga.io/"
+  ],
+  "module": "sources.en.c.coffeemanga",
+  "filePath": "sources/en/c/coffeemanga.py",
+  "className": "CoffeeManga",
+  "search": true,
+  "manga": true,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-b78b6c6d6acf16832f3a363d3389c8dc",
+  "label": "comrademao.com",
+  "language": "en",
+  "origins": [
+   "https://comrademao.com/"
+  ],
+  "module": "sources.en.c.fu_kemao",
+  "filePath": "sources/en/c/fu_kemao.py",
+  "className": null,
+  "search": false,
+  "manga": false,
+  "disabledReason": "Unavailable in the pinned crawler catalog"
+ },
+ {
+  "key": "lc-59cc1bb814d53b6a924fdc38917daef7",
+  "label": "creativenovels.com",
+  "language": "en",
+  "origins": [
+   "https://creativenovels.com/"
+  ],
+  "module": "sources.en.c.creativenovels",
+  "filePath": "sources/en/c/creativenovels.py",
+  "className": "CreativeNovelsCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-4df48cb07890d59984ee92a6a2f8caba",
+  "label": "crescentmoon.blog",
+  "language": "en",
+  "origins": [
+   "https://crescentmoon.blog/"
+  ],
+  "module": "sources.en.c.crescentmoon",
+  "filePath": "sources/en/c/crescentmoon.py",
+  "className": "CrescentMoonCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-09116fc85dc94af9878d3d37cb1c19ac",
+  "label": "daonovel.com",
+  "language": "en",
+  "origins": [
+   "https://daonovel.com/"
+  ],
+  "module": "sources.en.d.daonovel",
+  "filePath": "sources/en/d/daonovel.py",
+  "className": "DaoNovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-798d96c887453defdb9709c78ba8ece0",
+  "label": "daotranslate.com",
+  "language": "en",
+  "origins": [
+   "https://daotranslate.com/",
+   "https://daotranslate.us/"
+  ],
+  "module": "sources.en.d.daotranslate",
+  "filePath": "sources/en/d/daotranslate.py",
+  "className": "DaoTranslateCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-757cdef7451d0195c058be61a0a00075",
+  "label": "demontranslations.com",
+  "language": "en",
+  "origins": [
+   "https://demontranslations.com/"
+  ],
+  "module": "sources.en.d.demontrans",
+  "filePath": "sources/en/d/demontrans.py",
+  "className": "DemonTranslations",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-c37b2984d2b7706bc922967873dd3ada",
+  "label": "dmtranslationscn.com",
+  "language": "en",
+  "origins": [
+   "https://dmtranslationscn.com/"
+  ],
+  "module": "sources.en.d.dmtrans",
+  "filePath": "sources/en/d/dmtrans.py",
+  "className": "DMTranslations",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-4b2c157f6b45625b325a58cfebffce75",
+  "label": "dobelyuwai.wordpress.com",
+  "language": "en",
+  "origins": [
+   "https://dobelyuwai.wordpress.com/"
+  ],
+  "module": "sources.en.d.dobelyuwai",
+  "filePath": "sources/en/d/dobelyuwai.py",
+  "className": "Dobelyuwai",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-4421d09dd09403f84372882e8ae91513",
+  "label": "dobytranslations.com",
+  "language": "en",
+  "origins": [
+   "https://dobytranslations.com/"
+  ],
+  "module": "sources.en.d.dobytranslations",
+  "filePath": "sources/en/d/dobytranslations.py",
+  "className": "Dobytranslations",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-3d15a901fb32bf0124860e42e534a6d9",
+  "label": "dragontea.ink",
+  "language": "en",
+  "origins": [
+   "https://dragontea.ink/"
+  ],
+  "module": "sources.en.d.dragon_tea",
+  "filePath": "sources/en/d/dragon_tea.py",
+  "className": "DragonTeaCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-ccf793eaa15070a5cdf667b323daf8dc",
+  "label": "dreamy-translations.com",
+  "language": "en",
+  "origins": [
+   "https://dreamy-translations.com/"
+  ],
+  "module": "sources.en.d.dreamytranslations",
+  "filePath": "sources/en/d/dreamytranslations.py",
+  "className": "DreamyTranslationsCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-48bda66e8b7a175f399f4d59c053f860",
+  "label": "dsrealmtranslations.com",
+  "language": "en",
+  "origins": [
+   "https://dsrealmtranslations.com/"
+  ],
+  "module": "sources.en.d.dsrealmtrans",
+  "filePath": "sources/en/d/dsrealmtrans.py",
+  "className": "DSRealmTranslationsCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Domain expired"
+ },
+ {
+  "key": "lc-035cd89ff16448e5a694739e66f2c262",
+  "label": "dummynovels.com",
+  "language": "en",
+  "origins": [
+   "https://dummynovels.com/"
+  ],
+  "module": "sources.en.d.dummynovels",
+  "filePath": "sources/en/d/dummynovels.py",
+  "className": "DummyNovelsCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-da3872cd062de1c1c998915ebeebca47",
+  "label": "duskblossoms.com",
+  "language": "en",
+  "origins": [
+   "https://duskblossoms.com/"
+  ],
+  "module": "sources.en.d.duskblossoms",
+  "filePath": "sources/en/d/duskblossoms.py",
+  "className": "DuskBlossomsCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-fa8a3bbecfe11f3138b44f752dca94b1",
+  "label": "earlynovel.net",
+  "language": "en",
+  "origins": [
+   "https://earlynovel.net/",
+   "https://mixednovel.net/"
+  ],
+  "module": "sources.en.m.mixednovel",
+  "filePath": "sources/en/m/mixednovel.py",
+  "className": "MixedNovelNet",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-b2b590d7868489f995d41d16042caaab",
+  "label": "eatapplepies.com",
+  "language": "en",
+  "origins": [
+   "https://eatapplepies.com/"
+  ],
+  "module": "sources.en.e.eatapplepies",
+  "filePath": "sources/en/e/eatapplepies.py",
+  "className": "EatApplePiesCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-cb75b2cee07a4ccc1d3997b7491551a0",
+  "label": "ebotnovel.com",
+  "language": "en",
+  "origins": [
+   "https://ebotnovel.com/"
+  ],
+  "module": "sources.en.e.ebotnovel",
+  "filePath": "sources/en/e/ebotnovel.py",
+  "className": "Ebotnovel",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-26190fd5023921b6405b8e91caac7897",
+  "label": "engnovel.com",
+  "language": "en",
+  "origins": [
+   "https://engnovel.com/"
+  ],
+  "module": "sources.en.e.engnovel",
+  "filePath": "sources/en/e/engnovel.py",
+  "className": "EngNovel",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-9bced422fd035564543da14ebe9910c0",
+  "label": "exiledrebelsscanlations.com",
+  "language": "en",
+  "origins": [
+   "https://exiledrebelsscanlations.com/"
+  ],
+  "module": "sources.en.e.exiledrebels",
+  "filePath": "sources/en/e/exiledrebels.py",
+  "className": "ExiledRebelsScanlations",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-553a1e4deba430c68189a6de0f997fa3",
+  "label": "f-w-o.com",
+  "language": "en",
+  "origins": [
+   "https://f-w-o.com/",
+   "https://www.f-w-o.com/"
+  ],
+  "module": "sources.en.f.fantasyworldonline",
+  "filePath": "sources/en/f/fantasyworldonline.py",
+  "className": "FantasyWorldOnline",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-68ea125394ae393a8725a7ddad9c2915",
+  "label": "fanstranslations.com",
+  "language": "en",
+  "origins": [
+   "https://fanstranslations.com/"
+  ],
+  "module": "sources.en.f.fanstrans",
+  "filePath": "sources/en/f/fanstrans.py",
+  "className": "FansTranslations",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-a36f44760b527424ecb888af646cad51",
+  "label": "faqwiki.xyz",
+  "language": "en",
+  "origins": [
+   "https://faqwiki.xyz/"
+  ],
+  "module": "sources.en.f.faqwiki",
+  "filePath": "sources/en/f/faqwiki.py",
+  "className": "FaqWiki",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-4f505623c330fb57ed143b033d0ca01a",
+  "label": "fenrirealm.com",
+  "language": "en",
+  "origins": [
+   "https://fenrirealm.com/"
+  ],
+  "module": "sources.en.f.fenrirealm",
+  "filePath": "sources/en/f/fenrirealm.py",
+  "className": "FenriRealm",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-1f75d359868fc3fdfd7d3167a2f6d668",
+  "label": "fenrirtranslations.com",
+  "language": "en",
+  "origins": [
+   "https://fenrirtranslations.com/"
+  ],
+  "module": "sources.en.f.fenrirtranslations",
+  "filePath": "sources/en/f/fenrirtranslations.py",
+  "className": "FenrirTranslationsCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-94571dee867dc0154801c1bcea907d8c",
+  "label": "freefullnovel.com",
+  "language": "en",
+  "origins": [
+   "https://freefullnovel.com/"
+  ],
+  "module": "sources.en.f.freefullnovel",
+  "filePath": "sources/en/f/freefullnovel.py",
+  "className": "FreeFullNovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-da94a4e97f45ce849e72509864f105fb",
+  "label": "freemanga.me",
+  "language": "en",
+  "origins": [
+   "https://freemanga.me/"
+  ],
+  "module": "sources.en.f.freemanga",
+  "filePath": "sources/en/f/freemanga.py",
+  "className": "FreeMangaCrawler",
+  "search": true,
+  "manga": true,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-060850d5752549642e6f723f7b03bb85",
+  "label": "freewebnovel.com",
+  "language": "en",
+  "origins": [
+   "https://freewebnovel.com/"
+  ],
+  "module": "sources.en.f.freewebnovel",
+  "filePath": "sources/en/f/freewebnovel.py",
+  "className": "FreewebnovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-882e970a2872b8944179a14088aa5138",
+  "label": "fujitranslation.com",
+  "language": "en",
+  "origins": [
+   "https://fujitranslation.com/",
+   "https://www.fujitranslation.com/"
+  ],
+  "module": "sources.en.f.fujitrans",
+  "filePath": "sources/en/f/fujitrans.py",
+  "className": "FujiTranslation",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-88e8bd794a602a55f60223ccf0e21c2e",
+  "label": "fullnovel.live",
+  "language": "en",
+  "origins": [
+   "https://fullnovel.live/"
+  ],
+  "module": "sources.en.f.fullnovellive",
+  "filePath": "sources/en/f/fullnovellive.py",
+  "className": "FullnovelLiveCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "This site can not be reached"
+ },
+ {
+  "key": "lc-42802a18ec158aca5ef5545fd27c435f",
+  "label": "genesistls.com",
+  "language": "en",
+  "origins": [
+   "https://genesistls.com/"
+  ],
+  "module": "sources.en.g.genesistls",
+  "filePath": "sources/en/g/genesistls.py",
+  "className": "GenesisTlsCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-7ee00eff8d03c1118ff08f01e2e2fd4b",
+  "label": "gooseberrytl.wordpress.com",
+  "language": "en",
+  "origins": [
+   "https://gooseberrytl.wordpress.com/"
+  ],
+  "module": "sources.en.g.gooseberrytl",
+  "filePath": "sources/en/g/gooseberrytl.py",
+  "className": "GooseberryTlCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-63513425d38bb46e1eb7ec7104ee700a",
+  "label": "gravitytales.com",
+  "language": "en",
+  "origins": [
+   "https://gravitytales.com/"
+  ],
+  "module": "sources.en.g.gravitytales",
+  "filePath": "sources/en/g/gravitytales.py",
+  "className": "GravityTalesCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-f7b247235e0bd730506737140a4aeed6",
+  "label": "harimanga.com",
+  "language": "en",
+  "origins": [
+   "https://harimanga.com/"
+  ],
+  "module": "sources.en.h.harimanga",
+  "filePath": "sources/en/h/harimanga.py",
+  "className": "HariMangaCrawler",
+  "search": true,
+  "manga": true,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-10ab2866ab125bd79ecfa24d7eee38bf",
+  "label": "hiraethtranslation.com",
+  "language": "en",
+  "origins": [
+   "https://hiraethtranslation.com/"
+  ],
+  "module": "sources.en.h.hiraethtranslation",
+  "filePath": "sources/en/h/hiraethtranslation.py",
+  "className": "HiraethTranslationCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-4882a44c662d96dcda14c3fe33ce4c6b",
+  "label": "home.novel-gate.com",
+  "language": "en",
+  "origins": [
+   "https://home.novel-gate.com/",
+   "https://novelgate.net/"
+  ],
+  "module": "sources.en.n.novelgate",
+  "filePath": "sources/en/n/novelgate.py",
+  "className": "NovelGate",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-b307464543bf11b8218d23fd1a90acc1",
+  "label": "hostednovel.com",
+  "language": "en",
+  "origins": [
+   "https://hostednovel.com/"
+  ],
+  "module": "sources.en.h.hostednovel",
+  "filePath": "sources/en/h/hostednovel.py",
+  "className": "HostedNovelCom",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-f957eaaee7c82a8984497dd22c06a3c7",
+  "label": "hotnovelfull.com",
+  "language": "en",
+  "origins": [
+   "https://hotnovelfull.com/"
+  ],
+  "module": "sources.en.h.hotnovelfull",
+  "filePath": "sources/en/h/hotnovelfull.py",
+  "className": "HotNovelFullCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-6042639f782fb2ae771f6ad0ad666c02",
+  "label": "hui3r.wordpress.com",
+  "language": "en",
+  "origins": [
+   "https://hui3r.wordpress.com/"
+  ],
+  "module": "sources.en.h.hui3r",
+  "filePath": "sources/en/h/hui3r.py",
+  "className": "hui3rCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-1a5bed228319e32fe1f9ba769c722ace",
+  "label": "hyacinthbloom.com",
+  "language": "en",
+  "origins": [
+   "https://hyacinthbloom.com/"
+  ],
+  "module": "sources.en.h.hyacinthbloom",
+  "filePath": "sources/en/h/hyacinthbloom.py",
+  "className": "HyacinthBloomCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-2fb87f4f53ab502608c87560c56ab6ff",
+  "label": "imperfectcomic.org",
+  "language": "en",
+  "origins": [
+   "https://imperfectcomic.org/"
+  ],
+  "module": "sources.en.i.imperfectcomic",
+  "filePath": "sources/en/i/imperfectcomic.py",
+  "className": "ImperfectComicCrawler",
+  "search": true,
+  "manga": true,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-6459128db0862ce2e581885367a822b1",
+  "label": "inadequatetranslations.wordpress.com",
+  "language": "en",
+  "origins": [
+   "https://inadequatetranslations.wordpress.com/"
+  ],
+  "module": "sources.en.i.inadequatetrans",
+  "filePath": "sources/en/i/inadequatetrans.py",
+  "className": "InadequateTranslations",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-379fa903b7a8a3057cc39c221973024c",
+  "label": "infinitenoveltranslations.net",
+  "language": "en",
+  "origins": [
+   "https://infinitenoveltranslations.net/"
+  ],
+  "module": "sources.en.i.infinitetrans",
+  "filePath": "sources/en/i/infinitetrans.py",
+  "className": "InfiniteNovelTranslations",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-4544483aba1bd0876ff1353fa8156827",
+  "label": "innnovel.com",
+  "language": "en",
+  "origins": [
+   "https://innnovel.com/"
+  ],
+  "module": "sources.en.i.innnovel",
+  "filePath": "sources/en/i/innnovel.py",
+  "className": "InnnovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-437fcef4162e011fb70d23fdd85de17c",
+  "label": "innread.com",
+  "language": "en",
+  "origins": [
+   "https://innread.com/"
+  ],
+  "module": "sources.en.i.innread",
+  "filePath": "sources/en/i/innread.py",
+  "className": "InnreadCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-b77849682c9c58037ec5f3a1ebbe817e",
+  "label": "instadoses.com",
+  "language": "en",
+  "origins": [
+   "https://instadoses.com/"
+  ],
+  "module": "sources.en.i.instadoses",
+  "filePath": "sources/en/i/instadoses.py",
+  "className": "InstadosesCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Domain is for sale"
+ },
+ {
+  "key": "lc-b3a0daf462badb8ed769e50bd594c826",
+  "label": "isekaiscan.com",
+  "language": "en",
+  "origins": [
+   "https://isekaiscan.com/"
+  ],
+  "module": "sources.en.i.isekaiscan",
+  "filePath": "sources/en/i/isekaiscan.py",
+  "className": "IsekaiScanCrawler",
+  "search": true,
+  "manga": true,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-0ff3775facd446cc79ad764c1c08685f",
+  "label": "isekaiscan.eu",
+  "language": "en",
+  "origins": [
+   "https://isekaiscan.eu/"
+  ],
+  "module": "sources.en.i.isekaiscaneu",
+  "filePath": "sources/en/i/isekaiscaneu.py",
+  "className": "IsekaiScanEUCrawler",
+  "search": true,
+  "manga": true,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-cfbefe946bd2725fd6bea441389cd888",
+  "label": "isotls.com",
+  "language": "en",
+  "origins": [
+   "https://isotls.com/",
+   "https://www.isotls.com/"
+  ],
+  "module": "sources.en.i.isotls",
+  "filePath": "sources/en/i/isotls.py",
+  "className": "IsotlsCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-bc00301e5eb503dc76dd5640fea79546",
+  "label": "jobnib.com",
+  "language": "en",
+  "origins": [
+   "https://jobnib.com/"
+  ],
+  "module": "sources.en.j.jobnib",
+  "filePath": "sources/en/j/jobnib.py",
+  "className": "JobnibCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-ce3782b8e74529d40ceac950e17fcc4d",
+  "label": "jpmtl.com",
+  "language": "en",
+  "origins": [
+   "https://jpmtl.com/"
+  ],
+  "module": "sources.en.j.jpmtl",
+  "filePath": "sources/en/j/jpmtl.py",
+  "className": "JpmtlCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-25e92f9949277e28e8845817a1160ad2",
+  "label": "jrnovels.com",
+  "language": "en",
+  "origins": [
+   "https://jrnovels.com/"
+  ],
+  "module": "sources.en.j.jrnovels",
+  "filePath": "sources/en/j/jrnovels.py",
+  "className": "JrNovelsCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-f41ce64aa5b7bc4b1a1a8d7e5c97f3ae",
+  "label": "justatranslatortranslations.com",
+  "language": "en",
+  "origins": [
+   "https://justatranslatortranslations.com/"
+  ],
+  "module": "sources.en.j.justatrans",
+  "filePath": "sources/en/j/justatrans.py",
+  "className": "JustATranslatorTranslations",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-254e43a78833387c3c0f0f39c55da667",
+  "label": "kaoritranslation.blogspot.com",
+  "language": "en",
+  "origins": [
+   "https://kaoritranslation.blogspot.com/"
+  ],
+  "module": "sources.en.k.kaoritranslation",
+  "filePath": "sources/en/k/kaoritranslation.py",
+  "className": "KaoriTranslationCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-d138992787c95ecbbcb37bf2aada1379",
+  "label": "katreadingcafe.com",
+  "language": "en",
+  "origins": [
+   "https://katreadingcafe.com/"
+  ],
+  "module": "sources.en.k.katreadingcafe",
+  "filePath": "sources/en/k/katreadingcafe.py",
+  "className": "KatReadingCafeCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-44e5c47a051d374bc07a50e2d6c3d2ad",
+  "label": "king-manga.com",
+  "language": "en",
+  "origins": [
+   "https://king-manga.com/"
+  ],
+  "module": "sources.en.k.kingmanga",
+  "filePath": "sources/en/k/kingmanga.py",
+  "className": "KingMangaCrawler",
+  "search": true,
+  "manga": true,
+  "disabledReason": "Domain is parked and for sale"
+ },
+ {
+  "key": "lc-79900af5de9177d2f8d951aede0507ce",
+  "label": "kinkytranslations.com",
+  "language": "en",
+  "origins": [
+   "https://kinkytranslations.com/"
+  ],
+  "module": "sources.en.k.kinkytranslations",
+  "filePath": "sources/en/k/kinkytranslations.py",
+  "className": "KinkyTranslationsCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-ba41629ee5e4d71c5819966b224df0b0",
+  "label": "kiss-novel.com",
+  "language": "en",
+  "origins": [
+   "https://kiss-novel.com/"
+  ],
+  "module": "sources.en.k.kissnovel",
+  "filePath": "sources/en/k/kissnovel.py",
+  "className": "KissNovelCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-64612e236c9fd0c847da4eaa43f9dc4a",
+  "label": "kissmanga.in",
+  "language": "en",
+  "origins": [
+   "https://kissmanga.in/"
+  ],
+  "module": "sources.en.k.kissmanga",
+  "filePath": "sources/en/k/kissmanga.py",
+  "className": "KissMangaCrawler",
+  "search": true,
+  "manga": true,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-c88801bc55f58e5d2c88474fe124ce6c",
+  "label": "knoxt.space",
+  "language": "en",
+  "origins": [
+   "https://knoxt.space/"
+  ],
+  "module": "sources.en.k.knoxt",
+  "filePath": "sources/en/k/knoxt.py",
+  "className": "KnoxtCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-948407fba332335652a7a733bc7204c8",
+  "label": "konkon.ink",
+  "language": "en",
+  "origins": [
+   "https://konkon.ink/"
+  ],
+  "module": "sources.en.k.konkon",
+  "filePath": "sources/en/k/konkon.py",
+  "className": "KonkonCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-f2d244d167f7c62e0a889f330c84dd37",
+  "label": "ladasblmtl.blogspot.com",
+  "language": "en",
+  "origins": [
+   "https://ladasblmtl.blogspot.com/"
+  ],
+  "module": "sources.en.l.ladasblmtl",
+  "filePath": "sources/en/l/ladasblmtl.py",
+  "className": "LadasBlMtlCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-21720bf86d20e8274a0decbec9d9aae9",
+  "label": "latestnovel.net",
+  "language": "en",
+  "origins": [
+   "https://latestnovel.net/"
+  ],
+  "module": "sources.en.l.latestnovel",
+  "filePath": "sources/en/l/latestnovel.py",
+  "className": "LatestNovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Domain is parked and for sale"
+ },
+ {
+  "key": "lc-eda51d913d2c02b130b30b58d89db274",
+  "label": "lazybirdtranslations.wordpress.com",
+  "language": "en",
+  "origins": [
+   "https://lazybirdtranslations.wordpress.com/"
+  ],
+  "module": "sources.en.l.ladybirdtrans",
+  "filePath": "sources/en/l/ladybirdtrans.py",
+  "className": "lazybirdtranslations",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-1f1bdc059c09aa21e88aba9aba3e8546",
+  "label": "lazygirltranslations.com",
+  "language": "en",
+  "origins": [
+   "https://lazygirltranslations.com/"
+  ],
+  "module": "sources.en.l.lazygirltranslations",
+  "filePath": "sources/en/l/lazygirltranslations.py",
+  "className": "LazyGirlTranslationsCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-706f9da60a1b637f51f612266c6b112b",
+  "label": "leafstudio.site",
+  "language": "en",
+  "origins": [
+   "https://leafstudio.site/"
+  ],
+  "module": "sources.en.l.leafstudio",
+  "filePath": "sources/en/l/leafstudio.py",
+  "className": "LiteroticaCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-2c7ab25d793c57135bddb24484c31fc7",
+  "label": "lemontreetranslations.wordpress.com",
+  "language": "en",
+  "origins": [
+   "https://lemontreetranslations.wordpress.com/"
+  ],
+  "module": "sources.en.l.lemontree",
+  "filePath": "sources/en/l/lemontree.py",
+  "className": "LemonTreeTranslations",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-953012674362e39ca63ebdf32187feb8",
+  "label": "librarynovel.com",
+  "language": "en",
+  "origins": [
+   "https://librarynovel.com/"
+  ],
+  "module": "sources.en.l.librarynovel",
+  "filePath": "sources/en/l/librarynovel.py",
+  "className": "LibraryNovel",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-612bf43dcf79faea5f31b4bcef0daefe",
+  "label": "libread.com",
+  "language": "en",
+  "origins": [
+   "https://libread.com/"
+  ],
+  "module": "sources.en.l.libread_com",
+  "filePath": "sources/en/l/libread_com.py",
+  "className": "LibreadComCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-83a3630b6196498fc631b875dd956823",
+  "label": "libread.org",
+  "language": "en",
+  "origins": [
+   "https://libread.org/"
+  ],
+  "module": "sources.en.l.libread_org",
+  "filePath": "sources/en/l/libread_org.py",
+  "className": "LibreadOrgCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-aa6c630e290987d6918fc5cabf24c9d8",
+  "label": "light-novel.online",
+  "language": "en",
+  "origins": [
+   "https://light-novel.online/"
+  ],
+  "module": "sources.en.l.lightnovelonline",
+  "filePath": "sources/en/l/lightnovelonline.py",
+  "className": "LightNovelOnline",
+  "search": true,
+  "manga": false,
+  "disabledReason": "The domain has expired"
+ },
+ {
+  "key": "lc-f039b3b8981859b404c083325b8b3cfc",
+  "label": "lightnovel.tv",
+  "language": "en",
+  "origins": [
+   "https://lightnovel.tv/"
+  ],
+  "module": "sources.en.l.lightnoveltv",
+  "filePath": "sources/en/l/lightnoveltv.py",
+  "className": "LightNovelTV",
+  "search": true,
+  "manga": false,
+  "disabledReason": "This site can not be reached"
+ },
+ {
+  "key": "lc-996354623c3a1e57a51b5e665ac6ac0e",
+  "label": "lightnovel.world",
+  "language": "en",
+  "origins": [
+   "https://lightnovel.world/"
+  ],
+  "module": "sources.en.l.lightnovelworld",
+  "filePath": "sources/en/l/lightnovelworld.py",
+  "className": "LightNovelWorldCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-7716c4c9d956976324aaab0df7524b35",
+  "label": "lightnovelbastion.com",
+  "language": "en",
+  "origins": [
+   "https://lightnovelbastion.com/"
+  ],
+  "module": "sources.en.l.lightnovelbastion",
+  "filePath": "sources/en/l/lightnovelbastion.py",
+  "className": "LightNovelBastion",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-ce22e18ff263c06d1ea900c5fba764d9",
+  "label": "lightnovelheaven.com",
+  "language": "en",
+  "origins": [
+   "https://lightnovelheaven.com/"
+  ],
+  "module": "sources.en.l.lightnovelheaven",
+  "filePath": "sources/en/l/lightnovelheaven.py",
+  "className": "LightNovelHeaven",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-8030e2e2f9a90e65cfb10f2a3c5b6ed5",
+  "label": "lightnovelkiss.com",
+  "language": "en",
+  "origins": [
+   "https://lightnovelkiss.com/"
+  ],
+  "module": "sources.en.l.lightnovelkiss",
+  "filePath": "sources/en/l/lightnovelkiss.py",
+  "className": "LightNovelKiss",
+  "search": true,
+  "manga": false,
+  "disabledReason": "This site can not be reached"
+ },
+ {
+  "key": "lc-2263d10c38de47cb5647649f94f57dfc",
+  "label": "lightnovelpub.me",
+  "language": "en",
+  "origins": [
+   "https://lightnovelpub.me/",
+   "https://novellive.app/",
+   "https://novellive.org/",
+   "https://noveltrust.com/"
+  ],
+  "module": "sources.en.n.novellive",
+  "filePath": "sources/en/n/novellive.py",
+  "className": "NovelLiveCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-0aac14d9790d3133284ad47865b626b6",
+  "label": "lightnovelpub.org",
+  "language": "en",
+  "origins": [
+   "https://lightnovelpub.org/",
+   "https://www.lightnovelpub.org/"
+  ],
+  "module": "sources.en.l.lightnovelpuborg",
+  "filePath": "sources/en/l/lightnovelpuborg.py",
+  "className": "LightNovelPubOrg",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-d62869404e4b5dd6b19addc645f7fd81",
+  "label": "lightnovelreader.me",
+  "language": "en",
+  "origins": [
+   "https://lightnovelreader.me/",
+   "https://lnreader.org/",
+   "https://readlightnovel.online/",
+   "https://readlitenovel.com/",
+   "https://www.lightnovelreader.me/",
+   "https://www.lnreader.org/"
+  ],
+  "module": "sources.en.l.lightnovelreader",
+  "filePath": "sources/en/l/lightnovelreader.py",
+  "className": "LightnovelReader",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-91c5206fdb455e0ef8ccfc47afc9e342",
+  "label": "lightnovels.live",
+  "language": "en",
+  "origins": [
+   "https://lightnovels.live/",
+   "https://lightnovels.me/"
+  ],
+  "module": "sources.en.l.lightnovelme",
+  "filePath": "sources/en/l/lightnovelme.py",
+  "className": "LightNovelsLive",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-fab0308012aa88d89e91c2fa008940e3",
+  "label": "lightnovelshub.com",
+  "language": "en",
+  "origins": [
+   "https://lightnovelshub.com/"
+  ],
+  "module": "sources.en.l.lightnovelshub",
+  "filePath": "sources/en/l/lightnovelshub.py",
+  "className": "LightNovelsHubCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "No longer provides lightnovels"
+ },
+ {
+  "key": "lc-1f3b1983fc9296a5a57ed7abd5e59546",
+  "label": "lightnovelsonl.com",
+  "language": "en",
+  "origins": [
+   "https://lightnovelsonl.com/"
+  ],
+  "module": "sources.en.l.lightnovelsonl",
+  "filePath": "sources/en/l/lightnovelsonl.py",
+  "className": "LightNovelsOnl",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Redirects to an emoji site"
+ },
+ {
+  "key": "lc-492d028ee4507260f0ea8b1703861104",
+  "label": "lightnovelstranslations.com",
+  "language": "en",
+  "origins": [
+   "https://lightnovelstranslations.com/"
+  ],
+  "module": "sources.en.l.lightnovetrans",
+  "filePath": "sources/en/l/lightnovetrans.py",
+  "className": "LNTCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-627fe3cb4736383d201d89a47e4ad7b7",
+  "label": "listnovel.com",
+  "language": "en",
+  "origins": [
+   "https://listnovel.com/"
+  ],
+  "module": "sources.en.l.listnovel",
+  "filePath": "sources/en/l/listnovel.py",
+  "className": "ListNovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-f1d9a2824b7dba4f9206cbff82143999",
+  "label": "lnmtl.com",
+  "language": "en",
+  "origins": [
+   "https://lnmtl.com/"
+  ],
+  "module": "sources.en.l.lnmtl",
+  "filePath": "sources/en/l/lnmtl.py",
+  "className": "LNMTLCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-d95fc8d01ef7fbee8834201b2c24d3b0",
+  "label": "luminarynovels.com",
+  "language": "en",
+  "origins": [
+   "https://luminarynovels.com/"
+  ],
+  "module": "sources.en.l.luminarynovels",
+  "filePath": "sources/en/l/luminarynovels.py",
+  "className": "Luminarynovels",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-b24d92b2637bcc0cfadeec3de700c43c",
+  "label": "lunarletters.com",
+  "language": "en",
+  "origins": [
+   "https://lunarletters.com/"
+  ],
+  "module": "sources.en.l.lunarletters",
+  "filePath": "sources/en/l/lunarletters.py",
+  "className": "LunarLetters",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-96b9a9c6b35c6960eb5c06ff20918555",
+  "label": "m.readlightnovel.cc",
+  "language": "en",
+  "origins": [
+   "https://m.readlightnovel.cc/",
+   "https://www.readlightnovel.cc/"
+  ],
+  "module": "sources.en.r.readlightnovelcc",
+  "filePath": "sources/en/r/readlightnovelcc.py",
+  "className": "ReadlightnovelCcCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-0b826eeed91f9b60eb5a7802ac9fad2d",
+  "label": "m.webnovel.com",
+  "language": "en",
+  "origins": [
+   "https://m.webnovel.com/",
+   "https://www.webnovel.com/"
+  ],
+  "module": "sources.en.w.webnovel",
+  "filePath": "sources/en/w/webnovel.py",
+  "className": "WebnovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-8cd2d2f2b7696a6cffc29e9aa7820d30",
+  "label": "m.wuxiaworld.co",
+  "language": "en",
+  "origins": [
+   "https://m.wuxiaworld.co/",
+   "https://www.wuxiaworld.co/"
+  ],
+  "module": "sources.en.w.wuxiaworldco",
+  "filePath": "sources/en/w/wuxiaworldco.py",
+  "className": "WuxiaCoCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "This site can not be reached"
+ },
+ {
+  "key": "lc-0e8e034672463f8e9492d33581432c22",
+  "label": "manga-tx.com",
+  "language": "en",
+  "origins": [
+   "https://manga-tx.com/"
+  ],
+  "module": "sources.en.m.manga-tx",
+  "filePath": "sources/en/m/manga-tx.py",
+  "className": "MangaTXCrawler",
+  "search": true,
+  "manga": true,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-3c1b4c63be8ad7052dd5d9dffc8dff9f",
+  "label": "mangabuddy.com",
+  "language": "en",
+  "origins": [
+   "https://mangabuddy.com/"
+  ],
+  "module": "sources.en.m.mangabuddy",
+  "filePath": "sources/en/m/mangabuddy.py",
+  "className": "MangaBuddyCrawler",
+  "search": true,
+  "manga": true,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-5eba5badd93cd6a64d8e7914ccd06ec9",
+  "label": "mangachill.io",
+  "language": "en",
+  "origins": [
+   "https://mangachill.io/",
+   "https://mangachill.love/"
+  ],
+  "module": "sources.en.m.mangachilllove",
+  "filePath": "sources/en/m/mangachilllove.py",
+  "className": "ManhwachillLove",
+  "search": true,
+  "manga": true,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-93de3e1c96ac355b15ce2a916e92552f",
+  "label": "mangarockteam.com",
+  "language": "en",
+  "origins": [
+   "https://mangarockteam.com/"
+  ],
+  "module": "sources.en.m.mangarockteam",
+  "filePath": "sources/en/m/mangarockteam.py",
+  "className": "MangaRockTeamCrawler",
+  "search": true,
+  "manga": true,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-c041d339e40c0ddbb55b7247b67650d8",
+  "label": "mangarosie.love",
+  "language": "en",
+  "origins": [
+   "https://mangarosie.love/",
+   "https://mangarosie.me/",
+   "https://toon69.com/"
+  ],
+  "module": "sources.en.m.mangarosie",
+  "filePath": "sources/en/m/mangarosie.py",
+  "className": "MangaRosieCrawler",
+  "search": true,
+  "manga": true,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-97bdbd497e5d0dd119668b4d00e463ce",
+  "label": "mangastic.net",
+  "language": "en",
+  "origins": [
+   "https://mangastic.net/"
+  ],
+  "module": "sources.en.m.mangastic",
+  "filePath": "sources/en/m/mangastic.py",
+  "className": "MangaStic",
+  "search": true,
+  "manga": true,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-415856eedaf947167f0a965f23b74288",
+  "label": "mangatoon.mobi",
+  "language": "en",
+  "origins": [
+   "https://mangatoon.mobi/"
+  ],
+  "module": "sources.en.m.mangatoon",
+  "filePath": "sources/en/m/mangatoon.py",
+  "className": "MangatoonMobiCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-06d8f1f9c8cb559895614b05d00f4b0b",
+  "label": "mangatx.com",
+  "language": "en",
+  "origins": [
+   "https://mangatx.com/"
+  ],
+  "module": "sources.en.m.mangatx",
+  "filePath": "sources/en/m/mangatx.py",
+  "className": "MangaTx",
+  "search": true,
+  "manga": true,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-e8ad3afbddacf31ce1488a15a3ba9c65",
+  "label": "mangaweebs.in",
+  "language": "en",
+  "origins": [
+   "https://mangaweebs.in/",
+   "https://www.mangaweebs.in/"
+  ],
+  "module": "sources.en.m.mangaweebs",
+  "filePath": "sources/en/m/mangaweebs.py",
+  "className": "MangaWeebsCrawler",
+  "search": true,
+  "manga": true,
+  "disabledReason": "Domain is parked and for sale"
+ },
+ {
+  "key": "lc-f2ee2cffc9ccdc5ca2b830c98f3ce174",
+  "label": "manhuaplus.online",
+  "language": "en",
+  "origins": [
+   "https://manhuaplus.online/"
+  ],
+  "module": "sources.en.m.manhuaplus",
+  "filePath": "sources/en/m/manhuaplus.py",
+  "className": "ManhuaPlus",
+  "search": true,
+  "manga": true,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-27bb62e8ef8bea1fd0e548f27d6288d7",
+  "label": "manhwachill.com",
+  "language": "en",
+  "origins": [
+   "https://manhwachill.com/"
+  ],
+  "module": "sources.en.m.manhwachill",
+  "filePath": "sources/en/m/manhwachill.py",
+  "className": "Manhwachill",
+  "search": true,
+  "manga": true,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-12b5d27e7b6485f2f43285066fd6e339",
+  "label": "maplesan9.wordpress.com",
+  "language": "en",
+  "origins": [
+   "https://maplesan9.wordpress.com/",
+   "https://maplesantl.com/"
+  ],
+  "module": "sources.en.m.maplesantl",
+  "filePath": "sources/en/m/maplesantl.py",
+  "className": "MaplesanTlCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-476949d33eca9f3c86d9d36ecd06147a",
+  "label": "meownovel.com",
+  "language": "en",
+  "origins": [
+   "https://meownovel.com/"
+  ],
+  "module": "sources.en.m.meownovel",
+  "filePath": "sources/en/m/meownovel.py",
+  "className": "MeowNovel",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-9fa4170570f50eaa67f3deb2f6628b48",
+  "label": "miraslation.net",
+  "language": "en",
+  "origins": [
+   "https://miraslation.net/",
+   "https://www.miraslation.net/"
+  ],
+  "module": "sources.en.m.miraslation",
+  "filePath": "sources/en/m/miraslation.py",
+  "className": "Miraslation",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-f091ecff906e560d044de4edbf51b5d0",
+  "label": "mltnovels.com",
+  "language": "en",
+  "origins": [
+   "https://mltnovels.com/"
+  ],
+  "module": "sources.en.m.mltnovels",
+  "filePath": "sources/en/m/mltnovels.py",
+  "className": "MltNovelsCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Redirects to an ad network"
+ },
+ {
+  "key": "lc-09284cbc62997ecae5f719a98d411b28",
+  "label": "mostnovel.com",
+  "language": "en",
+  "origins": [
+   "https://mostnovel.com/"
+  ],
+  "module": "sources.en.m.mostnovel",
+  "filePath": "sources/en/m/mostnovel.py",
+  "className": "MostNovel",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Redirects to a gambling site"
+ },
+ {
+  "key": "lc-6e004bacceb8f1e608fbc84c4ea3aa3b",
+  "label": "mtled-novels.com",
+  "language": "en",
+  "origins": [
+   "https://mtled-novels.com/"
+  ],
+  "module": "sources.en.m.mtlednovels",
+  "filePath": "sources/en/m/mtlednovels.py",
+  "className": "MtledNovelsCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Domain is expired"
+ },
+ {
+  "key": "lc-27bafdcbb20e290b49b512af4fa56ed8",
+  "label": "mtlnation.com",
+  "language": "en",
+  "origins": [
+   "https://mtlnation.com/",
+   "https://www.mtlnation.com/"
+  ],
+  "module": "sources.en.m.mtlnation",
+  "filePath": "sources/en/m/mtlnation.py",
+  "className": "MTLNation",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-60d429e97ac524370768e42640020b05",
+  "label": "mtlreader.com",
+  "language": "en",
+  "origins": [
+   "https://mtlreader.com/",
+   "https://www.mtlreader.com/"
+  ],
+  "module": "sources.en.m.mtlreader",
+  "filePath": "sources/en/m/mtlreader.py",
+  "className": "MtlReaderCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-8b6c736e2b76f350d9f70bb1275065e6",
+  "label": "myboxnovel.com",
+  "language": "en",
+  "origins": [
+   "https://myboxnovel.com/"
+  ],
+  "module": "sources.en.m.myboxnovel",
+  "filePath": "sources/en/m/myboxnovel.py",
+  "className": "MyBoxNovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-778d528e412328260497daade6b0ced7",
+  "label": "mydramanovel.com",
+  "language": "en",
+  "origins": [
+   "https://mydramanovel.com/"
+  ],
+  "module": "sources.en.m.mydramanovel",
+  "filePath": "sources/en/m/mydramanovel.py",
+  "className": "MyDramaNovel",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-73ab91c5ad6784874e2e6c0dfe008894",
+  "label": "myoniyonitranslations.com",
+  "language": "en",
+  "origins": [
+   "https://myoniyonitranslations.com/"
+  ],
+  "module": "sources.en.m.myoniyonitrans",
+  "filePath": "sources/en/m/myoniyonitrans.py",
+  "className": "MyOniyOniTranslation",
+  "search": false,
+  "manga": false,
+  "disabledReason": "This site can not be reached"
+ },
+ {
+  "key": "lc-5742e8ab63765a9a58d68f884677881f",
+  "label": "mysticalmerries.com",
+  "language": "en",
+  "origins": [
+   "https://mysticalmerries.com/"
+  ],
+  "module": "sources.en.m.mysticalmerries",
+  "filePath": "sources/en/m/mysticalmerries.py",
+  "className": "MysticalMerries",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-ff233d08aaced7d1370805374974d19e",
+  "label": "newnovel.org",
+  "language": "en",
+  "origins": [
+   "https://newnovel.org/"
+  ],
+  "module": "sources.en.n.newnovelorg",
+  "filePath": "sources/en/n/newnovelorg.py",
+  "className": "NewNovelOrg",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Redirects to a parked lander"
+ },
+ {
+  "key": "lc-26129b361f9abec717ac6e7d9ec45f0f",
+  "label": "newsite.kolnovel.com",
+  "language": "en",
+  "origins": [
+   "https://newsite.kolnovel.com/"
+  ],
+  "module": "sources.en.k.kolnovelnewsite",
+  "filePath": "sources/en/k/kolnovelnewsite.py",
+  "className": "kolnovelnewsite",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-37f85ec088e81f777e2c3c80a9683903",
+  "label": "noblemtl.com",
+  "language": "en",
+  "origins": [
+   "https://noblemtl.com/"
+  ],
+  "module": "sources.en.n.noblemtl",
+  "filePath": "sources/en/n/noblemtl.py",
+  "className": "NobleMtlCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-7be65430de8da87da2ad50e5fd032cdb",
+  "label": "noicetranslations.blogspot.com",
+  "language": "en",
+  "origins": [
+   "https://noicetranslations.blogspot.com/"
+  ],
+  "module": "sources.en.n.noicetranslations",
+  "filePath": "sources/en/n/noicetranslations.py",
+  "className": "NoiceTranslationsCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-18e5caf28f495670e35ae22bb8fee486",
+  "label": "noobchan.xyz",
+  "language": "en",
+  "origins": [
+   "https://noobchan.xyz/"
+  ],
+  "module": "sources.en.n.noobchan",
+  "filePath": "sources/en/n/noobchan.py",
+  "className": "NoobChanCrawler",
+  "search": true,
+  "manga": true,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-d24292543093bd95f8e2e3145516946e",
+  "label": "novel-bin.com",
+  "language": "en",
+  "origins": [
+   "https://novel-bin.com/",
+   "https://novelbin.me/"
+  ],
+  "module": "sources.en.n.novel-bin",
+  "filePath": "sources/en/n/novel-bin.py",
+  "className": "Novel_Bin",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-454f36a459a33a236947403a1c325215",
+  "label": "novel-bin.net",
+  "language": "en",
+  "origins": [
+   "https://novel-bin.net/"
+  ],
+  "module": "sources.en.n.novel-bin.net",
+  "filePath": "sources/en/n/novel-bin.net.py",
+  "className": "Novel_Bin_Net",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-f60aa7c971bb0335d2c33a1c2fdb703b",
+  "label": "novel27.com",
+  "language": "en",
+  "origins": [
+   "https://novel27.com/"
+  ],
+  "module": "sources.en.n.novel27",
+  "filePath": "sources/en/n/novel27.py",
+  "className": "Novel27",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-d71416b3d6a2976500b4201ea49b1192",
+  "label": "novel35.com",
+  "language": "en",
+  "origins": [
+   "https://novel35.com/"
+  ],
+  "module": "sources.en.n.novel35",
+  "filePath": "sources/en/n/novel35.py",
+  "className": "Novel35Crawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-e339def85464e4e44c530393c72df16f",
+  "label": "novelarrow.com",
+  "language": "en",
+  "origins": [
+   "https://novelarrow.com/"
+  ],
+  "module": "sources.en.n.novelarrow",
+  "filePath": "sources/en/n/novelarrow.py",
+  "className": "NovelArrowCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-2ed9cb604dd9c98184d59839fc67e3b4",
+  "label": "novelbin.com",
+  "language": "en",
+  "origins": [
+   "https://novelbin.com/"
+  ],
+  "module": "sources.en.n.novelbin",
+  "filePath": "sources/en/n/novelbin.py",
+  "className": "NovelbinCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-bafc106a130f54bcb73d600c1e335668",
+  "label": "novelbin.net",
+  "language": "en",
+  "origins": [
+   "https://novelbin.net/"
+  ],
+  "module": "sources.en.n.novelbin.net",
+  "filePath": "sources/en/n/novelbin.net.py",
+  "className": "Novelbin_Net",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-c0a3610807e73628eb7808e2fb29c820",
+  "label": "novelbuddy.com",
+  "language": "en",
+  "origins": [
+   "https://novelbuddy.com/",
+   "https://novelbuddy.io/",
+   "https://novelbuddy.me/"
+  ],
+  "module": "sources.en.n.novelbuddy",
+  "filePath": "sources/en/n/novelbuddy.py",
+  "className": "NovelbuddyCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-3573b3c47863ab579da2898c3815b1dc",
+  "label": "novelcake.com",
+  "language": "en",
+  "origins": [
+   "https://novelcake.com/"
+  ],
+  "module": "sources.en.n.novelcake",
+  "filePath": "sources/en/n/novelcake.py",
+  "className": "NovelCakeCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-363ad1bbd637d87a0ecef68931479d2c",
+  "label": "novelcrush.com",
+  "language": "en",
+  "origins": [
+   "https://novelcrush.com/"
+  ],
+  "module": "sources.en.n.novelcrush",
+  "filePath": "sources/en/n/novelcrush.py",
+  "className": "NovelCrush",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-56aa7cc70c505f99e9a10ec7c56b689b",
+  "label": "novelfire.net",
+  "language": "en",
+  "origins": [
+   "https://novelfire.net/"
+  ],
+  "module": "sources.en.n.novelfire",
+  "filePath": "sources/en/n/novelfire.py",
+  "className": "NovelFireCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-0280d2ad55af148cebbcc23b01f76501",
+  "label": "novelfull.com",
+  "language": "en",
+  "origins": [
+   "https://novelfull.com/",
+   "https://novelfull.net/"
+  ],
+  "module": "sources.en.n.novelfull",
+  "filePath": "sources/en/n/novelfull.py",
+  "className": "NovelFullCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-a21eb73f2e5922898c377acd9a8924dc",
+  "label": "novelfull.me",
+  "language": "en",
+  "origins": [
+   "https://novelfull.me/"
+  ],
+  "module": "sources.en.n.novelfullme",
+  "filePath": "sources/en/n/novelfullme.py",
+  "className": "NovelFullMeCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-fc6b874f756ae5696e493e10159e0b82",
+  "label": "novelfulll.com",
+  "language": "en",
+  "origins": [
+   "https://novelfulll.com/"
+  ],
+  "module": "sources.en.n.novelfulll",
+  "filePath": "sources/en/n/novelfulll.py",
+  "className": "NovelFulllCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-ac7e4c91d8a1418d87decb6972921ba8",
+  "label": "novelfullplus.com",
+  "language": "en",
+  "origins": [
+   "https://novelfullplus.com/"
+  ],
+  "module": "sources.en.n.novelfullplus",
+  "filePath": "sources/en/n/novelfullplus.py",
+  "className": "NovelFullPlus",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-c49b0bc4dfdbc0a5ba4011796d8c6716",
+  "label": "novelhard.com",
+  "language": "en",
+  "origins": [
+   "https://novelhard.com/"
+  ],
+  "module": "sources.en.n.novelhard",
+  "filePath": "sources/en/n/novelhard.py",
+  "className": "NovelHardCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-a267150da8cc9a8e2d521b8a364e9318",
+  "label": "novelhi.com",
+  "language": "en",
+  "origins": [
+   "https://novelhi.com/"
+  ],
+  "module": "sources.en.n.novelhi",
+  "filePath": "sources/en/n/novelhi.py",
+  "className": "NovelHiCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-6d101b60d76f6240be29d5b995526296",
+  "label": "novelhulk.com",
+  "language": "en",
+  "origins": [
+   "https://novelhulk.com/"
+  ],
+  "module": "sources.en.n.novelhulk",
+  "filePath": "sources/en/n/novelhulk.py",
+  "className": "NovelHulkCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-b9ff1e5f9a4a4fab67f84a7569f426e6",
+  "label": "novelight.net",
+  "language": "en",
+  "origins": [
+   "https://novelight.net/"
+  ],
+  "module": "sources.en.n.novelight",
+  "filePath": "sources/en/n/novelight.py",
+  "className": "NoveLightCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-5a169ce97e3cdb89e9e7bee6ac280bcb",
+  "label": "novellatte.blogspot.com",
+  "language": "en",
+  "origins": [
+   "https://novellatte.blogspot.com/"
+  ],
+  "module": "sources.en.n.novellatte",
+  "filePath": "sources/en/n/novellatte.py",
+  "className": "NovellatteCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-96f83af29e2c29a3b4788ef63a85e39b",
+  "label": "novelmao.com",
+  "language": "en",
+  "origins": [
+   "https://novelmao.com/"
+  ],
+  "module": "sources.en.n.novelmao",
+  "filePath": "sources/en/n/novelmao.py",
+  "className": "NovelMaoCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-e3f7698add308802aa14e4c56e3ebadf",
+  "label": "novelmic.com",
+  "language": "en",
+  "origins": [
+   "https://novelmic.com/"
+  ],
+  "module": "sources.en.n.novelmic",
+  "filePath": "sources/en/n/novelmic.py",
+  "className": "NovelMic",
+  "search": true,
+  "manga": true,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-bbf23c6909b2017c480d74b541f727a0",
+  "label": "novelnext.com",
+  "language": "en",
+  "origins": [
+   "https://novelnext.com/",
+   "https://novelnext.dramanovels.io/"
+  ],
+  "module": "sources.en.n.novelnext",
+  "filePath": "sources/en/n/novelnext.py",
+  "className": "NovelNextCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Flagged by Cloudflare as suspected phishing"
+ },
+ {
+  "key": "lc-8908956bdc33f334ba74c9e176a32e77",
+  "label": "novelnextz.com",
+  "language": "en",
+  "origins": [
+   "https://novelnextz.com/"
+  ],
+  "module": "sources.en.n.novelnextz",
+  "filePath": "sources/en/n/novelnextz.py",
+  "className": "Novelnextz",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-140dd9754c94c6fdc4809368764dd336",
+  "label": "novelonlinefree.com",
+  "language": "en",
+  "origins": [
+   "https://novelonlinefree.com/"
+  ],
+  "module": "sources.en.n.novelonlinefree",
+  "filePath": "sources/en/n/novelonlinefree.py",
+  "className": "NovelOnlineFree",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-c74d6665e4708b8ae9d664da3a3216c0",
+  "label": "novelonlinefull.com",
+  "language": "en",
+  "origins": [
+   "https://novelonlinefull.com/"
+  ],
+  "module": "sources.en.n.novelonlinefull",
+  "filePath": "sources/en/n/novelonlinefull.py",
+  "className": "NovelOnlineFullCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-30de658a792c6660925500d64c6b32af",
+  "label": "novelphoenix.com",
+  "language": "en",
+  "origins": [
+   "https://novelphoenix.com/"
+  ],
+  "module": "sources.en.n.novelphoenix",
+  "filePath": "sources/en/n/novelphoenix.py",
+  "className": "NovelPhoenixCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-3e948153a54936efb17416bdee8dad96",
+  "label": "novelplanet.com",
+  "language": "en",
+  "origins": [
+   "https://novelplanet.com/"
+  ],
+  "module": "sources.en.n.novelplanet",
+  "filePath": "sources/en/n/novelplanet.py",
+  "className": "NovelPlanetCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is closed"
+ },
+ {
+  "key": "lc-d8ed056fd221ba852f089f6af8ba8082",
+  "label": "novelrare.com",
+  "language": "en",
+  "origins": [
+   "https://novelrare.com/"
+  ],
+  "module": "sources.en.n.novelrare",
+  "filePath": "sources/en/n/novelrare.py",
+  "className": "NovelrareCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-c49ac64da129be24f3711488431bd67d",
+  "label": "novelraw.blogspot.com",
+  "language": "en",
+  "origins": [
+   "https://novelraw.blogspot.com/"
+  ],
+  "module": "sources.en.n.novelraw",
+  "filePath": "sources/en/n/novelraw.py",
+  "className": "NovelRawCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site closed down"
+ },
+ {
+  "key": "lc-5e962751f7928b75a7bbfd7a777fd629",
+  "label": "novels.pl",
+  "language": "en",
+  "origins": [
+   "https://novels.pl/",
+   "https://www.novels.pl/"
+  ],
+  "module": "sources.en.n.novelspl",
+  "filePath": "sources/en/n/novelspl.py",
+  "className": "NovelsPlCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-5031dd51721c403f939fe4be16be7993",
+  "label": "novelsala.com",
+  "language": "en",
+  "origins": [
+   "https://novelsala.com/"
+  ],
+  "module": "sources.en.n.novelsala",
+  "filePath": "sources/en/n/novelsala.py",
+  "className": "NovelSalaCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-2e821530e241683b8d193ac84fe6e17a",
+  "label": "novelsemperor.com",
+  "language": "en",
+  "origins": [
+   "https://novelsemperor.com/"
+  ],
+  "module": "sources.en.n.novelsemperor",
+  "filePath": "sources/en/n/novelsemperor.py",
+  "className": "NovelsEmperorCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-f781d05d88d3a46075cc92b06eee2236",
+  "label": "novelsite.net",
+  "language": "en",
+  "origins": [
+   "https://novelsite.net/"
+  ],
+  "module": "sources.en.n.novelsite",
+  "filePath": "sources/en/n/novelsite.py",
+  "className": "NovelSiteCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-501a9aa027d2fb448ae39be45a197473",
+  "label": "novelsonline.net",
+  "language": "en",
+  "origins": [
+   "https://novelsonline.net/"
+  ],
+  "module": "sources.en.n.novelsonline",
+  "filePath": "sources/en/n/novelsonline.py",
+  "className": "NovelsOnline",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-59d8da9ccd86ffbcb71b553fbaac9423",
+  "label": "novelsrock.com",
+  "language": "en",
+  "origins": [
+   "https://novelsrock.com/"
+  ],
+  "module": "sources.en.n.novelsrock",
+  "filePath": "sources/en/n/novelsrock.py",
+  "className": "NovelsRockCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Web server is down"
+ },
+ {
+  "key": "lc-cbc322b4740b2c09ec225b2ae7e4d6dc",
+  "label": "noveltranslate.com",
+  "language": "en",
+  "origins": [
+   "https://noveltranslate.com/"
+  ],
+  "module": "sources.en.n.noveltranslate",
+  "filePath": "sources/en/n/noveltranslate.py",
+  "className": "NovelTranslateCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-62774b17e3ec70d4dfbe9882ee9df1d7",
+  "label": "novelww.com",
+  "language": "en",
+  "origins": [
+   "https://novelww.com/"
+  ],
+  "module": "sources.en.n.novelww",
+  "filePath": "sources/en/n/novelww.py",
+  "className": "Eight88NovelCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-1d78beb13d701b6310bc6152034c596e",
+  "label": "novelzec.com",
+  "language": "en",
+  "origins": [
+   "https://novelzec.com/"
+  ],
+  "module": "sources.en.n.novelzec",
+  "filePath": "sources/en/n/novelzec.py",
+  "className": "NovelZec",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Redirects to a gambling site"
+ },
+ {
+  "key": "lc-5d23959dc1b4b41d75e4ad11cc057341",
+  "label": "novlove.com",
+  "language": "en",
+  "origins": [
+   "https://novlove.com/"
+  ],
+  "module": "sources.en.n.novlove",
+  "filePath": "sources/en/n/novlove.py",
+  "className": "Novlove",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-d4dc7d0c2307a840f5092791e22069ad",
+  "label": "nyx-translation.com",
+  "language": "en",
+  "origins": [
+   "https://nyx-translation.com/",
+   "https://nyxtranslation.home.blog/"
+  ],
+  "module": "sources.en.n.nyxtranslation",
+  "filePath": "sources/en/n/nyxtranslation.py",
+  "className": "NYXTranslation",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-fa7216db5ff15861641181a4fd8fcdfe",
+  "label": "omgnovels.com",
+  "language": "en",
+  "origins": [
+   "https://omgnovels.com/"
+  ],
+  "module": "sources.en.o.omgnovels",
+  "filePath": "sources/en/o/omgnovels.py",
+  "className": "OMGNovelsCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-3890be59af50b4db88afdedbfa728062",
+  "label": "oniichanyamete.moe",
+  "language": "en",
+  "origins": [
+   "https://oniichanyamete.moe/"
+  ],
+  "module": "sources.en.o.oniichanyamete",
+  "filePath": "sources/en/o/oniichanyamete.py",
+  "className": "OniichanYameteCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-c5dbd0d90bee5b2d6160aa2cf9c558b6",
+  "label": "ontimestory.eu",
+  "language": "en",
+  "origins": [
+   "https://ontimestory.eu/"
+  ],
+  "module": "sources.en.o.ontimestory",
+  "filePath": "sources/en/o/ontimestory.py",
+  "className": "OnTimeStoryCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-36fffc8377909bd4fd2390c7d8672894",
+  "label": "otakutl.blogspot.com",
+  "language": "en",
+  "origins": [
+   "https://otakutl.blogspot.com/"
+  ],
+  "module": "sources.en.o.otakutl",
+  "filePath": "sources/en/o/otakutl.py",
+  "className": "OtakuTranslationCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-37b709840058582e0ee5079ec747f6a4",
+  "label": "overabook.com",
+  "language": "en",
+  "origins": [
+   "https://overabook.com/"
+  ],
+  "module": "sources.en.o.overabook",
+  "filePath": "sources/en/o/overabook.py",
+  "className": "OverABook",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-01cf9208491c01cddc4d65eca910e663",
+  "label": "pandamtl.com",
+  "language": "en",
+  "origins": [
+   "https://pandamtl.com/"
+  ],
+  "module": "sources.en.p.pandamtl",
+  "filePath": "sources/en/p/pandamtl.py",
+  "className": "PandaMtlCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-c98577fef91275679f4c42584c906d4a",
+  "label": "pandanovel.co",
+  "language": "en",
+  "origins": [
+   "https://pandanovel.co/"
+  ],
+  "module": "sources.en.p.pandanovelco",
+  "filePath": "sources/en/p/pandanovelco.py",
+  "className": "PandaNovelCo",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-112637cae05685994a06e33581f4fca8",
+  "label": "pandanovel.org",
+  "language": "en",
+  "origins": [
+   "https://pandanovel.org/"
+  ],
+  "module": "sources.en.p.pandanovelorg",
+  "filePath": "sources/en/p/pandanovelorg.py",
+  "className": "Pandanovelorg",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Domain is parked and for sale"
+ },
+ {
+  "key": "lc-7dfb1e3bdddd378665d14af31192d83a",
+  "label": "peachpitting.com",
+  "language": "en",
+  "origins": [
+   "https://peachpitting.com/"
+  ],
+  "module": "sources.en.p.peachpitting",
+  "filePath": "sources/en/p/peachpitting.py",
+  "className": "PeachPittingCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-32623d94a44b47efc7d00c8521bb7972",
+  "label": "penguin-squad.com",
+  "language": "en",
+  "origins": [
+   "https://penguin-squad.com/"
+  ],
+  "module": "sources.en.p.penguinsquad",
+  "filePath": "sources/en/p/penguinsquad.py",
+  "className": "PenguinSquadCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-bd4059cebafe071b01e7ced15d174075",
+  "label": "pery.info",
+  "language": "en",
+  "origins": [
+   "https://pery.info/"
+  ],
+  "module": "sources.en.p.peryinfo",
+  "filePath": "sources/en/p/peryinfo.py",
+  "className": "PeryInfo",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-f6e1b35b51110846f6c081d6d26c1576",
+  "label": "pianmanga.com",
+  "language": "en",
+  "origins": [
+   "https://pianmanga.com/"
+  ],
+  "module": "sources.en.p.pianmanga",
+  "filePath": "sources/en/p/pianmanga.py",
+  "className": "PianMangaCrawler",
+  "search": true,
+  "manga": true,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-0a06d2a98cda9b3cb76bced19753fa18",
+  "label": "puretl.com",
+  "language": "en",
+  "origins": [
+   "https://puretl.com/"
+  ],
+  "module": "sources.en.p.puretl",
+  "filePath": "sources/en/p/puretl.py",
+  "className": "PureTL",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-bf61d3e34d97aebf7a38930c4269e6f9",
+  "label": "r18novel.com",
+  "language": "en",
+  "origins": [
+   "https://r18novel.com/"
+  ],
+  "module": "sources.en.r.r18novel",
+  "filePath": "sources/en/r/r18novel.py",
+  "className": "R18NovelCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-148cbbcf994a267d1a5df82c263b93ff",
+  "label": "raeitranslations.com",
+  "language": "en",
+  "origins": [
+   "https://raeitranslations.com/"
+  ],
+  "module": "sources.en.r.raeitranslations",
+  "filePath": "sources/en/r/raeitranslations.py",
+  "className": "RaeiTranslationsCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-0e5c181d0c8bf5dd84ac5b5c348a9ee2",
+  "label": "randomnovel.com",
+  "language": "en",
+  "origins": [
+   "https://randomnovel.com/"
+  ],
+  "module": "sources.en.r.randomnovel",
+  "filePath": "sources/en/r/randomnovel.py",
+  "className": "RandomNovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-258340a1925835bbd2033a38fb658d32",
+  "label": "ranobes.net",
+  "language": "en",
+  "origins": [
+   "https://ranobes.net/",
+   "https://ranobes.top/"
+  ],
+  "module": "sources.en.r.ranobes",
+  "filePath": "sources/en/r/ranobes.py",
+  "className": "RanobeLibCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-3519343beb8629554c0960ee8fe9c05e",
+  "label": "re-library.com",
+  "language": "en",
+  "origins": [
+   "https://re-library.com/"
+  ],
+  "module": "sources.en.r.relibrary",
+  "filePath": "sources/en/r/relibrary.py",
+  "className": "ReLibraryCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-ab66fa7e2eb0c07627e2cd6d28337c5d",
+  "label": "read.asianovel.com",
+  "language": "en",
+  "origins": [
+   "https://read.asianovel.com/"
+  ],
+  "module": "sources.en.a.asianovel",
+  "filePath": "sources/en/a/asianovel.py",
+  "className": "AsianNovelCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Connection timed out"
+ },
+ {
+  "key": "lc-13731ad27f3abb8a72932375df633b1f",
+  "label": "readlightnovel.me",
+  "language": "en",
+  "origins": [
+   "https://readlightnovel.me/",
+   "https://readlightnovel.today/",
+   "https://www.readlightnovel.me/",
+   "https://www.readlightnovel.today/"
+  ],
+  "module": "sources.en.r.readlightnovelorg",
+  "filePath": "sources/en/r/readlightnovelorg.py",
+  "className": "ReadLightNovelCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-443d2e33a6a48198c7d09b5db584f2bd",
+  "label": "readmtl.com",
+  "language": "en",
+  "origins": [
+   "https://readmtl.com/"
+  ],
+  "module": "sources.en.r.readmtl",
+  "filePath": "sources/en/r/readmtl.py",
+  "className": "Readmtl",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-b2c77d2e9de9270e05fd80bc6fafc8f4",
+  "label": "readnovelfull.com",
+  "language": "en",
+  "origins": [
+   "https://readnovelfull.com/"
+  ],
+  "module": "sources.en.r.readnovelfull",
+  "filePath": "sources/en/r/readnovelfull.py",
+  "className": "ReadNovelFullCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-d48563a8f65b7ecb0a0c952080bf8423",
+  "label": "readnovelz.net",
+  "language": "en",
+  "origins": [
+   "https://readnovelz.net/"
+  ],
+  "module": "sources.en.r.readnovelz",
+  "filePath": "sources/en/r/readnovelz.py",
+  "className": "ReadNovelzCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Redirects to webnovelonline.net"
+ },
+ {
+  "key": "lc-ecba53c371e28a036e4ae2befdfbd68a",
+  "label": "readonlinenovels.com",
+  "language": "en",
+  "origins": [
+   "https://readonlinenovels.com/"
+  ],
+  "module": "sources.en.r.readonlinenovels",
+  "filePath": "sources/en/r/readonlinenovels.py",
+  "className": "ReadOnlineNovelsCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-f1e373edd51f45b653ce0b4aa88bf838",
+  "label": "readwebnovels.net",
+  "language": "en",
+  "origins": [
+   "https://readwebnovels.net/"
+  ],
+  "module": "sources.en.r.readwebnovels",
+  "filePath": "sources/en/r/readwebnovels.py",
+  "className": "ReadWebNovels",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-f8daa513089b83880d8b56dc38daa625",
+  "label": "reaperscans.com",
+  "language": "en",
+  "origins": [
+   "https://reaperscans.com/"
+  ],
+  "module": "sources.en.r.reaperscans",
+  "filePath": "sources/en/r/reaperscans.py",
+  "className": "Reaperscans",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-1606e4d94f723a4d2f234ee60be3b89f",
+  "label": "reincarnationpalace.com",
+  "language": "en",
+  "origins": [
+   "https://reincarnationpalace.com/"
+  ],
+  "module": "sources.en.r.reincarnationpalace",
+  "filePath": "sources/en/r/reincarnationpalace.py",
+  "className": "ReincarnationPalace",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-7215dee3512e01adc9b02aea0c931bd8",
+  "label": "requiemtls.com",
+  "language": "en",
+  "origins": [
+   "https://requiemtls.com/"
+  ],
+  "module": "sources.en.r.requiemtls",
+  "filePath": "sources/en/r/requiemtls.py",
+  "className": "RequieMtlsCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-9bc138429d6b38c87e0fbfd9f4ee9175",
+  "label": "revengernovel.com",
+  "language": "en",
+  "origins": [
+   "https://revengernovel.com/"
+  ],
+  "module": "sources.en.r.revengernovel",
+  "filePath": "sources/en/r/revengernovel.py",
+  "className": "RevengerNovelCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-d37ecb5158dd9515c7150ee270ae2807",
+  "label": "rpgnoob.wordpress.com",
+  "language": "en",
+  "origins": [
+   "https://rpgnoob.wordpress.com/",
+   "https://rpgnovels.com/"
+  ],
+  "module": "sources.en.r.rpgnovels",
+  "filePath": "sources/en/r/rpgnovels.py",
+  "className": "RPGNovels",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-c8a1283684bf0ab5c28179d1067ca086",
+  "label": "rubymaybetranslations.com",
+  "language": "en",
+  "origins": [
+   "https://rubymaybetranslations.com/"
+  ],
+  "module": "sources.en.r.rubymaybetranslations",
+  "filePath": "sources/en/r/rubymaybetranslations.py",
+  "className": "RubyMaybeTranslationsCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-84323c23803baa07f4db8c24b8e2152d",
+  "label": "sammyandpassion.com",
+  "language": "en",
+  "origins": [
+   "https://sammyandpassion.com/"
+  ],
+  "module": "sources.en.s.sammyandpassion",
+  "filePath": "sources/en/s/sammyandpassion.py",
+  "className": "SammyAndPassionCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-e9b31ec6675b3c7aa40e5de602be4ccf",
+  "label": "secondlifetranslations.com",
+  "language": "en",
+  "origins": [
+   "https://secondlifetranslations.com/"
+  ],
+  "module": "sources.en.s.secondlifetranslations",
+  "filePath": "sources/en/s/secondlifetranslations.py",
+  "className": "SecondLifeTransCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-6b98f85858ddf421d121cadf7658e89b",
+  "label": "shalvationtranslations.wordpress.com",
+  "language": "en",
+  "origins": [
+   "https://shalvationtranslations.wordpress.com/"
+  ],
+  "module": "sources.en.s.shalvation",
+  "filePath": "sources/en/s/shalvation.py",
+  "className": "ShalvationTranslations",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-4d76ceebea4dc7c655cf625c49729f72",
+  "label": "shanghaifantasy.com",
+  "language": "en",
+  "origins": [
+   "https://shanghaifantasy.com/"
+  ],
+  "module": "sources.en.s.shanghaifantasy",
+  "filePath": "sources/en/s/shanghaifantasy.py",
+  "className": "Shanghaifantasy",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-cd770c3dec16c8258150f753574e607a",
+  "label": "silvernekoscanlations.home.blog",
+  "language": "en",
+  "origins": [
+   "https://silvernekoscanlations.home.blog/"
+  ],
+  "module": "sources.en.s.silvernekoscanlations",
+  "filePath": "sources/en/s/silvernekoscanlations.py",
+  "className": "SilverNekoScanlationsCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-ca6ec52c4708a78679667b8953914766",
+  "label": "skydemonorder.com",
+  "language": "en",
+  "origins": [
+   "https://skydemonorder.com/"
+  ],
+  "module": "sources.en.s.skydemonorder",
+  "filePath": "sources/en/s/skydemonorder.py",
+  "className": "SkyDemonOrder",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-e1602513b7f38e408aa28db1b28e01ee",
+  "label": "skynovel.org",
+  "language": "en",
+  "origins": [
+   "https://skynovel.org/"
+  ],
+  "module": "sources.en.s.skynovel",
+  "filePath": "sources/en/s/skynovel.py",
+  "className": "SkyNovel",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-8a0629e1b468715f6c8a17551e59fb98",
+  "label": "sleepytranslations.com",
+  "language": "en",
+  "origins": [
+   "https://sleepytranslations.com/"
+  ],
+  "module": "sources.en.s.sleepytrans",
+  "filePath": "sources/en/s/sleepytrans.py",
+  "className": "SleepyTranslations",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-75ee1725f9ee99303f56c0a720b2dff0",
+  "label": "smnovels.com",
+  "language": "en",
+  "origins": [
+   "https://smnovels.com/"
+  ],
+  "module": "sources.en.s.smnovels",
+  "filePath": "sources/en/s/smnovels.py",
+  "className": "SMNovelsCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-17abbacdca693c9de4b2f0854b7ecf94",
+  "label": "snowycodex.com",
+  "language": "en",
+  "origins": [
+   "https://snowycodex.com/"
+  ],
+  "module": "sources.en.i.snowycodex",
+  "filePath": "sources/en/i/snowycodex.py",
+  "className": "SnowyCodexCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-1923c3044c9bf0f77e7535bf2709bbab",
+  "label": "sonicmtl.com",
+  "language": "en",
+  "origins": [
+   "https://sonicmtl.com/",
+   "https://www.sonicmtl.com/"
+  ],
+  "module": "sources.en.s.sonicmtl",
+  "filePath": "sources/en/s/sonicmtl.py",
+  "className": "SonicMTLCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-cf6ba2cb7d72abe517eb69e50826530c",
+  "label": "stabbingwithasyringe.home.blog",
+  "language": "en",
+  "origins": [
+   "https://stabbingwithasyringe.home.blog/"
+  ],
+  "module": "sources.en.s.stabbingwithasyringe",
+  "filePath": "sources/en/s/stabbingwithasyringe.py",
+  "className": "StabbingWithASyringeCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-25de9a17a16cba0d5723272ddf0da469",
+  "label": "steambunlightnovel.com",
+  "language": "en",
+  "origins": [
+   "https://steambunlightnovel.com/"
+  ],
+  "module": "sources.en.s.steambun",
+  "filePath": "sources/en/s/steambun.py",
+  "className": "SteambunCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "No longer provides lightnovels"
+ },
+ {
+  "key": "lc-96fb78ca0175ae0b681549ab74391500",
+  "label": "supernovel.net",
+  "language": "en",
+  "origins": [
+   "https://supernovel.net/"
+  ],
+  "module": "sources.en.s.supernovel",
+  "filePath": "sources/en/s/supernovel.py",
+  "className": "SuperNovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Domain is parked and for sale"
+ },
+ {
+  "key": "lc-54b2134df1ae40fa2431d3dbaeae7510",
+  "label": "systemtranslation.com",
+  "language": "en",
+  "origins": [
+   "https://systemtranslation.com/"
+  ],
+  "module": "sources.en.s.systemtranslation",
+  "filePath": "sources/en/s/systemtranslation.py",
+  "className": "SystemTranslationCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-2ace19d8e9d5fcd9cb07633dbd33f3a3",
+  "label": "tamagotl.com",
+  "language": "en",
+  "origins": [
+   "https://tamagotl.com/"
+  ],
+  "module": "sources.en.t.tamagotl",
+  "filePath": "sources/en/t/tamagotl.py",
+  "className": "TamagoTlCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-007db4ebaac30099fabd9ed0dd0bc76f",
+  "label": "tigertranslations.org",
+  "language": "en",
+  "origins": [
+   "https://tigertranslations.org/"
+  ],
+  "module": "sources.en.t.tigertranslations",
+  "filePath": "sources/en/t/tigertranslations.py",
+  "className": "TigerTranslations",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-acadea99677d4598694f38d8a2f65f35",
+  "label": "tipnovel.com",
+  "language": "en",
+  "origins": [
+   "https://tipnovel.com/"
+  ],
+  "module": "sources.en.t.tipnovel",
+  "filePath": "sources/en/t/tipnovel.py",
+  "className": "TipNovel",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-9591bd7d5879c896eed4c8d924bbb0a3",
+  "label": "toc.qidianunderground.org",
+  "language": "en",
+  "origins": [
+   "https://toc.qidianunderground.org/",
+   "https://tocqidianunderground.blogspot.com/"
+  ],
+  "module": "sources.en.q.qidianunderground",
+  "filePath": "sources/en/q/qidianunderground.py",
+  "className": "QidianComCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-684f365dff79a527c05a4cf9dbcdf6a9",
+  "label": "tomotranslations.com",
+  "language": "en",
+  "origins": [
+   "https://tomotranslations.com/"
+  ],
+  "module": "sources.en.t.tomotrans",
+  "filePath": "sources/en/t/tomotrans.py",
+  "className": "TomoTransCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-17f6d132e79f314365a63bb7c8911e97",
+  "label": "toonily.com",
+  "language": "en",
+  "origins": [
+   "https://toonily.com/"
+  ],
+  "module": "sources.en.t.toonily",
+  "filePath": "sources/en/t/toonily.py",
+  "className": "Toonily",
+  "search": true,
+  "manga": true,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-0c7c2e3402f3e65996191f95a9324aa8",
+  "label": "totallytranslations.com",
+  "language": "en",
+  "origins": [
+   "https://totallytranslations.com/"
+  ],
+  "module": "sources.en.t.totallytranslations",
+  "filePath": "sources/en/t/totallytranslations.py",
+  "className": "TotallyTranslations",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-6aec071f1d0928d8fd19e0810d1fe6c0",
+  "label": "translatinotaku.net",
+  "language": "en",
+  "origins": [
+   "https://translatinotaku.net/"
+  ],
+  "module": "sources.en.t.translatinotaku",
+  "filePath": "sources/en/t/translatinotaku.py",
+  "className": "TranslatinOtakuCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-d860b0ed4e19b6623caa8e885ed8617c",
+  "label": "travistranslations.com",
+  "language": "en",
+  "origins": [
+   "https://travistranslations.com/"
+  ],
+  "module": "sources.en.t.travistranslations",
+  "filePath": "sources/en/t/travistranslations.py",
+  "className": "TravisTranslations",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-30d477a0bbe8bd4ab13820db980dea14",
+  "label": "tunovelaligera.com",
+  "language": "en",
+  "origins": [
+   "https://tunovelaligera.com/"
+  ],
+  "module": "sources.en.t.tunovelaligera",
+  "filePath": "sources/en/t/tunovelaligera.py",
+  "className": "Tunovelaligera",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Broken. Chapters does not load"
+ },
+ {
+  "key": "lc-77dd1cb914997fd330f25d90c0eb3441",
+  "label": "usefulnovel.com",
+  "language": "en",
+  "origins": [
+   "https://usefulnovel.com/"
+  ],
+  "module": "sources.en.u.usefulnovel",
+  "filePath": "sources/en/u/usefulnovel.py",
+  "className": "UsefulNovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-1c0248d58c99c957b3a6758479592e4e",
+  "label": "veratales.com",
+  "language": "en",
+  "origins": [
+   "https://veratales.com/"
+  ],
+  "module": "sources.en.v.veratales",
+  "filePath": "sources/en/v/veratales.py",
+  "className": "VeraTales",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-ab0997345afbbf107939385562d2e75c",
+  "label": "viewnovel.net",
+  "language": "en",
+  "origins": [
+   "https://viewnovel.net/"
+  ],
+  "module": "sources.en.v.viewnovel",
+  "filePath": "sources/en/v/viewnovel.py",
+  "className": "ViewNovel",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-b681bae9d672f066abdfd904b90903b8",
+  "label": "vipnovel.com",
+  "language": "en",
+  "origins": [
+   "https://vipnovel.com/"
+  ],
+  "module": "sources.en.v.vipnovel",
+  "filePath": "sources/en/v/vipnovel.py",
+  "className": "VipNovel",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-6ff1fc8b0503c4706cf1c293f01eceb6",
+  "label": "vistranslations.wordpress.com",
+  "language": "en",
+  "origins": [
+   "https://vistranslations.wordpress.com/"
+  ],
+  "module": "sources.en.v.vistrans",
+  "filePath": "sources/en/v/vistrans.py",
+  "className": "VisTranslations",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-f2fb3f7e2b4a434aae14fea2e7a4ac0b",
+  "label": "wanderinginn.com",
+  "language": "en",
+  "origins": [
+   "https://wanderinginn.com/"
+  ],
+  "module": "sources.en.w.wanderinginn",
+  "filePath": "sources/en/w/wanderinginn.py",
+  "className": "WanderingInnCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-361e6df883161262013a258d3f814440",
+  "label": "webnovelonline.com",
+  "language": "en",
+  "origins": [
+   "https://webnovelonline.com/"
+  ],
+  "module": "sources.en.w.webnovelonlinecom",
+  "filePath": "sources/en/w/webnovelonlinecom.py",
+  "className": "WebnovelOnlineDotComCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-c93af5b4dae2688bbbd2b15758c05289",
+  "label": "webnovelonline.net",
+  "language": "en",
+  "origins": [
+   "https://webnovelonline.net/"
+  ],
+  "module": "sources.en.w.webnovelonlinenet",
+  "filePath": "sources/en/w/webnovelonlinenet.py",
+  "className": "WebNovelOnlineNet",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-a03224c0dcce86ee958513dc4a3738e0",
+  "label": "webnoveltranslations.com",
+  "language": "en",
+  "origins": [
+   "https://webnoveltranslations.com/"
+  ],
+  "module": "sources.en.w.webnoveltranslations",
+  "filePath": "sources/en/w/webnoveltranslations.py",
+  "className": "WebNovelTranslationsCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-ee45fdee34228e35374bef20e26f1291",
+  "label": "whatsawhizzerwebnovels.com",
+  "language": "en",
+  "origins": [
+   "https://whatsawhizzerwebnovels.com/"
+  ],
+  "module": "sources.en.w.whatsawhizzerwebnovels",
+  "filePath": "sources/en/w/whatsawhizzerwebnovels.py",
+  "className": "WhatsAWhizzerCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-f20577bc6d82c109f6f3491ff7cff274",
+  "label": "whitemoonlightnovels.com",
+  "language": "en",
+  "origins": [
+   "https://whitemoonlightnovels.com/"
+  ],
+  "module": "sources.en.w.whitemoonlightnovels",
+  "filePath": "sources/en/w/whitemoonlightnovels.py",
+  "className": "NovelsEmperorCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-9110b676d1c560cd4517d3028a05f01b",
+  "label": "wnmtl.org",
+  "language": "en",
+  "origins": [
+   "https://wnmtl.org/",
+   "https://www.wnmtl.org/"
+  ],
+  "module": "sources.en.w.wnmtl",
+  "filePath": "sources/en/w/wnmtl.py",
+  "className": "WNMTLCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-ddc1a97042ce27288bb2ef76d953ff5f",
+  "label": "wondernovels.com",
+  "language": "en",
+  "origins": [
+   "https://wondernovels.com/"
+  ],
+  "module": "sources.en.w.wondernovels",
+  "filePath": "sources/en/w/wondernovels.py",
+  "className": "WonderNovels",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-572c9e7726855af8c82c96eae95bdbce",
+  "label": "woopread.com",
+  "language": "en",
+  "origins": [
+   "https://woopread.com/"
+  ],
+  "module": "sources.en.w.woopread",
+  "filePath": "sources/en/w/woopread.py",
+  "className": "WoopReadCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-981189e81806e656b847f0fede91e76a",
+  "label": "wordexcerpt.com",
+  "language": "en",
+  "origins": [
+   "https://wordexcerpt.com/"
+  ],
+  "module": "sources.en.w.wordexcerpt",
+  "filePath": "sources/en/w/wordexcerpt.py",
+  "className": "WordExcerptCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-20e282561fbaef71139321304749f9bb",
+  "label": "wordrain69.com",
+  "language": "en",
+  "origins": [
+   "https://wordrain69.com/"
+  ],
+  "module": "sources.en.w.wordrain",
+  "filePath": "sources/en/w/wordrain.py",
+  "className": "WordRain",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-9434b36f8b1a1e336c782eda41596f0d",
+  "label": "writerupdates.com",
+  "language": "en",
+  "origins": [
+   "https://writerupdates.com/"
+  ],
+  "module": "sources.en.w.writerupdates",
+  "filePath": "sources/en/w/writerupdates.py",
+  "className": "WriterUpdates",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-71453266e3c9d5a57e3f7a2338c21f09",
+  "label": "wspadancewichita.com",
+  "language": "en",
+  "origins": [
+   "https://wspadancewichita.com/"
+  ],
+  "module": "sources.en.w.wspadancewichita",
+  "filePath": "sources/en/w/wspadancewichita.py",
+  "className": "wspadancewichita",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site closed and moved to https://readnovelfull.com/"
+ },
+ {
+  "key": "lc-d375eebcfa3368076c48770673145f60",
+  "label": "wujizun.com",
+  "language": "en",
+  "origins": [
+   "https://wujizun.com/"
+  ],
+  "module": "sources.en.w.wujizun",
+  "filePath": "sources/en/w/wujizun.py",
+  "className": "Wujizun",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-2f200f37898738b81b83a592d1bc8d9e",
+  "label": "wuxia.city",
+  "language": "en",
+  "origins": [
+   "https://wuxia.city/"
+  ],
+  "module": "sources.en.w.wuxiacity",
+  "filePath": "sources/en/w/wuxiacity.py",
+  "className": "WuxiaCityCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-351ed9a0f61e105b5181061896b65bbb",
+  "label": "wuxia.click",
+  "language": "en",
+  "origins": [
+   "https://wuxia.click/"
+  ],
+  "module": "sources.en.w.wuxiaclick",
+  "filePath": "sources/en/w/wuxiaclick.py",
+  "className": "WuxiaClick",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-0f7e43385d8525edeec92928c94844d8",
+  "label": "wuxiaworld.io",
+  "language": "en",
+  "origins": [
+   "https://wuxiaworld.io/",
+   "https://wuxiaworld.name/"
+  ],
+  "module": "sources.en.w.wuxiaworldio",
+  "filePath": "sources/en/w/wuxiaworldio.py",
+  "className": "WuxiaWorldIo",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-6592fc7a4ac2ba5200630413aa74ec00",
+  "label": "wuxiaworld.live",
+  "language": "en",
+  "origins": [
+   "https://wuxiaworld.live/"
+  ],
+  "module": "sources.en.w.wuxiaworldlive",
+  "filePath": "sources/en/w/wuxiaworldlive.py",
+  "className": "WuxiaWorldLive",
+  "search": true,
+  "manga": false,
+  "disabledReason": "The domain has expired"
+ },
+ {
+  "key": "lc-af8d29fdb4caf2b8d63fff14902bbfa1",
+  "label": "wuxiaworld.online",
+  "language": "en",
+  "origins": [
+   "https://wuxiaworld.online/"
+  ],
+  "module": "sources.en.w.wuxiaonline",
+  "filePath": "sources/en/w/wuxiaonline.py",
+  "className": "WuxiaOnlineCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-f6a2ddc4fa58c02b33fd0856a628554c",
+  "label": "wuxiaworld.site",
+  "language": "en",
+  "origins": [
+   "https://wuxiaworld.site/"
+  ],
+  "module": "sources.en.w.wuxiaworldsite",
+  "filePath": "sources/en/w/wuxiaworldsite.py",
+  "className": "WuxiaWorldSiteCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-3b5d5f9a340c7a02fd6ac9465f73aa0a",
+  "label": "wuxiaworldsite.co",
+  "language": "en",
+  "origins": [
+   "https://wuxiaworldsite.co/"
+  ],
+  "module": "sources.en.w.wuxiaworldsite_co",
+  "filePath": "sources/en/w/wuxiaworldsite_co.py",
+  "className": "WuxiaSiteCo",
+  "search": false,
+  "manga": false,
+  "disabledReason": "No longer provides lightnovels"
+ },
+ {
+  "key": "lc-2fb215ad4e4e258d2b44707b67199b96",
+  "label": "www.asianhobbyist.com",
+  "language": "en",
+  "origins": [
+   "https://www.asianhobbyist.com/"
+  ],
+  "module": "sources.en.a.asianhobbyist",
+  "filePath": "sources/en/a/asianhobbyist.py",
+  "className": "AsianHobbyistCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-ac87e43e23ae0349c3cdaf47608a0523",
+  "label": "www.asianovel.net",
+  "language": "en",
+  "origins": [
+   "https://www.asianovel.net/",
+   "https://www.wuxiasky.net/"
+  ],
+  "module": "sources.en.a.asianovel_net",
+  "filePath": "sources/en/a/asianovel_net.py",
+  "className": "AsiaNovelNetCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-a375091b010af879d84679320a82e223",
+  "label": "www.blackbox-tl.com",
+  "language": "en",
+  "origins": [
+   "https://www.blackbox-tl.com/"
+  ],
+  "module": "sources.en.b.blackboxtl",
+  "filePath": "sources/en/b/blackboxtl.py",
+  "className": "BlackboxTL",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-abda17a81676a2dfe46916929f64b929",
+  "label": "www.box-novel.com",
+  "language": "en",
+  "origins": [
+   "https://www.box-novel.com/"
+  ],
+  "module": "sources.en.b.boxnovelcom",
+  "filePath": "sources/en/b/boxnovelcom.py",
+  "className": "BoxNovelComCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-99d74f61db7c6a8b4ed3c73b703f4db6",
+  "label": "www.centinni.com",
+  "language": "en",
+  "origins": [
+   "https://www.centinni.com/"
+  ],
+  "module": "sources.en.c.centinni",
+  "filePath": "sources/en/c/centinni.py",
+  "className": "Centinni",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-1cfe31cb41f5bdd6287dde4da36a442a",
+  "label": "www.chereads.com",
+  "language": "en",
+  "origins": [
+   "https://www.chereads.com/"
+  ],
+  "module": "sources.en.c.chereads",
+  "filePath": "sources/en/c/chereads.py",
+  "className": "ChereadsCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-7fcea3dc8ec80eaba1b14a9528ee66ac",
+  "label": "www.chickengege.org",
+  "language": "en",
+  "origins": [
+   "https://www.chickengege.org/"
+  ],
+  "module": "sources.en.c.chickengege",
+  "filePath": "sources/en/c/chickengege.py",
+  "className": "ChickenGegeCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-50d2d0e5c0239fb8c0a1031fe0102c1f",
+  "label": "www.divinedaolibrary.com",
+  "language": "en",
+  "origins": [
+   "https://www.divinedaolibrary.com/"
+  ],
+  "module": "sources.en.d.divinedaolibrary",
+  "filePath": "sources/en/d/divinedaolibrary.py",
+  "className": "DivineDaoLibrary",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-14aaaf5ffaea6a3d3fb3bf29df292e6b",
+  "label": "www.fanfiction.net",
+  "language": "en",
+  "origins": [
+   "https://www.fanfiction.net/"
+  ],
+  "module": "sources.en.f.fanfiction",
+  "filePath": "sources/en/f/fanfiction.py",
+  "className": "FanFictionCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-ac58f2f9c01e3a844372f0ab4ff75244",
+  "label": "www.fanmtl.com",
+  "language": "en",
+  "origins": [
+   "https://www.fanmtl.com/",
+   "https://www.fansmtl.com/"
+  ],
+  "module": "sources.en.f.fanmtl",
+  "filePath": "sources/en/f/fanmtl.py",
+  "className": "FanMTLCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-91342afbe191ee00acce8634c299517d",
+  "label": "www.fansmtl.com",
+  "language": "en",
+  "origins": [
+   "https://www.fansmtl.com/"
+  ],
+  "module": "sources.en.f.fansmtl",
+  "filePath": "sources/en/f/fansmtl.py",
+  "className": "FansMtlCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Unavailable in the pinned crawler catalog"
+ },
+ {
+  "key": "lc-ed2e10ed53d06b93305e8a2425f9645d",
+  "label": "www.fictionpress.com",
+  "language": "en",
+  "origins": [
+   "https://www.fictionpress.com/"
+  ],
+  "module": "sources.en.f.fictionpress",
+  "filePath": "sources/en/f/fictionpress.py",
+  "className": "FictionPressCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-de68310ccc657297706130bb9b29e81f",
+  "label": "www.flying-lines.com",
+  "language": "en",
+  "origins": [
+   "https://www.flying-lines.com/"
+  ],
+  "module": "sources.en.f.flyinglines",
+  "filePath": "sources/en/f/flyinglines.py",
+  "className": "FlyingLinesCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-9c2c45c62bfb5d2de35568c08c62d706",
+  "label": "www.foxteller.com",
+  "language": "en",
+  "origins": [
+   "https://www.foxteller.com/"
+  ],
+  "module": "sources.en.f.foxteller",
+  "filePath": "sources/en/f/foxteller.py",
+  "className": "FoxtellerCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-ea98b579de48d8e8f7e2e83d63b34760",
+  "label": "www.freelightnovel.com",
+  "language": "en",
+  "origins": [
+   "https://www.freelightnovel.com/"
+  ],
+  "module": "sources.en.f.freelightnovel",
+  "filePath": "sources/en/f/freelightnovel.py",
+  "className": "FreeLightNovel",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-79abef15af222c0e7ab747982173e106",
+  "label": "www.fringecapybara.com",
+  "language": "en",
+  "origins": [
+   "https://www.fringecapybara.com/"
+  ],
+  "module": "sources.en.f.fringecapybara",
+  "filePath": "sources/en/f/fringecapybara.py",
+  "className": "Fringecapybara",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-8f7f72ace19c82386eb52e8bfba54f51",
+  "label": "www.fuyuneko.org",
+  "language": "en",
+  "origins": [
+   "https://www.fuyuneko.org/"
+  ],
+  "module": "sources.en.f.fuyuneko",
+  "filePath": "sources/en/f/fuyuneko.py",
+  "className": "Fuyuneko",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-edfd1d261a3192253dc01102ad390010",
+  "label": "www.hanyunovels.site",
+  "language": "en",
+  "origins": [
+   "https://www.hanyunovels.site/"
+  ],
+  "module": "sources.en.h.hanyunovels",
+  "filePath": "sources/en/h/hanyunovels.py",
+  "className": "HanyuNovels",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-51b588db41a7eb83b304e8e9aa98d01b",
+  "label": "www.inkitt.com",
+  "language": "en",
+  "origins": [
+   "https://www.inkitt.com/"
+  ],
+  "module": "sources.en.i.inkitt",
+  "filePath": "sources/en/i/inkitt.py",
+  "className": "InkittCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-6329b14af68285bc3e5152a108fb9e79",
+  "label": "www.kitenovel.com",
+  "language": "en",
+  "origins": [
+   "https://www.kitenovel.com/"
+  ],
+  "module": "sources.en.k.kitenovel",
+  "filePath": "sources/en/k/kitenovel.py",
+  "className": "KiteNovel",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-ca31a23e6da08484aeb12ddd82c405a1",
+  "label": "www.koreanmtl.online",
+  "language": "en",
+  "origins": [
+   "https://www.koreanmtl.online/"
+  ],
+  "module": "sources.en.k.koreanmtl",
+  "filePath": "sources/en/k/koreanmtl.py",
+  "className": "LightNovelsOnl",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-ef158013639c66bcbf56bb219a5bd73e",
+  "label": "www.lightnovelmeta.com",
+  "language": "en",
+  "origins": [
+   "https://www.lightnovelmeta.com/"
+  ],
+  "module": "sources.en.l.lightnovelmeta",
+  "filePath": "sources/en/l/lightnovelmeta.py",
+  "className": "LightNovelMetaCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Redirects to an ad network"
+ },
+ {
+  "key": "lc-0b40091408c2c844766719c43456c7d0",
+  "label": "www.lightnovelpub.com",
+  "language": "en",
+  "origins": [
+   "https://www.lightnovelpub.com/"
+  ],
+  "module": "sources.en.l.lightnovelpub",
+  "filePath": "sources/en/l/lightnovelpub.py",
+  "className": "LightnovelpubCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Platform has been terminated"
+ },
+ {
+  "key": "lc-1dd0b748f7d44c826b6278f90a03f89e",
+  "label": "www.lightnovelworld.com",
+  "language": "en",
+  "origins": [
+   "https://www.lightnovelworld.com/"
+  ],
+  "module": "sources.en.l.lightnovelworld.com",
+  "filePath": "sources/en/l/lightnovelworld.com.py",
+  "className": "LightnovelworldComCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Platform has been shut down"
+ },
+ {
+  "key": "lc-dcec8e25f9345d9bb8468a18d22b5c92",
+  "label": "www.literotica.com",
+  "language": "en",
+  "origins": [
+   "https://www.literotica.com/"
+  ],
+  "module": "sources.en.l.literotica",
+  "filePath": "sources/en/l/literotica.py",
+  "className": "LiteroticaCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-194137d61b560bbf41dbff305a8b4c5e",
+  "label": "www.ltnovel.com",
+  "language": "en",
+  "origins": [
+   "https://www.ltnovel.com/"
+  ],
+  "module": "sources.en.l.ltnovel",
+  "filePath": "sources/en/l/ltnovel.py",
+  "className": "LtNovel",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Domain is parked and for sale"
+ },
+ {
+  "key": "lc-598ae504ce3d551436ea09d25f422d31",
+  "label": "www.machine-translation.org",
+  "language": "en",
+  "origins": [
+   "https://www.machine-translation.org/"
+  ],
+  "module": "sources.en.m.machinetransorg",
+  "filePath": "sources/en/m/machinetransorg.py",
+  "className": "MachineTransOrg",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-10e3cf3270c83027d4ab4c8fe21e17af",
+  "label": "www.machineslicedbread.xyz",
+  "language": "en",
+  "origins": [
+   "https://www.machineslicedbread.xyz/"
+  ],
+  "module": "sources.en.m.machineslicedbread",
+  "filePath": "sources/en/m/machineslicedbread.py",
+  "className": "MachineSlicedBreadCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-08397dc360194ddba62e4be04d47de82",
+  "label": "www.mangaread.org",
+  "language": "en",
+  "origins": [
+   "https://www.mangaread.org/"
+  ],
+  "module": "sources.en.m.mangaread",
+  "filePath": "sources/en/m/mangaread.py",
+  "className": "MangaReadCrawler",
+  "search": true,
+  "manga": true,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-0fbb37ebbef1710adfd7583b599c6fb4",
+  "label": "www.meganovel.com",
+  "language": "en",
+  "origins": [
+   "https://www.meganovel.com/"
+  ],
+  "module": "sources.en.m.meganovel",
+  "filePath": "sources/en/m/meganovel.py",
+  "className": "MegaNovelCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-a2b914d92f26e020ea1ad327257502df",
+  "label": "www.mvlempyr.com",
+  "language": "en",
+  "origins": [
+   "https://www.mvlempyr.com/",
+   "https://www.mvlempyr.io/"
+  ],
+  "module": "sources.en.m.mvlempyr",
+  "filePath": "sources/en/m/mvlempyr.py",
+  "className": "MVLEmpyrCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-110b1c21d0cef3dd844e82440f8d78d8",
+  "label": "www.neosekaitranslations.com",
+  "language": "en",
+  "origins": [
+   "https://www.neosekaitranslations.com/"
+  ],
+  "module": "sources.en.n.neosekaitranslations",
+  "filePath": "sources/en/n/neosekaitranslations.py",
+  "className": "NeoSekaiCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-a2af5771d4a3dc547a1bbe8eb6b6a642",
+  "label": "www.newsnovel.net",
+  "language": "en",
+  "origins": [
+   "https://www.newsnovel.net/"
+  ],
+  "module": "sources.en.n.newsnovel",
+  "filePath": "sources/en/n/newsnovel.py",
+  "className": "NewsNovelCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-1ea87aef76c7aed329e9f3463dc2b2e1",
+  "label": "www.nobadnovel.com",
+  "language": "en",
+  "origins": [
+   "https://www.nobadnovel.com/"
+  ],
+  "module": "sources.en.n.nobadnovel",
+  "filePath": "sources/en/n/nobadnovel.py",
+  "className": "NoBadNovelCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-de42ce5cc52f570ae0479f10aecbf1c6",
+  "label": "www.novelall.com",
+  "language": "en",
+  "origins": [
+   "https://www.novelall.com/"
+  ],
+  "module": "sources.en.n.novelall",
+  "filePath": "sources/en/n/novelall.py",
+  "className": "NovelAllCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-9e2742c39f51ddf98c85831bc58ce8a1",
+  "label": "www.novelcool.com",
+  "language": "en",
+  "origins": [
+   "https://www.novelcool.com/"
+  ],
+  "module": "sources.en.n.novelcool",
+  "filePath": "sources/en/n/novelcool.py",
+  "className": "NovelCool",
+  "search": true,
+  "manga": true,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-9c2af34c302d110c6d06fa9e7db71f11",
+  "label": "www.novelfull.in",
+  "language": "en",
+  "origins": [
+   "https://www.novelfull.in/"
+  ],
+  "module": "sources.en.n.novelfullin",
+  "filePath": "sources/en/n/novelfullin.py",
+  "className": "NovelFullInCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-0353bbad51cf3b322d8337f245cc5c42",
+  "label": "www.novelhall.com",
+  "language": "en",
+  "origins": [
+   "https://www.novelhall.com/"
+  ],
+  "module": "sources.en.n.novelhall",
+  "filePath": "sources/en/n/novelhall.py",
+  "className": "NovelHallCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-b4f4c1a58d6d2d867e58278161c9ff60",
+  "label": "www.novelhunters.com",
+  "language": "en",
+  "origins": [
+   "https://www.novelhunters.com/"
+  ],
+  "module": "sources.en.n.novelhunters",
+  "filePath": "sources/en/n/novelhunters.py",
+  "className": "NovelHunters",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-f6e4935e872fe2aa778daeefe13ad59c",
+  "label": "www.novelmt.com",
+  "language": "en",
+  "origins": [
+   "https://www.novelmt.com/"
+  ],
+  "module": "sources.en.n.novelmt",
+  "filePath": "sources/en/n/novelmt.py",
+  "className": "NovelMtCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-0ac5eac1056062fe8aedee7507317a6e",
+  "label": "www.novelmtl.com",
+  "language": "en",
+  "origins": [
+   "https://www.novelmtl.com/"
+  ],
+  "module": "sources.en.n.novelmtl",
+  "filePath": "sources/en/n/novelmtl.py",
+  "className": "NovelMTLCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-7410d3acf5baa267ecb42773f840bafd",
+  "label": "www.novelmultiverse.com",
+  "language": "en",
+  "origins": [
+   "https://www.novelmultiverse.com/"
+  ],
+  "module": "sources.en.n.novelmultiverse",
+  "filePath": "sources/en/n/novelmultiverse.py",
+  "className": "NovelMultiverseCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-29cb853d88173754f570b0dd3d55500a",
+  "label": "www.novelpassion.com",
+  "language": "en",
+  "origins": [
+   "https://www.novelpassion.com/"
+  ],
+  "module": "sources.en.n.novelpassion",
+  "filePath": "sources/en/n/novelpassion.py",
+  "className": "NovelPassion",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-3b5a595f838a5670fa00fae753d8e5bb",
+  "label": "www.novelpub.com",
+  "language": "en",
+  "origins": [
+   "https://www.novelpub.com/"
+  ],
+  "module": "sources.en.n.novelpub",
+  "filePath": "sources/en/n/novelpub.py",
+  "className": "NovelpubCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-bb43f6ac5c1db0aa38b67ff1820784ac",
+  "label": "www.novelspread.com",
+  "language": "en",
+  "origins": [
+   "https://www.novelspread.com/"
+  ],
+  "module": "sources.en.n.novelspread",
+  "filePath": "sources/en/n/novelspread.py",
+  "className": "NovelSpreadCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-27f4cd66a5e169ba49dec32bac6a99ec",
+  "label": "www.noveluniverse.com",
+  "language": "en",
+  "origins": [
+   "https://www.noveluniverse.com/"
+  ],
+  "module": "sources.en.n.noveluniverse",
+  "filePath": "sources/en/n/noveluniverse.py",
+  "className": "NovelUniverseCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-ab5e6692cab4784c74023daa7036bc79",
+  "label": "www.novelupdates.cc",
+  "language": "en",
+  "origins": [
+   "https://www.novelupdates.cc/"
+  ],
+  "module": "sources.en.n.novelupdatescc",
+  "filePath": "sources/en/n/novelupdatescc.py",
+  "className": "NovelUpdatesCC",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-f32f562b6137410b914913e22e45d114",
+  "label": "www.novelv.com",
+  "language": "en",
+  "origins": [
+   "https://www.novelv.com/"
+  ],
+  "module": "sources.en.n.novelv",
+  "filePath": "sources/en/n/novelv.py",
+  "className": "NovelvCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-e3dde6b1f9d156edfc0239db6215d05b",
+  "label": "www.oppatranslations.com",
+  "language": "en",
+  "origins": [
+   "https://www.oppatranslations.com/"
+  ],
+  "module": "sources.en.o.oppatranslations",
+  "filePath": "sources/en/o/oppatranslations.py",
+  "className": "OppaTranslationsCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Unavailable in the pinned crawler catalog"
+ },
+ {
+  "key": "lc-f57d2a47e8dbf9ad7d1cf03daf0c0947",
+  "label": "www.oppatranslations.com",
+  "language": "en",
+  "origins": [
+   "https://www.oppatranslations.com/"
+  ],
+  "module": "sources.en.o.oppatrans",
+  "filePath": "sources/en/o/oppatrans.py",
+  "className": "OppaTranslations",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-97bb1ad87adcfc56d002f9c38f0bf2ee",
+  "label": "www.ornovel.com",
+  "language": "en",
+  "origins": [
+   "https://www.ornovel.com/"
+  ],
+  "module": "sources.en.o.ornovel",
+  "filePath": "sources/en/o/ornovel.py",
+  "className": "OrNovel",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-930238810d342d233fb3e2fcfb33088d",
+  "label": "www.pandamanga.xyz",
+  "language": "en",
+  "origins": [
+   "https://www.pandamanga.xyz/"
+  ],
+  "module": "sources.en.p.pandamanga",
+  "filePath": "sources/en/p/pandamanga.py",
+  "className": "PandaMangaxyzCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-d640938bfa63f359f714ebe430ea1d22",
+  "label": "www.readwn.com",
+  "language": "en",
+  "origins": [
+   "https://www.readwn.com/",
+   "https://www.wuxiap.com/"
+  ],
+  "module": "sources.en.r.readwn",
+  "filePath": "sources/en/r/readwn.py",
+  "className": "ReadWNCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-4bd05b6cabb76ce6308f8b94aca5dec4",
+  "label": "www.rebirth.online",
+  "language": "en",
+  "origins": [
+   "https://www.rebirth.online/"
+  ],
+  "module": "sources.en.r.rebirthonline",
+  "filePath": "sources/en/r/rebirthonline.py",
+  "className": "RebirthOnlineCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Redrects to https://foxteller.com/"
+ },
+ {
+  "key": "lc-f17ad25dda43ba6b13369444ce48543b",
+  "label": "www.royalroad.com",
+  "language": "en",
+  "origins": [
+   "https://www.royalroad.com/"
+  ],
+  "module": "sources.en.r.royalroad",
+  "filePath": "sources/en/r/royalroad.py",
+  "className": "RoyalRoadCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-59ddd8952893c7d9bb4cb4667ca23249",
+  "label": "www.scribblehub.com",
+  "language": "en",
+  "origins": [
+   "https://www.scribblehub.com/"
+  ],
+  "module": "sources.en.s.scribblehub",
+  "filePath": "sources/en/s/scribblehub.py",
+  "className": "ScribbleHubCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-cd0ab4b92c67c58ecd7d369ee100365d",
+  "label": "www.shinsori.com",
+  "language": "en",
+  "origins": [
+   "https://www.shinsori.com/"
+  ],
+  "module": "sources.en.s.shinsori",
+  "filePath": "sources/en/s/shinsori.py",
+  "className": "ShinsoriCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "This site can not be reached"
+ },
+ {
+  "key": "lc-ee3f7c8bf48bd5fe41d93d9bb9b89e5e",
+  "label": "www.tapread.com",
+  "language": "en",
+  "origins": [
+   "https://www.tapread.com/"
+  ],
+  "module": "sources.en.t.tapread",
+  "filePath": "sources/en/t/tapread.py",
+  "className": "TapreadCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-a60b4c093c0362e260075695a09708b2",
+  "label": "www.teanovel.com",
+  "language": "en",
+  "origins": [
+   "https://www.teanovel.com/"
+  ],
+  "module": "sources.en.t.teanovel",
+  "filePath": "sources/en/t/teanovel.py",
+  "className": "TeaNovelCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-a953e516832eea7495b7135ee3e7cdc8",
+  "label": "www.topmanhua.com",
+  "language": "en",
+  "origins": [
+   "https://www.topmanhua.com/"
+  ],
+  "module": "sources.en.t.topmanhua",
+  "filePath": "sources/en/t/topmanhua.py",
+  "className": "TopManhua",
+  "search": true,
+  "manga": true,
+  "disabledReason": "Redirects to an ad network"
+ },
+ {
+  "key": "lc-2feb37c7c12ab57ebe6a59d3f1fe1213",
+  "label": "www.translateindo.com",
+  "language": "en",
+  "origins": [
+   "https://www.translateindo.com/"
+  ],
+  "module": "sources.en.t.translateindo",
+  "filePath": "sources/en/t/translateindo.py",
+  "className": "TranslateIndoCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-287ce97823e85ce64ff4165291b4515b",
+  "label": "www.virlyce.com",
+  "language": "en",
+  "origins": [
+   "https://www.virlyce.com/"
+  ],
+  "module": "sources.en.v.virlyce",
+  "filePath": "sources/en/v/virlyce.py",
+  "className": "Virlyce",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-64a5d77a65f0cc43d813263aa3ec2497",
+  "label": "www.volarenovels.com",
+  "language": "en",
+  "origins": [
+   "https://www.volarenovels.com/"
+  ],
+  "module": "sources.en.v.volarenovels",
+  "filePath": "sources/en/v/volarenovels.py",
+  "className": "VolareNovelsCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-42117b4f9a73504ae888604c9e1b4bd9",
+  "label": "www.webnovelpub.com",
+  "language": "en",
+  "origins": [
+   "https://www.webnovelpub.com/",
+   "https://www.webnovelpub.pro/"
+  ],
+  "module": "sources.en.w.webnovelpub",
+  "filePath": "sources/en/w/webnovelpub.py",
+  "className": "WebnovelpubCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-683b4e894fb37cb99bb354b1f176b92d",
+  "label": "www.webtoons.com",
+  "language": "en",
+  "origins": [
+   "https://www.webtoons.com/"
+  ],
+  "module": "sources.en.w.webtoon",
+  "filePath": "sources/en/w/webtoon.py",
+  "className": "WebToonsCrawler",
+  "search": true,
+  "manga": true,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-9ef480afe5f01543c855a0b5381a5441",
+  "label": "www.wuxia.blog",
+  "language": "en",
+  "origins": [
+   "https://www.wuxia.blog/"
+  ],
+  "module": "sources.en.w.wuxiablog",
+  "filePath": "sources/en/w/wuxiablog.py",
+  "className": "WuxiaBlogCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-ef87f7a0cd90061014f7b9895a89969b",
+  "label": "www.wuxiabox.com",
+  "language": "en",
+  "origins": [
+   "https://www.wuxiabox.com/"
+  ],
+  "module": "sources.en.w.wuxiabox",
+  "filePath": "sources/en/w/wuxiabox.py",
+  "className": "Wuxiabox",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-0b960940845f5d9e054cc2e165deb1cd",
+  "label": "www.wuxiahub.com",
+  "language": "en",
+  "origins": [
+   "https://www.wuxiahub.com/"
+  ],
+  "module": "sources.en.w.wuxiahub",
+  "filePath": "sources/en/w/wuxiahub.py",
+  "className": "WuxiaHubCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-42b6bd3a604803bec62e2733327408dd",
+  "label": "www.wuxialeague.com",
+  "language": "en",
+  "origins": [
+   "https://www.wuxialeague.com/"
+  ],
+  "module": "sources.en.w.wuxialeague",
+  "filePath": "sources/en/w/wuxialeague.py",
+  "className": "WuxiaLeagueCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-29735a480c0ca475b0389cbd173e3478",
+  "label": "www.wuxiamtl.com",
+  "language": "en",
+  "origins": [
+   "https://www.wuxiamtl.com/"
+  ],
+  "module": "sources.en.w.wuxiamtl",
+  "filePath": "sources/en/w/wuxiamtl.py",
+  "className": "WuxiaMTLCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-859ba0ecf8a658d82d0c9d04369fb949",
+  "label": "www.wuxianovelhub.com",
+  "language": "en",
+  "origins": [
+   "https://www.wuxianovelhub.com/"
+  ],
+  "module": "sources.en.w.wuxianovelhub",
+  "filePath": "sources/en/w/wuxianovelhub.py",
+  "className": "WuxiaNHCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-df64cd2145beb9fcf983e9702a5bc7ef",
+  "label": "www.wuxiapub.com",
+  "language": "en",
+  "origins": [
+   "https://www.wuxiapub.com/"
+  ],
+  "module": "sources.en.w.wuxiapub",
+  "filePath": "sources/en/w/wuxiapub.py",
+  "className": "WuxiaPubCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-6fefdb568d299e0af0c21703e1a55f54",
+  "label": "www.wuxiar.com",
+  "language": "en",
+  "origins": [
+   "https://www.wuxiar.com/"
+  ],
+  "module": "sources.en.w.wuxiar",
+  "filePath": "sources/en/w/wuxiar.py",
+  "className": "WuxiaRCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-948db6c03f5b64b95936291975ad0a44",
+  "label": "www.wuxiaspot.com",
+  "language": "en",
+  "origins": [
+   "https://www.wuxiaspot.com/"
+  ],
+  "module": "sources.en.w.wuxiaspot",
+  "filePath": "sources/en/w/wuxiaspot.py",
+  "className": "WuxiaSpotCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-ded969874947f90eed70016ba616d8bc",
+  "label": "www.wuxiau.com",
+  "language": "en",
+  "origins": [
+   "https://www.wuxiau.com/"
+  ],
+  "module": "sources.en.w.wuxiau",
+  "filePath": "sources/en/w/wuxiau.py",
+  "className": "WuxiaUCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-a9629cb24838d78d6874739450363726",
+  "label": "www.wuxiav.com",
+  "language": "en",
+  "origins": [
+   "https://www.wuxiav.com/"
+  ],
+  "module": "sources.en.w.wuxiav",
+  "filePath": "sources/en/w/wuxiav.py",
+  "className": "WuxiaVCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-6ef17917ddbd5d2bbea8b18cb55d5876",
+  "label": "www.wuxiaworld.com",
+  "language": "en",
+  "origins": [
+   "https://www.wuxiaworld.com/"
+  ],
+  "module": "sources.en.w.wuxiaworldcom",
+  "filePath": "sources/en/w/wuxiaworldcom.py",
+  "className": "WuxiaworldComCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-e45feeec618127164881902bafe8f7bc",
+  "label": "www.wuxiax.com",
+  "language": "en",
+  "origins": [
+   "https://www.wuxiax.com/"
+  ],
+  "module": "sources.en.w.wuxiax",
+  "filePath": "sources/en/w/wuxiax.py",
+  "className": "WuxiaXCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-6390b731e788d7b94545302c3bb97824",
+  "label": "www.wuxiaz.com",
+  "language": "en",
+  "origins": [
+   "https://www.wuxiaz.com/"
+  ],
+  "module": "sources.en.w.wuxiaz",
+  "filePath": "sources/en/w/wuxiaz.py",
+  "className": "WuxiaZCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Redirects to an ad network"
+ },
+ {
+  "key": "lc-6f0156a18be91af4ec1951bbbdc07a2b",
+  "label": "www.xiainovel.com",
+  "language": "en",
+  "origins": [
+   "https://www.xiainovel.com/"
+  ],
+  "module": "sources.en.x.xiainovel",
+  "filePath": "sources/en/x/xiainovel.py",
+  "className": "YukiNovelCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-5ca9b9f985f2a58f9693b0f6b469ccf6",
+  "label": "xperimentalhamid.com",
+  "language": "en",
+  "origins": [
+   "https://xperimentalhamid.com/"
+  ],
+  "module": "sources.en.x.xperimentalhamid",
+  "filePath": "sources/en/x/xperimentalhamid.py",
+  "className": "XperimentalHamidCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-45d5088af4c73a3dd1121d12825a28e9",
+  "label": "yonglibrary.com",
+  "language": "en",
+  "origins": [
+   "https://yonglibrary.com/"
+  ],
+  "module": "sources.en.y.yonglibrary",
+  "filePath": "sources/en/y/yonglibrary.py",
+  "className": "YongLibraryCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site closed"
+ },
+ {
+  "key": "lc-6db96c64ad3e81a5577a7a247341d3c0",
+  "label": "zenithnovels.com",
+  "language": "en",
+  "origins": [
+   "https://zenithnovels.com/"
+  ],
+  "module": "sources.en.z.zenithnovels",
+  "filePath": "sources/en/z/zenithnovels.py",
+  "className": "ZenithNovelsCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-788c1ec8f8f03ce6b9f9d37432fd2f55",
+  "label": "zetrotranslation.com",
+  "language": "en",
+  "origins": [
+   "https://zetrotranslation.com/"
+  ],
+  "module": "sources.en.z.zetrotranslation",
+  "filePath": "sources/en/z/zetrotranslation.py",
+  "className": "ZetroTranslationCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-bfa4caf067c415aedcb55a267599bc0c",
+  "label": "zinmanga.com",
+  "language": "en",
+  "origins": [
+   "https://zinmanga.com/"
+  ],
+  "module": "sources.en.z.zinmanga",
+  "filePath": "sources/en/z/zinmanga.py",
+  "className": "ZinMangaCrawler",
+  "search": true,
+  "manga": true,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-f8aa63edc150f06af55cd98b2beacb93",
+  "label": "zinnovel.com",
+  "language": "en",
+  "origins": [
+   "https://zinnovel.com/"
+  ],
+  "module": "sources.en.z.zinnovel",
+  "filePath": "sources/en/z/zinnovel.py",
+  "className": "ZinNovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-4a7f2dd3ebdb72eb35b9aa50cdebe390",
+  "label": "18.foxaholic.com",
+  "language": "multi",
+  "origins": [
+   "https://18.foxaholic.com/",
+   "https://foxaholic.com/",
+   "https://global.foxaholic.com/",
+   "https://www.foxaholic.com/"
+  ],
+  "module": "sources.multi.foxaholic",
+  "filePath": "sources/multi/foxaholic.py",
+  "className": "FoxaholicCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-c8b7924e2e4050f50b681ba557d8e6a1",
+  "label": "69shu.me",
+  "language": "zh",
+  "origins": [
+   "https://69shu.me/",
+   "https://69shuba.cx/"
+  ],
+  "module": "sources.zh.69shuba.cx",
+  "filePath": "sources/zh/69shuba.cx.py",
+  "className": "sixnineshu",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-82669c5ce73346228625d8dcb4622e63",
+  "label": "anime-sama.fr",
+  "language": "fr",
+  "origins": [
+   "https://anime-sama.fr/"
+  ],
+  "module": "sources.fr.animesama",
+  "filePath": "sources/fr/animesama.py",
+  "className": "animesama",
+  "search": true,
+  "manga": true,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-38c324a6607de140243e6ed1d45b8a5b",
+  "label": "arnovel.me",
+  "language": "ar",
+  "origins": [
+   "https://arnovel.me/"
+  ],
+  "module": "sources.ar.arnovel",
+  "filePath": "sources/ar/arnovel.py",
+  "className": "ArNovel",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Redirects to an ad network"
+ },
+ {
+  "key": "lc-7b18a3e9942ae200607ab0707a913da6",
+  "label": "author.today",
+  "language": "ru",
+  "origins": [
+   "https://author.today/"
+  ],
+  "module": "sources.ru.authortoday",
+  "filePath": "sources/ru/authortoday.py",
+  "className": "AuthorTodayCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-9ca3536b06c0df5e537210f3163d0903",
+  "label": "bestmanga.club",
+  "language": "ru",
+  "origins": [
+   "https://bestmanga.club/"
+  ],
+  "module": "sources.ru.bestmanga",
+  "filePath": "sources/ru/bestmanga.py",
+  "className": "BestMangaCrawler",
+  "search": true,
+  "manga": true,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-2b62a91a8d4d9497364bfecf4530c2a1",
+  "label": "blnovels.net",
+  "language": "pt",
+  "origins": [
+   "https://blnovels.net/"
+  ],
+  "module": "sources.pt.blnovels",
+  "filePath": "sources/pt/blnovels.py",
+  "className": "BlNovels",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-56cf47825b16189855ee706f2762d59a",
+  "label": "bookhamster.ru",
+  "language": "ru",
+  "origins": [
+   "https://bookhamster.ru/",
+   "https://funbook.su/",
+   "https://ifreedom.su/"
+  ],
+  "module": "sources.ru.ifreedom",
+  "filePath": "sources/ru/ifreedom.py",
+  "className": "IfreedomCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-669ec4e7ae359ad6e74f2f7e13592f9f",
+  "label": "cclawtranslations.home.blog",
+  "language": "es",
+  "origins": [
+   "https://cclawtranslations.home.blog/",
+   "https://domentranslations.wordpress.com/"
+  ],
+  "module": "sources.es.domentranslations",
+  "filePath": "sources/es/domentranslations.py",
+  "className": "CclawTranslations",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-10fcb6cda7d6ad8908224f58984f9398",
+  "label": "centralnovel.com",
+  "language": "pt",
+  "origins": [
+   "https://centralnovel.com/"
+  ],
+  "module": "sources.pt.centralnovel",
+  "filePath": "sources/pt/centralnovel.py",
+  "className": "CentralNovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-ad1884d2ad83aa3b44d7fc40189cca81",
+  "label": "chireads.com",
+  "language": "fr",
+  "origins": [
+   "https://chireads.com/"
+  ],
+  "module": "sources.fr.chireads",
+  "filePath": "sources/fr/chireads.py",
+  "className": "Chireads",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-31e01d48d346d098a9ed70fad824b3dc",
+  "label": "darktranslation.com",
+  "language": "id",
+  "origins": [
+   "https://darktranslation.com/"
+  ],
+  "module": "sources.id.darktrans",
+  "filePath": "sources/id/darktrans.py",
+  "className": "DarkTranslation",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-fbce7b836b1292fc48340c46292969f7",
+  "label": "docln.net",
+  "language": "vi",
+  "origins": [
+   "https://docln.net/",
+   "https://ln.hako.vn/"
+  ],
+  "module": "sources.vi.lnhakone",
+  "filePath": "sources/vi/lnhakone.py",
+  "className": "ListNovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-560dfc4e6b4f4026553927f23eb1a9dd",
+  "label": "es.mtlnovel.com",
+  "language": "multi",
+  "origins": [
+   "https://es.mtlnovel.com/",
+   "https://es.mtlnovels.com/",
+   "https://fr.mtlnovel.com/",
+   "https://fr.mtlnovels.com/",
+   "https://id.mtlnovel.com/",
+   "https://id.mtlnovels.com/",
+   "https://www.mtlnovel.com/",
+   "https://www.mtlnovels.com/"
+  ],
+  "module": "sources.multi.mtlnovel",
+  "filePath": "sources/multi/mtlnovel.py",
+  "className": "MtlnovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-830753b68a30b5f4e56ffb41ef995c95",
+  "label": "fenrirscans.com",
+  "language": "tr",
+  "origins": [
+   "https://fenrirscans.com/"
+  ],
+  "module": "sources.tr.fenrirscan",
+  "filePath": "sources/tr/fenrirscan.py",
+  "className": "FenrirScans",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-751db4e2d29b79ff035621db04345288",
+  "label": "fuyu-novel.my.id",
+  "language": "id",
+  "origins": [
+   "https://fuyu-novel.my.id/"
+  ],
+  "module": "sources.id.fuyunovel",
+  "filePath": "sources/id/fuyunovel.py",
+  "className": "FuyuNovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-ab772d57ba6a0bb3f7944a324c92f547",
+  "label": "grensia.blogspot.com",
+  "language": "id",
+  "origins": [
+   "https://grensia.blogspot.com/"
+  ],
+  "module": "sources.id.grensia_blogspot",
+  "filePath": "sources/id/grensia_blogspot.py",
+  "className": "GreensiaCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-3473a8c6b7d9c2848a99d74916bb603f",
+  "label": "illusia.com.br",
+  "language": "pt",
+  "origins": [
+   "https://illusia.com.br/"
+  ],
+  "module": "sources.pt.illusia",
+  "filePath": "sources/pt/illusia.py",
+  "className": "Illusia",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-b9fb03ed6be3324f6962a332bc1c6462",
+  "label": "indomtl.com",
+  "language": "id",
+  "origins": [
+   "https://indomtl.com/"
+  ],
+  "module": "sources.id.indomtl",
+  "filePath": "sources/id/indomtl.py",
+  "className": "IndoMTLCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Not crawler friendly"
+ },
+ {
+  "key": "lc-9332f4727272ca2ff416a70a6cf71a71",
+  "label": "indowebnovel.id",
+  "language": "id",
+  "origins": [
+   "https://indowebnovel.id/"
+  ],
+  "module": "sources.id.indowebnovel",
+  "filePath": "sources/id/indowebnovel.py",
+  "className": "IndowebnovelCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-cbb7a70d622bdffa28b6c9c7fd6275f5",
+  "label": "ixdzs8.com",
+  "language": "zh",
+  "origins": [
+   "https://ixdzs8.com/",
+   "https://ixdzs8.tw/",
+   "https://tw.m.ixdzs.com/",
+   "https://www.aixdzs.com/"
+  ],
+  "module": "sources.zh.ixdzs",
+  "filePath": "sources/zh/ixdzs.py",
+  "className": "IxdzsCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-5d63949375d455e155e999523f16c7a3",
+  "label": "jaomix.ru",
+  "language": "ru",
+  "origins": [
+   "https://jaomix.ru/"
+  ],
+  "module": "sources.ru.jaomix",
+  "filePath": "sources/ru/jaomix.py",
+  "className": "JaomixCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-1281a8d5ee66428276b90a2dd26962bf",
+  "label": "kolnovel.com",
+  "language": "ar",
+  "origins": [
+   "https://kolnovel.com/"
+  ],
+  "module": "sources.ar.kolnovel",
+  "filePath": "sources/ar/kolnovel.py",
+  "className": "Kolnovel",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-4c21c9e4166df23ce152c054821564b4",
+  "label": "labnovel.ru",
+  "language": "ru",
+  "origins": [
+   "https://labnovel.ru/"
+  ],
+  "module": "sources.ru.labnovel",
+  "filePath": "sources/ru/labnovel.py",
+  "className": "LabnovelCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-05cbdda5fe5c1293af37b873e973fb35",
+  "label": "lightnovelfr.com",
+  "language": "fr",
+  "origins": [
+   "https://lightnovelfr.com/"
+  ],
+  "module": "sources.fr.lightnovelfr",
+  "filePath": "sources/fr/lightnovelfr.py",
+  "className": "LightnovelFrCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-8207d84ca15ac72c60359c08b02798d4",
+  "label": "litnet.com",
+  "language": "ru",
+  "origins": [
+   "https://litnet.com/"
+  ],
+  "module": "sources.ru.litnet",
+  "filePath": "sources/ru/litnet.py",
+  "className": "LitnetCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-96e019d542649d3bdce15bb84026a44b",
+  "label": "lnmakineceviri.blogspot.com",
+  "language": "tr",
+  "origins": [
+   "https://lnmakineceviri.blogspot.com/"
+  ],
+  "module": "sources.tr.lnmakineceviri",
+  "filePath": "sources/tr/lnmakineceviri.py",
+  "className": "LnMakineCeviriCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-4211e291db4f0831953fbbe9fcad30c1",
+  "label": "lnmtlfr.com",
+  "language": "fr",
+  "origins": [
+   "https://lnmtlfr.com/"
+  ],
+  "module": "sources.fr.lnmtlfr",
+  "filePath": "sources/fr/lnmtlfr.py",
+  "className": "Lnmtlfr",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-dd8df57f35925084fa5a41d345c4db7a",
+  "label": "m.27k.net",
+  "language": "zh",
+  "origins": [
+   "https://m.27k.net/",
+   "https://so.27k.net/",
+   "https://tw.27k.net/",
+   "https://www.27k.net/",
+   "https://www.lreads.com/"
+  ],
+  "module": "sources.zh.27k",
+  "filePath": "sources/zh/27k.py",
+  "className": "LeYueDu",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Domain registration has expired"
+ },
+ {
+  "key": "lc-dac7b1af29c3a7ab5b9247e895eea3a2",
+  "label": "m.shuhaige.net",
+  "language": "zh",
+  "origins": [
+   "https://m.shuhaige.net/",
+   "https://www.shuhaige.net/"
+  ],
+  "module": "sources.zh.shuhaige",
+  "filePath": "sources/zh/shuhaige.py",
+  "className": "ShuhaigeCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-f74bd0aac01ea4c4dfe8dfd34ff9c562",
+  "label": "meionovel.id",
+  "language": "id",
+  "origins": [
+   "https://meionovel.id/",
+   "https://meionovels.com/"
+  ],
+  "module": "sources.id.meionovel",
+  "filePath": "sources/id/meionovel.py",
+  "className": "MeionovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-5c27b44baae1be8b8b1a34d9bb3eed77",
+  "label": "morenovel.net",
+  "language": "id",
+  "origins": [
+   "https://morenovel.net/"
+  ],
+  "module": "sources.id.morenovel",
+  "filePath": "sources/id/morenovel.py",
+  "className": "ListNovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-c7a362a3c314755965c90d3399f62daa",
+  "label": "my.w.tt",
+  "language": "multi",
+  "origins": [
+   "https://my.w.tt/",
+   "https://www.wattpad.com/"
+  ],
+  "module": "sources.multi.wattpad",
+  "filePath": "sources/multi/wattpad.py",
+  "className": "WattpadCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-dd2266389af7f6d706b09c50d28ce4f6",
+  "label": "ncode.syosetu.com",
+  "language": "ja",
+  "origins": [
+   "https://ncode.syosetu.com/"
+  ],
+  "module": "sources.ja.syosetu",
+  "filePath": "sources/ja/syosetu.py",
+  "className": "SyosetuCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-d75850030d88afdbd2501e7d87b82c00",
+  "label": "novelaenespanol.com",
+  "language": "es",
+  "origins": [
+   "https://novelaenespanol.com/"
+  ],
+  "module": "sources.es.novelaenespanol",
+  "filePath": "sources/es/novelaenespanol.py",
+  "className": "NovelaEnEspanolCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-e4e4872da0e3ca5e2331d3d8a2657f34",
+  "label": "novelasligera.com",
+  "language": "es",
+  "origins": [
+   "https://novelasligera.com/"
+  ],
+  "module": "sources.es.novelasligera_com",
+  "filePath": "sources/es/novelasligera_com.py",
+  "className": "NovelasLigeraCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-d409de359d1171a3d722866fba7f2dfa",
+  "label": "novelasligeras.net",
+  "language": "es",
+  "origins": [
+   "https://novelasligeras.net/"
+  ],
+  "module": "sources.es.novelasligeras",
+  "filePath": "sources/es/novelasligeras.py",
+  "className": "NovelasLigerasCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-9674804bb7cb8ea02e561dbf90adb7ff",
+  "label": "noveldeglace.com",
+  "language": "fr",
+  "origins": [
+   "https://noveldeglace.com/"
+  ],
+  "module": "sources.fr.noveldeglace",
+  "filePath": "sources/fr/noveldeglace.py",
+  "className": "NovelDeGlace",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-45a66e90df42fc8dc12b991df40a19d2",
+  "label": "novelfrance.fr",
+  "language": "fr",
+  "origins": [
+   "https://novelfrance.fr/"
+  ],
+  "module": "sources.fr.novelfrance",
+  "filePath": "sources/fr/novelfrance.py",
+  "className": "NovelFrance",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-3b9962ae0ed494f4bac63e82b7c488ec",
+  "label": "novelgo.id",
+  "language": "id",
+  "origins": [
+   "https://novelgo.id/"
+  ],
+  "module": "sources.id.novelgo",
+  "filePath": "sources/id/novelgo.py",
+  "className": "NovelGoCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-3c48771a64332b52da1a4baea7f19609",
+  "label": "novelku.id",
+  "language": "id",
+  "origins": [
+   "https://novelku.id/"
+  ],
+  "module": "sources.id.novelku",
+  "filePath": "sources/id/novelku.py",
+  "className": "NovelkuCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-1217119972255c67094062ca3dc645f6",
+  "label": "novelmania.com.br",
+  "language": "pt",
+  "origins": [
+   "https://novelmania.com.br/"
+  ],
+  "module": "sources.pt.novelmania_com_br",
+  "filePath": "sources/pt/novelmania_com_br.py",
+  "className": "NovelmaniaComBrCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-1f815b4a9e3c779e4933e1e85f3201f4",
+  "label": "novelokur.com.tr",
+  "language": "tr",
+  "origins": [
+   "https://novelokur.com.tr/"
+  ],
+  "module": "sources.tr.novelokur",
+  "filePath": "sources/tr/novelokur.py",
+  "className": "NovelOkurCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-0702742158704f4ab98f2004838e83a0",
+  "label": "novelringan.com",
+  "language": "id",
+  "origins": [
+   "https://novelringan.com/"
+  ],
+  "module": "sources.id.novelringan",
+  "filePath": "sources/id/novelringan.py",
+  "className": "NovelRinganCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-d7fb33906638738ba751a7a3cff1791d",
+  "label": "noveltoon.mobi",
+  "language": "id",
+  "origins": [
+   "https://noveltoon.mobi/"
+  ],
+  "module": "sources.id.noveltoon",
+  "filePath": "sources/id/noveltoon.py",
+  "className": "NovelsRockCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-5179aa1214f9342752a50eb1fb9b882a",
+  "label": "phoenixnovels.com.br",
+  "language": "pt",
+  "origins": [
+   "https://phoenixnovels.com.br/"
+  ],
+  "module": "sources.pt.phoenixnovels",
+  "filePath": "sources/pt/phoenixnovels.py",
+  "className": "PhoenixNovels",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-c01b2666c7147f46050da03f6dde63ad",
+  "label": "ranobe-novels.ru",
+  "language": "ru",
+  "origins": [
+   "https://ranobe-novels.ru/"
+  ],
+  "module": "sources.ru.ranobenovel",
+  "filePath": "sources/ru/ranobenovel.py",
+  "className": "RanobeNovel",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-4abccb626476a022964ad9b32eb59067",
+  "label": "ranobelib.me",
+  "language": "ru",
+  "origins": [
+   "https://ranobelib.me/"
+  ],
+  "module": "sources.ru.ranobelib",
+  "filePath": "sources/ru/ranobelib.py",
+  "className": "RanobeLibMeCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-58961b37e76cb6d63377db14d37588db",
+  "label": "ranobes.com",
+  "language": "ru",
+  "origins": [
+   "https://ranobes.com/"
+  ],
+  "module": "sources.ru.ranobes",
+  "filePath": "sources/ru/ranobes.py",
+  "className": "RanobesCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-15e082284f2636d7935abe5b4a214144",
+  "label": "renovels.org",
+  "language": "ru",
+  "origins": [
+   "https://renovels.org/"
+  ],
+  "module": "sources.ru.renovels",
+  "filePath": "sources/ru/renovels.py",
+  "className": "RenovelsCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-7f45ff7a6bd632aa1059e2d571994f4e",
+  "label": "rewayat.club",
+  "language": "ar",
+  "origins": [
+   "https://rewayat.club/"
+  ],
+  "module": "sources.ar.rewayatclub",
+  "filePath": "sources/ar/rewayatclub.py",
+  "className": "RewayatClubCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-c2c1d11ce40076fc54d89088e44e12b5",
+  "label": "sj.uukanshu.net",
+  "language": "zh",
+  "origins": [
+   "https://sj.uukanshu.net/"
+  ],
+  "module": "sources.zh.uukanshu_sj",
+  "filePath": "sources/zh/uukanshu_sj.py",
+  "className": "UukanshuOnlineSJ",
+  "search": true,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-da550ab05905bfa0589a3235bdf90008",
+  "label": "sunovels.com",
+  "language": "ar",
+  "origins": [
+   "https://sunovels.com/"
+  ],
+  "module": "sources.ar.sunovels",
+  "filePath": "sources/ar/sunovels.py",
+  "className": "SuNovelsCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-6b823650e90e6aded6791efc2cb91f31",
+  "label": "syosetu.org",
+  "language": "ja",
+  "origins": [
+   "https://syosetu.org/"
+  ],
+  "module": "sources.ja.syosetuorg",
+  "filePath": "sources/ja/syosetuorg.py",
+  "className": "SyosetuOrgCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-471d50a723cadec8b69b9829e09ba7d6",
+  "label": "tl.rulate.ru",
+  "language": "ru",
+  "origins": [
+   "https://tl.rulate.ru/"
+  ],
+  "module": "sources.ru.rulate",
+  "filePath": "sources/ru/rulate.py",
+  "className": "RulateCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-46a23563b949f9502525b7f95383882d",
+  "label": "truyenfull.today",
+  "language": "vi",
+  "origins": [
+   "https://truyenfull.today/",
+   "https://truyenfull.vn/",
+   "https://truyentr.info/"
+  ],
+  "module": "sources.vi.truenfull",
+  "filePath": "sources/vi/truenfull.py",
+  "className": "TruenFull",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-d9638d761228f9620f622cea555a1f8b",
+  "label": "trxs.cc",
+  "language": "zh",
+  "origins": [
+   "https://trxs.cc/"
+  ],
+  "module": "sources.zh.trxs",
+  "filePath": "sources/zh/trxs.py",
+  "className": "TrxsCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-73c06281b1cf247bfb1c23fd539b99dd",
+  "label": "tsundoku.com.br",
+  "language": "pt",
+  "origins": [
+   "https://tsundoku.com.br/"
+  ],
+  "module": "sources.pt.tsundoku",
+  "filePath": "sources/pt/tsundoku.py",
+  "className": "TsundokuCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-f36bdb347d47d8be9f47b522fb3c271e",
+  "label": "turkcenoveloku.blogspot.com",
+  "language": "tr",
+  "origins": [
+   "https://turkcenoveloku.blogspot.com/"
+  ],
+  "module": "sources.tr.turkcenoveloku",
+  "filePath": "sources/tr/turkcenoveloku.py",
+  "className": "TurkceNovelOkuCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-0ce876f27698a2fae32c7cdf93b84bcf",
+  "label": "tw.uukanshu.net",
+  "language": "zh",
+  "origins": [
+   "https://tw.uukanshu.net/",
+   "https://www.uukanshu.net/"
+  ],
+  "module": "sources.zh.uukanshu",
+  "filePath": "sources/zh/uukanshu.py",
+  "className": "UukanshuOnline",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-1b45920ca9a3003b7d7379aa4546c74e",
+  "label": "wbnovel.com",
+  "language": "id",
+  "origins": [
+   "https://wbnovel.com/"
+  ],
+  "module": "sources.id.wbnovel",
+  "filePath": "sources/id/wbnovel.py",
+  "className": "WBNovelCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-bb0b8286bf6581ddcf5267da91e794d0",
+  "label": "webnovelindonesia.com",
+  "language": "id",
+  "origins": [
+   "https://webnovelindonesia.com/"
+  ],
+  "module": "sources.id.webnovelindonesia",
+  "filePath": "sources/id/webnovelindonesia.py",
+  "className": "WebnovelIndonesia",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-3959541b769a379cac11be325f583b2a",
+  "label": "wtr-lab.com",
+  "language": "multi",
+  "origins": [
+   "https://wtr-lab.com/"
+  ],
+  "module": "sources.multi.wtrlab",
+  "filePath": "sources/multi/wtrlab.py",
+  "className": "WtrLab",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-db9904f7427d723de786b1d87cbca891",
+  "label": "wuxiaworld.ru",
+  "language": "ru",
+  "origins": [
+   "https://wuxiaworld.ru/"
+  ],
+  "module": "sources.ru.wuxiaworld_ru",
+  "filePath": "sources/ru/wuxiaworld_ru.py",
+  "className": "WuxiaWorldRuCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-3d2d575996fc57d75742cfc78a8c4ae3",
+  "label": "www.69shu.com",
+  "language": "zh",
+  "origins": [
+   "https://www.69shu.com/",
+   "https://www.69shu.pro/",
+   "https://www.69shuba.com/",
+   "https://www.69shuba.pro/",
+   "https://www.69xinshu.com/"
+  ],
+  "module": "sources.zh.69shuba",
+  "filePath": "sources/zh/69shuba.py",
+  "className": "sixnineshu",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-93bff9ed386d79b0bd94389087c7d838",
+  "label": "www.banxia.cc",
+  "language": "zh",
+  "origins": [
+   "https://www.banxia.cc/",
+   "https://www.xbanxia.com/"
+  ],
+  "module": "sources.zh.xbanxia",
+  "filePath": "sources/zh/xbanxia.py",
+  "className": "Xbanxia",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-ac753793428bb51739b9cdda4ca200d6",
+  "label": "www.bq99.cc",
+  "language": "zh",
+  "origins": [
+   "https://www.bq99.cc/",
+   "https://www.p2wt.com/",
+   "https://www.shw5.cc/"
+  ],
+  "module": "sources.zh.shw5",
+  "filePath": "sources/zh/shw5.py",
+  "className": "Shw5Crawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-966c36a50fb3701b012cfdec85f16f7e",
+  "label": "www.ceunovel.com",
+  "language": "pt",
+  "origins": [
+   "https://www.ceunovel.com/"
+  ],
+  "module": "sources.pt.ceunovel",
+  "filePath": "sources/pt/ceunovel.py",
+  "className": "CeuNovelCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "site is down"
+ },
+ {
+  "key": "lc-0a338af793ad9850be5c9f4d836fae12",
+  "label": "www.daocaorenshuwu.com",
+  "language": "zh",
+  "origins": [
+   "https://www.daocaorenshuwu.com/"
+  ],
+  "module": "sources.zh.daocaorenshuwu",
+  "filePath": "sources/zh/daocaorenshuwu.py",
+  "className": "Daocaorenshuwu",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-78b48929359c98fcc390c70e1df40718",
+  "label": "www.ddtxt8.cc",
+  "language": "zh",
+  "origins": [
+   "https://www.ddtxt8.cc/",
+   "https://www.ddxss.cc/"
+  ],
+  "module": "sources.zh.ddxsss",
+  "filePath": "sources/zh/ddxsss.py",
+  "className": "DdxSss",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-235d2e0cca882ed2f97a63b472f803fd",
+  "label": "www.idqidian.us",
+  "language": "id",
+  "origins": [
+   "https://www.idqidian.us/"
+  ],
+  "module": "sources.id.idqidian",
+  "filePath": "sources/id/idqidian.py",
+  "className": "IdqidianCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-ce0d07f5437c799e095e7b3cddce6be3",
+  "label": "www.novel543.com",
+  "language": "zh",
+  "origins": [
+   "https://www.novel543.com/"
+  ],
+  "module": "sources.zh.novel543",
+  "filePath": "sources/zh/novel543.py",
+  "className": "Novel543",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-2c529108c1fd6d790a05e51c02f9bb9c",
+  "label": "www.novelupdates.com",
+  "language": "multi",
+  "origins": [
+   "https://www.novelupdates.com/"
+  ],
+  "module": "sources.multi.novelupdates",
+  "filePath": "sources/multi/novelupdates.py",
+  "className": "NovelupdatesCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-e2a0a1f66eec221866f52e14af342c50",
+  "label": "www.piaotia.com",
+  "language": "zh",
+  "origins": [
+   "https://www.piaotia.com/",
+   "https://www.piaotian.com/",
+   "https://www.ptwxz.com/"
+  ],
+  "module": "sources.zh.piaotian",
+  "filePath": "sources/zh/piaotian.py",
+  "className": "PiaoTian",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-70e5c69ad6a634604d43e2cd29e36d65",
+  "label": "www.powanjuan.cc",
+  "language": "zh",
+  "origins": [
+   "https://www.powanjuan.cc/"
+  ],
+  "module": "sources.zh.powanjuan",
+  "filePath": "sources/zh/powanjuan.py",
+  "className": "PowanjuanCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-5d2837e1dfeaeb287163d4b4de9f752e",
+  "label": "www.quotev.com",
+  "language": "multi",
+  "origins": [
+   "https://www.quotev.com/"
+  ],
+  "module": "sources.multi.quotev",
+  "filePath": "sources/multi/quotev.py",
+  "className": "QuotevCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-811f9ae72a6afc629e2d2d5f6f71a0c2",
+  "label": "www.skynovels.net",
+  "language": "es",
+  "origins": [
+   "https://www.skynovels.net/"
+  ],
+  "module": "sources.es.skynovels",
+  "filePath": "sources/es/skynovels.py",
+  "className": "SkyNovelsCrawler",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-79182ca72ca2a9bc1a4bfe3d5a34c87e",
+  "label": "www.soxs.cc",
+  "language": "zh",
+  "origins": [
+   "https://www.soxs.cc/"
+  ],
+  "module": "sources.zh.soxs",
+  "filePath": "sources/zh/soxs.py",
+  "className": "Soxc",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-a79079f0a18b1555d7c2a654997daf7d",
+  "label": "www.webfic.com",
+  "language": "multi",
+  "origins": [
+   "https://www.webfic.com/"
+  ],
+  "module": "sources.multi.webfic",
+  "filePath": "sources/multi/webfic.py",
+  "className": "Webfic",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-1b0d8887a59db25a33205a0e1244c5ce",
+  "label": "www.webnovelover.com",
+  "language": "id",
+  "origins": [
+   "https://www.webnovelover.com/"
+  ],
+  "module": "sources.id.webnovelover",
+  "filePath": "sources/id/webnovelover.py",
+  "className": "WebNoveLover",
+  "search": true,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-91b9ab7d819ca1471a38a6eaff38e7f5",
+  "label": "www.worldnovel.online",
+  "language": "id",
+  "origins": [
+   "https://www.worldnovel.online/"
+  ],
+  "module": "sources.id.worldnovelonline",
+  "filePath": "sources/id/worldnovelonline.py",
+  "className": "WorldnovelonlineCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-77c85007da3d305d0bb06d996334c644",
+  "label": "www.xnunu.com",
+  "language": "zh",
+  "origins": [
+   "https://www.xnunu.com/"
+  ],
+  "module": "sources.zh.xnunu",
+  "filePath": "sources/zh/xnunu.py",
+  "className": "Xnunu",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Site is down"
+ },
+ {
+  "key": "lc-907fbc5731ea50b9f70b298bc9b27626",
+  "label": "xiaowaz.fr",
+  "language": "fr",
+  "origins": [
+   "https://xiaowaz.fr/"
+  ],
+  "module": "sources.fr.xiaowaz",
+  "filePath": "sources/fr/xiaowaz.py",
+  "className": "XiaowazCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ },
+ {
+  "key": "lc-13c4aa000336a93270cfe74d8d306faf",
+  "label": "yukinovel.id",
+  "language": "id",
+  "origins": [
+   "https://yukinovel.id/",
+   "https://yukinovel.me/"
+  ],
+  "module": "sources.id.yukinovel",
+  "filePath": "sources/id/yukinovel.py",
+  "className": "YukiNovelCrawler",
+  "search": false,
+  "manga": false,
+  "disabledReason": "Domain is for sale"
+ },
+ {
+  "key": "lc-237ab5f56e40e5e27d38b6c776064362",
+  "label": "zhi-end.blogspot.co.id",
+  "language": "id",
+  "origins": [
+   "https://zhi-end.blogspot.co.id/",
+   "https://zhi-end.blogspot.com/"
+  ],
+  "module": "sources.id.zhiend",
+  "filePath": "sources/id/zhiend.py",
+  "className": "ZhiEnd",
+  "search": false,
+  "manga": false,
+  "disabledReason": null
+ }
+]

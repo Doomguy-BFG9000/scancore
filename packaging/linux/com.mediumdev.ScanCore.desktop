@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=SCANCORE
+GenericName=Comic, novel and anime reader
+Comment=Read comics and novels and watch anime on your own machine
+Exec=scancore %U
+Icon=com.mediumdev.ScanCore
+Terminal=false
+Categories=Graphics;Viewer;
+Keywords=manga;manhwa;webtoon;novel;anime;reader;
+StartupWMClass=ScanCore
