@@ -61,7 +61,7 @@ Item {
     // button) must also take the page out of it. Otherwise the page still
     // thinks it is full screen and its button only ever asks to exit.
     Connections {
-        target: Window.window
+        target: root.Window.window
         function onVisibilityChanged(visibility) {
             if (visibility !== Window.FullScreen && web.isFullScreen) web.fullScreenCancelled()
         }

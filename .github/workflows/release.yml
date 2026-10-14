@@ -121,7 +121,16 @@ jobs:
           rm -f AppDir/usr/lib/libnss3.so AppDir/usr/lib/libnssutil3.so AppDir/usr/lib/libsmime3.so \
                 AppDir/usr/lib/libnspr4.so AppDir/usr/lib/libplc4.so AppDir/usr/lib/libplds4.so
           LIBS=$(find AppDir/usr/plugins/wayland-* -name '*.so' -printf ' --library %p' 2>/dev/null || true)
-          ./linuxdeploy-x86_64.AppImage --appdir AppDir $LIBS --output appimage
+          # This pass resolves dependencies again, so keep it from re-bundling NSS.
+          NSS_EXCLUDES=""
+          for lib in libnss3 libnssutil3 libsmime3 libnspr4 libplc4 libplds4; do
+            NSS_EXCLUDES="$NSS_EXCLUDES --exclude-library $lib.so*"
+          done
+          ./linuxdeploy-x86_64.AppImage --appdir AppDir $LIBS $NSS_EXCLUDES --output appimage
+          if ls AppDir/usr/lib | grep -E '^lib(nss3|nssutil3|smime3|nspr4|plc4|plds4)\.so'; then
+            echo "NSS libraries were bundled; the anime player would crash on newer distributions" >&2
+            exit 1
+          fi
           mkdir -p dist && mv SCANCORE-*.AppImage dist/
 
       # ---------------------------------------------------------------- Windows

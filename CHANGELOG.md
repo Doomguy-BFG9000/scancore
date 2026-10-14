@@ -2,6 +2,11 @@
 
 Downloads for every version are on the [releases page](https://github.com/medium-gh/scancore/releases).
 
+## 1.1.2 — 2026-10-14
+
+- Fixed: the Linux AppImage could crash on newer distributions (for example Arch) with an NSS version error from the anime player. It now uses the system's NSS libraries as intended.
+- Fixed: leaving full screen with Esc or F11 now also takes the video player out of full screen (this fix did not take effect in 1.1.1).
+
 ## 1.1.1 — 2026-10-14
 
 - Fixed: on Linux, the app crashed shortly after starting (often while opening Anime) when MangoHud was enabled globally (`MANGOHUD=1`). SCANCORE now opts out of the MangoHud layer; set `DISABLE_MANGOHUD=0` to keep it.
