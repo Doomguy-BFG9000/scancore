@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/medium-gh/scancore/discussions
+    about: Ask how something works or suggest a direction in Discussions.
+  - name: Discord
+    url: https://scancore.onl/discord
+    about: Chat with other readers and the developer.

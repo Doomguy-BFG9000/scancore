@@ -151,11 +151,10 @@ Item {
                     }
                 }
 
+                // Phones: below the buttons, where nothing else sits.
                 Row {
-                    anchors.right: parent.right
-                    anchors.rightMargin: Theme.gutter
-                    anchors.bottom: parent.bottom
-                    anchors.bottomMargin: 56
+                    x: Theme.compact ? Theme.gutter : parent.width - width - Theme.gutter
+                    y: parent.height - height - (Theme.compact ? 18 : 56)
                     spacing: 8
                     Repeater {
                         model: page.spotlight.length
@@ -171,7 +170,9 @@ Item {
                     }
                 }
 
+                // Phones get a search button in the row below instead.
                 SearchField {
+                    visible: !Theme.compact
                     anchors.right: parent.right
                     anchors.rightMargin: Theme.gutter
                     y: 24
@@ -185,6 +186,7 @@ Item {
                     spacing: 8
                     ScButton { text: "Browse"; iconName: "compass"; compact: true; onClicked: Router.openAnimeBrowse({}) }
                     ScButton { text: "Schedule"; iconName: "calendar"; compact: true; onClicked: Router.openAnimeSchedule() }
+                    ScButton { visible: Theme.compact; text: "Search"; iconName: "search"; compact: true; onClicked: Router.openAnimeBrowse({}) }
                 }
 
                 StateView {

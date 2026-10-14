@@ -31,7 +31,7 @@
 ![SCANCORE home](docs/screenshots/home.webp)
 
 > [!NOTE]
-> SCANCORE is free and open source, built by [Medium Dev](https://mediumdev.com). The official downloads are the ones on this repository's [releases page](https://github.com/medium-gh/scancore/releases). The companion website is [scancore.onl](https://scancore.onl).
+> SCANCORE is free and open source, built by [Medium Dev](https://mediumdev.com). The official downloads are the ones on this repository's [releases page](https://github.com/medium-gh/scancore/releases). The companion website is [scancore.onl](https://scancore.onl), and the community hangs out on [Discord](https://scancore.onl/discord).
 
 ## Why SCANCORE
 
@@ -215,7 +215,7 @@ Join the [SCANCORE Discord](https://scancore.onl/discord) for questions, feedbac
 
 ## Contributing
 
-Issues and pull requests are welcome.
+Issues and pull requests are welcome. [CONTRIBUTING.md](CONTRIBUTING.md) has the build, test and source-adapter details. Questions and ideas go in [Discussions](https://github.com/medium-gh/scancore/discussions), bug reports in [Issues](https://github.com/medium-gh/scancore/issues), and chat on [Discord](https://scancore.onl/discord). Release notes are in [CHANGELOG.md](CHANGELOG.md).
 
 - **A site moved or broke?** Most fixes are a one-line change to [`sources/manifest.json`](sources/manifest.json): the domain, `enabled` or a template option. Bump `version` so installed apps pick it up.
 - **New site on a known template** (WordPress MangaReader, Madara, Iken, the NovelFull family)? Add a manifest entry with the matching `engine`.

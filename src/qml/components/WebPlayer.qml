@@ -57,6 +57,16 @@ Item {
         }
     }
 
+    // Leaving window full screen some other way (Esc, F11, the player's own
+    // button) must also take the page out of it. Otherwise the page still
+    // thinks it is full screen and its button only ever asks to exit.
+    Connections {
+        target: Window.window
+        function onVisibilityChanged(visibility) {
+            if (visibility !== Window.FullScreen && web.isFullScreen) web.fullScreenCancelled()
+        }
+    }
+
     Timer {
         interval: 1000
         running: root.visible

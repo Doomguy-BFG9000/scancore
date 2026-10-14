@@ -80,6 +80,11 @@ int main(int argc, char *argv[]) {
     // and video still decodes on the GPU. Users can override the flags.
     if (qEnvironmentVariableIsEmpty("QTWEBENGINE_CHROMIUM_FLAGS"))
         qputenv("QTWEBENGINE_CHROMIUM_FLAGS", "--disable-gpu-compositing");
+    // A global MANGOHUD=1 injects MangoHud's Vulkan layer into Chromium's
+    // in-process GPU thread, which then aborts with "free(): invalid
+    // pointer" shortly after startup. Set DISABLE_MANGOHUD=0 to keep it.
+    if (!qEnvironmentVariableIsSet("DISABLE_MANGOHUD"))
+        qputenv("DISABLE_MANGOHUD", "1");
 #endif
     QCoreApplication::setAttribute(Qt::AA_ShareOpenGLContexts);
     QtWebEngineQuick::initialize();
