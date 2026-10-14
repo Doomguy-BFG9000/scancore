@@ -11,6 +11,7 @@
 #include <QJsonDocument>
 #include <QJsonObject>
 #include <QNetworkCookie>
+#include <QRegularExpression>
 #include <QTimer>
 
 namespace sc {
@@ -133,28 +134,62 @@ void Account::setUser(const QVariantMap &user) {
     emit changed();
 }
 
-Task *Account::signIn(const QString &email, const QString &password) {
-    auto *task = Task::run([email, password]() -> QVariant {
-        const auto body = QJsonDocument(QJsonObject{{"email", email.trimmed()}, {"password", password}})
-                              .toJson(QJsonDocument::Compact);
-        const auto response = Http::postJson(QUrl(kSite + QStringLiteral("/api/auth/login")), body,
+Task *Account::authenticate(const QString &path, const QJsonObject &body) {
+    auto *task = Task::run([path, body]() -> QVariant {
+        const auto response = Http::postJson(QUrl(kSite + path), QJsonDocument(body).toJson(QJsonDocument::Compact),
                                              {{"Accept", "application/json"}});
         const auto json = QJsonDocument::fromJson(response.body).object();
         if (!response.ok()) {
-            const auto message = json.value("error").toObject().value("message").toString(json.value("error").toString());
-            throw Error(message.isEmpty() ? QStringLiteral("Sign in failed (HTTP %1).").arg(response.status) : message,
+            auto message = json.value("error").toString();
+            if (message.isEmpty())
+                message = json.value("problem").toObject().value("message").toString();
+            if (response.status == 429)
+                message = QStringLiteral("Too many attempts. Wait a few minutes and try again.");
+            throw Error(message.isEmpty() ? QStringLiteral("scancore.onl responded with HTTP %1.").arg(response.status)
+                                          : message,
                         response.status);
         }
         CookieJar::shared().save();
         return json.toVariantMap();
     });
     connect(task, &Task::finished, this, [this](const QVariant &result) {
-        auto user = result.toMap().value(QStringLiteral("user")).toMap();
-        // Keep only what the settings page shows.
+        const auto user = result.toMap().value(QStringLiteral("user")).toMap();
+        // Keep only what the app shows.
         setUser({{"username", user.value("username")}, {"email", user.value("email")}, {"avatar", user.value("avatarUrl")}});
         sync();
     });
     return task;
+}
+
+Task *Account::signIn(const QString &email, const QString &password) {
+    return authenticate(QStringLiteral("/api/auth/login"), {{"email", email.trimmed()}, {"password", password}});
+}
+
+Task *Account::signUp(const QString &email, const QString &username, const QString &password) {
+    return authenticate(QStringLiteral("/api/auth/signup"),
+                        {{"email", email.trimmed()}, {"username", username.trimmed()}, {"password", password}});
+}
+
+QVariantList Account::passwordChecks(const QString &password) const {
+    const auto check = [](const QString &label, bool passed) { return QVariantMap{{"label", label}, {"passed", passed}}; };
+    return {check(QStringLiteral("At least 8 characters"), password.size() >= 8 && password.size() <= 128),
+            check(QStringLiteral("A lowercase letter"), password.contains(QRegularExpression(QStringLiteral("[a-z]")))),
+            check(QStringLiteral("An uppercase letter"), password.contains(QRegularExpression(QStringLiteral("[A-Z]")))),
+            check(QStringLiteral("A number"), password.contains(QRegularExpression(QStringLiteral("\\d")))),
+            check(QStringLiteral("A symbol"), password.contains(QRegularExpression(QStringLiteral("[^A-Za-z0-9]"))))};
+}
+
+QString Account::usernameProblem(const QString &username) const {
+    const auto name = username.trimmed();
+    if (name.isEmpty())
+        return {};
+    if (name.size() < 3)
+        return QStringLiteral("At least 3 characters");
+    if (name.size() > 32)
+        return QStringLiteral("At most 32 characters");
+    if (!QRegularExpression(QStringLiteral("^[a-zA-Z0-9_]+$")).match(name).hasMatch())
+        return QStringLiteral("Letters, numbers and underscores only");
+    return {};
 }
 
 void Account::signOut() {

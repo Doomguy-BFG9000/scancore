@@ -55,6 +55,8 @@ const QVariantMap kDefaults{
     {"checkAppUpdates", true},
     {"sidebarCollapsed", false},
     {"comicSource", "all"},
+    {"onboarded", false},
+    {"autoUpdate", true},
     {"novelSource", "all"},
 };
 
@@ -285,8 +287,6 @@ void App::startBackgroundWork() {
         refreshSources();
         if (m_settings.value(QStringLiteral("libraryCheckHours")).toInt() > 0)
             Library::instance()->checkUpdates();
-        if (m_settings.value(QStringLiteral("checkAppUpdates")).toBool())
-            checkForUpdate();
         runInBackground([] {
             ImageCache::trim();
             Database::cachePrune();

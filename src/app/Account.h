@@ -34,6 +34,11 @@ public:
     QString site() const { return QStringLiteral("https://scancore.onl"); }
 
     Q_INVOKABLE sc::Task *signIn(const QString &email, const QString &password);
+    // Creates a scancore.onl account and signs in.
+    Q_INVOKABLE sc::Task *signUp(const QString &email, const QString &username, const QString &password);
+    // Website rules, so the form can explain problems before submitting.
+    Q_INVOKABLE QVariantList passwordChecks(const QString &password) const;
+    Q_INVOKABLE QString usernameProblem(const QString &username) const;
     Q_INVOKABLE void signOut();
     // {libraryImported, historyImported, pushed}
     Q_INVOKABLE sc::Task *sync();
@@ -42,6 +47,7 @@ signals:
     void changed();
 
 private:
+    sc::Task *authenticate(const QString &path, const QJsonObject &body);
     void setUser(const QVariantMap &user);
     static QVariantMap importAll(const QJsonObject &session);
 

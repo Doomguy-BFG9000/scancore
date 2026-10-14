@@ -1,6 +1,7 @@
 #include "app/Account.h"
 #include "app/App.h"
 #include "app/Images.h"
+#include "app/Updater.h"
 #include "app/WebBridge.h"
 #include "core/Cookies.h"
 #include "core/Database.h"
@@ -95,6 +96,9 @@ int main(int argc, char *argv[]) {
     Application::setApplicationName(QStringLiteral("ScanCore"));
     Application::setApplicationDisplayName(QStringLiteral("SCANCORE"));
     Application::setApplicationVersion(QStringLiteral(SCANCORE_VERSION));
+    // Development hook for testing updates.
+    if (qEnvironmentVariableIsSet("SCANCORE_PRETEND_VERSION"))
+        Application::setApplicationVersion(qEnvironmentVariable("SCANCORE_PRETEND_VERSION"));
     Application::setDesktopFileName(QStringLiteral("com.mediumdev.ScanCore"));
     Application::setWindowIcon(QIcon(QStringLiteral(":/branding/scancore.svg")));
 #ifndef Q_OS_ANDROID
@@ -145,6 +149,7 @@ int main(int argc, char *argv[]) {
     QObject::connect(engine.rootObjects().first(), &QObject::destroyed, &app, &Application::quit);
 
     appState->startBackgroundWork();
+    Updater::instance()->startAutomatic();
 
     QObject::connect(&app, &Application::aboutToQuit, [] {
         CancelScope::cancelAll();

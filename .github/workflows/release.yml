@@ -116,6 +116,10 @@ jobs:
           for dir in "$QT_ROOT_DIR"/plugins/wayland-*; do
             [ -d "$dir" ] && cp -r "$dir" AppDir/usr/plugins/
           done
+          # Chromium (the anime player) loads the system's NSS modules, which must
+          # match the NSS libraries; bundled older copies crash it. Use the system's.
+          rm -f AppDir/usr/lib/libnss3.so AppDir/usr/lib/libnssutil3.so AppDir/usr/lib/libsmime3.so \
+                AppDir/usr/lib/libnspr4.so AppDir/usr/lib/libplc4.so AppDir/usr/lib/libplds4.so
           LIBS=$(find AppDir/usr/plugins/wayland-* -name '*.so' -printf ' --library %p' 2>/dev/null || true)
           ./linuxdeploy-x86_64.AppImage --appdir AppDir $LIBS --output appimage
           mkdir -p dist && mv SCANCORE-*.AppImage dist/

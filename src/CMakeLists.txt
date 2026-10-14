@@ -66,6 +66,7 @@ qt_add_qml_module(scancore
         app/Images.cpp app/Images.h
         app/Library.cpp app/Library.h
         app/Novels.cpp app/Novels.h
+        app/Updater.cpp app/Updater.h
         app/WebBridge.cpp app/WebBridge.h
         core/Task.cpp core/Task.h
 )

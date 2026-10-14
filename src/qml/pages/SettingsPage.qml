@@ -9,7 +9,6 @@ Item {
     property var updateTask: null
     property var sourcesTask: null
     property var backupTask: null
-    property var signInTask: null
 
     component SectionTitle: Text {
         topPadding: 30
@@ -63,50 +62,19 @@ Item {
             Column {
                 visible: !Account.signedIn
                 width: parent.width
-                spacing: 10
+                spacing: 14
                 topPadding: 4
                 Text {
                     width: parent.width
                     wrapMode: Text.Wrap
-                    text: "Optional. Sign in with your scancore.onl account to bring your website library and comic reading history into this app, and to send saves made here back to the website. Your password is sent only to scancore.onl and is not stored."
+                    text: "Optional. Bring your scancore.onl library and comic reading history into this app, and send saves made here back to the website."
                     color: Theme.textMuted
                     font.family: Theme.fontSans
                     font.pixelSize: Theme.textSm
                 }
-                Row {
-                    spacing: 8
-                    TextField {
-                        id: email
-                        width: 240
-                        placeholderText: "Email"
-                        color: Theme.text
-                        placeholderTextColor: Theme.textFaint
-                        font.family: Theme.fontSans
-                        background: Rectangle { radius: Theme.radiusMd; color: Theme.surface2; border.width: 1; border.color: email.activeFocus ? Theme.accent : Theme.border }
-                    }
-                    TextField {
-                        id: password
-                        width: 200
-                        placeholderText: "Password"
-                        echoMode: TextInput.Password
-                        color: Theme.text
-                        placeholderTextColor: Theme.textFaint
-                        font.family: Theme.fontSans
-                        background: Rectangle { radius: Theme.radiusMd; color: Theme.surface2; border.width: 1; border.color: password.activeFocus ? Theme.accent : Theme.border }
-                        onAccepted: signInButton.clicked()
-                    }
-                    ScButton {
-                        id: signInButton
-                        variant: "primary"
-                        text: "Sign in"
-                        enabled: email.text.length > 3 && password.text.length > 0
-                        loading: page.signInTask ? page.signInTask.loading : false
-                        onClicked: {
-                            page.signInTask = Account.signIn(email.text, password.text)
-                            page.signInTask.finished.connect(() => { password.text = ""; Router.toast("Signed in", "success") })
-                            page.signInTask.failed.connect((error) => Router.toast(error, "error"))
-                        }
-                    }
+                AuthForm {
+                    width: Math.min(parent.width, 420)
+                    onDone: Router.toast("Signed in", "success")
                 }
             }
 
@@ -340,32 +308,48 @@ Item {
             SectionTitle { text: "About" }
             SettingRow {
                 title: "SCANCORE " + App.version
-                description: page.updateTask && page.updateTask.ok
-                    ? (page.updateTask.result.available ? "Version " + page.updateTask.result.version + " is available." : "You have the latest version.")
-                    : page.updateTask && page.updateTask.done ? page.updateTask.error : "Open source desktop app by Medium Dev."
+                description: Updater.state === "checking" ? "Checking for updates…"
+                    : Updater.state === "current" ? "You have the latest version."
+                    : Updater.state === "available" ? "Version " + Updater.version + " is available."
+                    : Updater.state === "downloading" ? "Downloading " + Updater.version + " · " + Math.round(Updater.progress * 100) + "%"
+                    : Updater.state === "ready" ? "Version " + Updater.version + " is ready to install."
+                    : Updater.state === "error" ? Updater.error
+                    : "Open source app by Medium Dev."
                 Row {
                     spacing: 8
                     ScButton {
-                        visible: page.updateTask && page.updateTask.ok && page.updateTask.result.available
+                        visible: Updater.state === "available" || Updater.state === "ready"
                         variant: "primary"
-                        text: "Download"
-                        onClicked: App.openUrl(page.updateTask.result.url)
+                        text: Updater.state === "ready" ? "Restart to update" : Updater.canInstall ? "Update" : "Download"
+                        onClicked: Updater.canInstall ? (Updater.state === "ready" ? Updater.install() : Updater.download()) : App.openUrl(Updater.pageUrl)
                     }
                     ScButton {
                         text: "Check for updates"
-                        loading: page.updateTask ? page.updateTask.loading : false
-                        onClicked: page.updateTask = App.checkForUpdate()
+                        loading: Updater.state === "checking"
+                        enabled: Updater.state !== "downloading"
+                        onClicked: Updater.check(false)
                     }
                 }
             }
             SettingRow {
-                title: "Check for app updates on launch"
+                title: "Install updates automatically"
+                description: Updater.canInstall ? "New versions download in the background and install when you restart."
+                    : "This copy cannot update itself (for example a portable or source build); you will be told when a new version is out."
+                Toggle { checked: App.settings.autoUpdate !== false; onToggled: App.setSetting("autoUpdate", checked) }
+            }
+            SettingRow {
+                title: "Check for app updates"
                 Toggle { checked: App.settings.checkAppUpdates !== false; onToggled: App.setSetting("checkAppUpdates", checked) }
             }
             SettingRow {
                 title: "Source code"
                 description: "github.com/medium-gh/scancore · MIT licence. Fonts: DM Sans, Space Grotesk, Literata (OFL). Icons: Lucide (ISC). HTML parsing: lexbor (Apache 2.0)."
                 IconButton { iconName: "external-link"; onClicked: App.openUrl("https://github.com/medium-gh/scancore") }
+            }
+            SettingRow {
+                title: "Welcome tour"
+                description: "See the introduction again."
+                ScButton { text: "Show"; onClicked: Router.shell.showWelcome() }
             }
             SettingRow {
                 title: "Keyboard shortcuts"

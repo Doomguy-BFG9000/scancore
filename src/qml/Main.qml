@@ -46,9 +46,6 @@ ApplicationWindow {
             window.raise()
             window.requestActivate()
         }
-        function onUpdateAvailable(version, url) {
-            shell.toast("SCANCORE " + version + " is available. Get it from Settings → About.", "info")
-        }
     }
     Connections {
         target: Library
@@ -147,6 +144,8 @@ ApplicationWindow {
         }
 
         function openPalette() { palette.open() }
+
+        function showWelcome() { onboarding.active = true }
     }
 
     Item {
@@ -262,11 +261,25 @@ ApplicationWindow {
         z: 20
     }
 
+    // First-run welcome; Settings can open it again.
+    Loader {
+        id: onboarding
+        anchors.fill: parent
+        z: 50
+        active: App.settings.onboarded !== true
+        sourceComponent: Onboarding {
+            onFinished: onboarding.active = false
+        }
+    }
+
     CommandPalette {
         id: palette
         z: 30
     }
 
+    UpdateBanner {
+        z: 35
+    }
     Toasts {
         id: toasts
         z: 40

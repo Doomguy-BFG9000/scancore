@@ -41,3 +41,5 @@ Name: "{autodesktop}\SCANCORE"; Filename: "{app}\scancore.exe"; Tasks: desktopic
 
 [Run]
 Filename: "{app}\scancore.exe"; Description: "{cm:LaunchProgram,SCANCORE}"; Flags: nowait postinstall skipifsilent
+; In-app updates run the installer silently; start the new version afterwards.
+Filename: "{app}\scancore.exe"; Flags: nowait skipifnotsilent
