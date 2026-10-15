@@ -46,7 +46,6 @@ ApplicationWindow {
             window.raise()
             window.requestActivate()
         }
-        function onAndroidBackRequested() { window.handleAndroidBack() }
     }
     Connections {
         target: Library
@@ -130,7 +129,7 @@ ApplicationWindow {
 
         function back() {
             if (immersive.depth > 0) {
-                immersive.pop()
+                immersive.clear()
                 return
             }
             const stack = stackFor(section)
