@@ -46,6 +46,7 @@ ApplicationWindow {
             window.raise()
             window.requestActivate()
         }
+        function onAndroidBackRequested() { window.handleAndroidBack() }
     }
     Connections {
         target: Library
@@ -58,6 +59,19 @@ ApplicationWindow {
         function onFinished(title) { shell.toast("Downloaded " + title, "success") }
     }
 
+    function handleAndroidBack() {
+        const stack = shell.stackFor(shell.section)
+        if (immersive.depth > 0 || (stack && stack.depth > 1)) {
+            shell.back()
+            return true
+        }
+        if (shell.section !== "home") {
+            shell.goSection("home")
+            return true
+        }
+        return false
+    }
+
     // Android back: close the reader, pop the page, then return to Home.
     onClosing: (close) => {
         if (App.platform !== "android") {
@@ -67,12 +81,8 @@ ApplicationWindow {
             }
             return
         }
-        if (immersive.depth > 0 || (shell.stackFor(shell.section) && shell.stackFor(shell.section).depth > 1)) {
+        if (handleAndroidBack()) {
             close.accepted = false
-            shell.back()
-        } else if (shell.section !== "home") {
-            close.accepted = false
-            shell.goSection("home")
         }
     }
 

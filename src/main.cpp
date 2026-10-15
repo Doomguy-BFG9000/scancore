@@ -14,6 +14,7 @@
 #ifdef Q_OS_ANDROID
 #include <QGuiApplication>
 #include <QtWebView/QtWebView>
+#include <jni.h>
 #else
 #include <QApplication>
 #include <QMenu>
@@ -25,7 +26,6 @@
 #include <QIcon>
 #include <QQmlApplicationEngine>
 #include <QQuickStyle>
-#include <QQuickWindow>
 #include <QStandardPaths>
 
 #ifdef SCANCORE_HAVE_WEBENGINE
@@ -33,6 +33,16 @@
 #endif
 
 using namespace sc;
+
+#ifdef Q_OS_ANDROID
+extern "C" JNIEXPORT jboolean JNICALL
+Java_com_mediumdev_scancore_ScanCoreActivity_dispatchBack(JNIEnv *, jclass) {
+    auto *appState = App::instance();
+    return QMetaObject::invokeMethod(appState, [appState] { emit appState->androidBackRequested(); },
+                                     Qt::QueuedConnection)
+               ? JNI_TRUE : JNI_FALSE;
+}
+#endif
 
 namespace {
 
