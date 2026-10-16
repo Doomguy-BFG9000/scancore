@@ -24,9 +24,12 @@
 #include <QFile>
 #include <QFontDatabase>
 #include <QIcon>
+#include <QPointer>
 #include <QQmlApplicationEngine>
 #include <QQuickStyle>
 #include <QStandardPaths>
+#include <QThread>
+#include <QVariant>
 
 #ifdef SCANCORE_HAVE_WEBENGINE
 #include <QtWebEngineQuick/QtWebEngineQuick>
@@ -35,12 +38,36 @@
 using namespace sc;
 
 #ifdef Q_OS_ANDROID
+namespace {
+
+QPointer<QObject> androidBackTarget;
+
+bool dispatchAndroidBackOnQtThread() {
+    if (!androidBackTarget)
+        return false;
+
+    QVariant handled;
+    return QMetaObject::invokeMethod(androidBackTarget.data(), "handleAndroidBack", Qt::DirectConnection,
+                                     Q_RETURN_ARG(QVariant, handled)) &&
+           handled.toBool();
+}
+
+} // namespace
+
 extern "C" JNIEXPORT jboolean JNICALL
 Java_com_mediumdev_scancore_ScanCoreActivity_dispatchBack(JNIEnv *, jclass) {
     auto *appState = App::instance();
-    return QMetaObject::invokeMethod(appState, [appState] { emit appState->androidBackRequested(); },
-                                     Qt::QueuedConnection)
-               ? JNI_TRUE : JNI_FALSE;
+    if (!appState)
+        return JNI_FALSE;
+
+    bool handled = false;
+    if (QThread::currentThread() == appState->thread()) {
+        handled = dispatchAndroidBackOnQtThread();
+    } else if (!QMetaObject::invokeMethod(appState, [&handled] { handled = dispatchAndroidBackOnQtThread(); },
+                                          Qt::BlockingQueuedConnection)) {
+        return JNI_FALSE;
+    }
+    return handled ? JNI_TRUE : JNI_FALSE;
 }
 #endif
 
@@ -160,9 +187,10 @@ int main(int argc, char *argv[]) {
     if (engine.rootObjects().isEmpty())
         return 1;
     auto *root = engine.rootObjects().first();
-    QObject::connect(appState, &App::androidBackRequested, root, [root] {
-        QMetaObject::invokeMethod(root, "handleAndroidBack", Qt::DirectConnection);
-    });
+#ifdef Q_OS_ANDROID
+    androidBackTarget = root;
+    QObject::connect(root, &QObject::destroyed, appState, [] { androidBackTarget = nullptr; });
+#endif
     // The window decides whether closing hides to the tray; once it is gone
     // there is nothing left to show.
     QObject::connect(engine.rootObjects().first(), &QObject::destroyed, &app, &Application::quit);

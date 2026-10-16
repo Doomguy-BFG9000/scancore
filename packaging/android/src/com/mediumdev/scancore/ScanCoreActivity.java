@@ -15,7 +15,7 @@ public class ScanCoreActivity extends QtActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-            backCallback = ScanCoreActivity::dispatchBack;
+            backCallback = this::handleBack;
             getOnBackInvokedDispatcher().registerOnBackInvokedCallback(
                     OnBackInvokedDispatcher.PRIORITY_OVERLAY, backCallback);
         }
@@ -33,7 +33,7 @@ public class ScanCoreActivity extends QtActivity {
     public boolean dispatchKeyEvent(KeyEvent event) {
         if (event.getKeyCode() == KeyEvent.KEYCODE_BACK) {
             if (event.getAction() == KeyEvent.ACTION_UP && !event.isCanceled()) {
-                dispatchBack();
+                handleBack();
             }
             return true;
         }
@@ -43,8 +43,12 @@ public class ScanCoreActivity extends QtActivity {
     @SuppressWarnings("deprecation")
     @Override
     public void onBackPressed() {
+        handleBack();
+    }
+
+    private void handleBack() {
         if (!dispatchBack()) {
-            super.onBackPressed();
+            finishAfterTransition();
         }
     }
 }
